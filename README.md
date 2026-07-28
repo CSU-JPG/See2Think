@@ -132,7 +132,7 @@ pip install -r requirements.txt
 Copy the example config and fill in your own endpoints:
 
 ```bash
-cp config.qwen.example.sh config.sh
+cp config.example.sh config.sh
 source config.sh
 ```
 
