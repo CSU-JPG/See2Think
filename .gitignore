@@ -78,8 +78,9 @@ json/rerun_failed_*/
 *.mov
 
 # Keep small source assets if explicitly force-added later.
-!assets/katex/**/*.css
-!assets/katex/**/*.js
+!assets/
+!assets/readme/
+!assets/readme/*.png
 
 # Accidental local scratch directory
 -Force/
