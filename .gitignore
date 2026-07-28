@@ -79,3 +79,6 @@ QWEN8B_EXPERIMENT_HANDOFF.md
 QWEN_RUN_README.md
 appendix_b1_*.md
 yzr_eval_prompts.md
+prompt.md
+analysis/wrongrender_audit/
+assets/katex/
