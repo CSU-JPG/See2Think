@@ -82,6 +82,13 @@
     }
     .hero { max-width: 1160px; margin-top: 0; }
     .figure { max-width: 980px; }
+    .wide-figure { max-width: 1220px; }
+    .paper-figure {
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+      background: transparent;
+    }
     .grid {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -183,9 +190,9 @@
     </div>
 
     <div class="buttons">
-      <a class="badge paper" href="#">▣ Paper</a>
-      <a class="badge paper" href="#">✕ arXiv</a>
-      <a class="badge code" href="https://github.com/CSU-JPG/See2Think">◉ Code</a>
+      <a class="badge paper" href="#">Paper</a>
+      <a class="badge paper" href="#">arXiv</a>
+      <a class="badge code" href="https://github.com/CSU-JPG/See2Think">Code</a>
     </div>
 
     <div class="project-link">
@@ -237,7 +244,7 @@
       across 12 task categories and three broad reasoning groups: 2D structured
       reasoning, 3D scene reasoning, and real-world visual reasoning.
     </p>
-    <img class="figure" src="assets/project/bench_examples.png" alt="See2ThinkBench examples">
+    <img class="figure wide-figure" src="assets/project/bench_examples.png" alt="See2ThinkBench examples">
 
     <h2>Process-level Diagnosis</h2>
     <div class="grid">
@@ -258,7 +265,7 @@
         <p>Whether corrupted but plausible feedback changes downstream behavior.</p>
       </div>
     </div>
-    <img class="figure" src="assets/project/process_table.png" alt="Process-level diagnosis table">
+    <img class="figure wide-figure paper-figure" src="assets/project/process_table.png" alt="Process-level diagnosis table">
 
     <h2>Results</h2>
     <p>
@@ -266,7 +273,7 @@
       measures. The main paper evaluates GPT-5.5, GPT-o3, Gemini 3.5 Flash, and
       Qwen3-VL-32B-Instruct across all four inference settings.
     </p>
-    <img class="figure" src="assets/project/accuracy_table.png" alt="Overall accuracy table">
+    <img class="figure wide-figure paper-figure" src="assets/project/accuracy_table.png" alt="Overall accuracy table">
 
     <h2>Getting Started</h2>
     <h3>1. Clone the repository</h3>
@@ -306,7 +313,7 @@ source config.sh</code></pre>
 }</code></pre>
 
     <div class="footer">
-      See2Think · Central South University · Shanghai AI Laboratory
+      See2Think &middot; Central South University &middot; Shanghai AI Laboratory
     </div>
   </main>
 </body>
