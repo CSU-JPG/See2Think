@@ -51,6 +51,7 @@ tmp_eval_check/
 tmp_qwen3vl_bench/
 tests/
 json/
+scripts/
 llm/
 solve/auto_solve_qwen.py
 solve/model_server.py

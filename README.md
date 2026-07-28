@@ -87,7 +87,7 @@ WrongRender further tests behavioral dependence by corrupting task-relevant visu
 - **Controlled setting comparison:** CoT, VAoT-NoRender, VAoT-Full, and VAoT-WrongRender are evaluated on matched samples.
 - **Process-level diagnosis:** action selection, visual rendering, and feedback use are measured separately from answer accuracy.
 - **Corrupted-feedback intervention:** WrongRender probes whether models follow misleading intermediate visual states.
-- **Reproducible analysis code:** scripts assemble results, run answer/process judges, and export paper-style tables.
+- **Reusable evaluation code:** public entrypoints run inference and answer/process judging without private experiment launchers.
 
 ## Results
 
@@ -220,7 +220,6 @@ python -u eval/process_judge.py \
 | `solve/` | Core inference pipeline and VAoT execution. |
 | `convert/` | Parsing and answer-evaluation helper code. |
 | `eval/` | Answer judging and process-level judging pipeline. |
-| `scripts/` | Result assembly, analysis, export, and audit utilities. |
 | `viewer/` | Local trajectory viewer frontend. |
 | `prompt/` | Prompt templates for the four inference settings and rendering/intervention steps. |
 | `examples/` | Minimal task-manifest examples for public use. |
