@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>See2Think</title>
+  <meta name="description" content="See2Think: evaluating whether multimodal models genuinely use intermediate visual states.">
+  <style>
+    :root {
+      --text: #132033;
+      --muted: #526174;
+      --line: #d8e0e8;
+      --soft: #f5f8fb;
+      --blue: #2563eb;
+      --red: #dc2626;
+      --green: #16a34a;
+      --orange: #ea580c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: #fff;
+      font-size: 18px;
+      line-height: 1.58;
+    }
+    .wrap { max-width: 1160px; margin: 0 auto; padding: 28px 28px 70px; }
+    .topline { height: 3px; background: linear-gradient(90deg, #ef4444, #f97316, #3b82f6); margin-bottom: 42px; }
+    h1 {
+      font-size: 48px;
+      line-height: 1.16;
+      text-align: center;
+      margin: 0 0 22px;
+      font-weight: 780;
+      letter-spacing: -0.025em;
+    }
+    h2 {
+      font-size: 34px;
+      margin: 54px 0 20px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+      letter-spacing: -0.02em;
+    }
+    h3 { font-size: 24px; margin: 34px 0 12px; }
+    p { margin: 16px 0; }
+    a { color: #0969da; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .authors, .affiliations, .buttons, .project-link {
+      text-align: center;
+    }
+    .authors { font-size: 20px; margin: 6px 0 12px; }
+    .affiliations { color: var(--muted); font-size: 16px; line-height: 1.55; }
+    .buttons { margin: 24px 0 8px; }
+    .badge {
+      display: inline-block;
+      margin: 4px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 700;
+      box-shadow: inset 0 -1px 0 rgba(0,0,0,.18);
+    }
+    .badge.paper { background: var(--red); }
+    .badge.page { background: var(--blue); }
+    .badge.code { background: #24292f; }
+    .badge.python { background: var(--orange); }
+    .project-link { font-size: 22px; margin: 22px 0 36px; }
+    .hero, .figure {
+      display: block;
+      width: 100%;
+      margin: 28px auto;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fff;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, .05);
+    }
+    .hero { max-width: 1060px; }
+    .figure { max-width: 980px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px 22px;
+      background: var(--soft);
+    }
+    .card h3 { margin-top: 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0 28px;
+      font-size: 17px;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 12px 14px;
+      vertical-align: top;
+    }
+    th { background: #f1f5f9; font-weight: 750; }
+    code {
+      background: #eef2f7;
+      padding: 2px 6px;
+      border-radius: 5px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: .92em;
+    }
+    pre {
+      background: #f6f8fa;
+      border: 1px solid #d8dee4;
+      border-radius: 10px;
+      padding: 18px 20px;
+      overflow-x: auto;
+      font-size: 16px;
+    }
+    .note {
+      border-left: 4px solid var(--blue);
+      background: #eff6ff;
+      padding: 14px 18px;
+      border-radius: 8px;
+    }
+    .footer {
+      margin-top: 56px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 15px;
+      text-align: center;
+    }
+    @media (max-width: 760px) {
+      body { font-size: 16px; }
+      .wrap { padding: 18px 16px 48px; }
+      h1 { font-size: 34px; }
+      h2 { font-size: 27px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topline"></div>
+  <main class="wrap">
+    <h1>See2Think: Do Multimodal Models Really Use Intermediate Visual States?</h1>
+
+    <div class="authors">
+      <a href="#">Siyu Yan</a><sup>1,3,†</sup>&nbsp;&nbsp;
+      <a href="#">Zhuoran Yan</a><sup>2,†</sup>&nbsp;&nbsp;
+      <a href="#">Haiying Xu</a><sup>3,4,†</sup>&nbsp;&nbsp;
+      Panhao Zhou<sup>2</sup>&nbsp;&nbsp;
+      Jingyu Chen<sup>2</sup>&nbsp;&nbsp;
+      Chenhao Ji<sup>3</sup><br>
+      Shuo Cao<sup>3,5</sup>&nbsp;&nbsp;
+      Yongheng Zhang<sup>2</sup>&nbsp;&nbsp;
+      Haoze Liu<sup>3</sup>&nbsp;&nbsp;
+      Siyu Zhang<sup>3,6</sup>&nbsp;&nbsp;
+      Xiwen Gu<sup>7</sup>&nbsp;&nbsp;
+      Yihao Liu<sup>3</sup>&nbsp;&nbsp;
+      Alex Jinpeng Wang<sup>2,§</sup>
+    </div>
+
+    <div class="affiliations">
+      <sup>1</sup>The Hong Kong University of Science and Technology&nbsp;&nbsp;
+      <sup>2</sup>Central South University&nbsp;&nbsp;
+      <sup>3</sup>Shanghai AI Laboratory<br>
+      <sup>4</sup>The Hong Kong University of Science and Technology (Guangzhou)&nbsp;&nbsp;
+      <sup>5</sup>University of Science and Technology of China&nbsp;&nbsp;
+      <sup>6</sup>Fudan University&nbsp;&nbsp;
+      <sup>7</sup>Wuhan University<br>
+      <sup>†</sup>Equal contribution&nbsp;&nbsp;&nbsp;
+      <sup>§</sup>Corresponding author
+    </div>
+
+    <div class="buttons">
+      <a class="badge paper" href="#">Paper</a>
+      <a class="badge paper" href="#">arXiv</a>
+      <a class="badge page" href="https://csu-jpg.github.io/See2Think/">Project Page</a>
+      <a class="badge code" href="https://github.com/CSU-JPG/See2Think">Code</a>
+      <span class="badge python">Python 3.9+</span>
+    </div>
+
+    <div class="project-link">
+      <a href="https://github.com/CSU-JPG/See2Think">GitHub Repository</a>
+    </div>
+
+    <img class="hero" src="assets/readme/overview.png" alt="See2Think overview">
+
+    <h2>Overview</h2>
+    <p>
+      <strong>See2Think</strong> evaluates whether multimodal models genuinely use
+      intermediate visual states during reasoning, rather than merely producing
+      visual-looking traces.
+    </p>
+    <p>
+      See2Think combines <strong>See2ThinkBench</strong>, a 1,200-sample
+      open-ended benchmark, with <strong>Visual Action-of-Thought (VAoT)</strong>,
+      an inference protocol that records textual thoughts, structured visual
+      actions, rendered visual states, subsequent reasoning, and final answers.
+    </p>
+
+    <h2>Framework</h2>
+    <p>
+      VAoT interleaves reasoning and visual-state construction. The model first
+      proposes a task-grounded visual action; an external renderer applies the
+      action to the current image; the returned visual state is then available
+      for subsequent reasoning.
+    </p>
+    <img class="figure" src="assets/readme/vaot_protocol.png" alt="Visual Action-of-Thought protocol">
+
+    <table>
+      <thead>
+        <tr>
+          <th>Setting</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><code>CoT</code></td><td>Text-only chain-of-thought baseline.</td></tr>
+        <tr><td><code>VAoT-NoRender</code></td><td>The model proposes visual actions, but no image is rendered back.</td></tr>
+        <tr><td><code>VAoT-Full</code></td><td>The model receives rendered visual states after visual actions.</td></tr>
+        <tr><td><code>VAoT-WrongRender</code></td><td>The model receives task-relevant corrupted visual feedback for diagnostic intervention.</td></tr>
+      </tbody>
+    </table>
+
+    <h2>See2ThinkBench</h2>
+    <p>
+      See2ThinkBench contains 1,200 open-ended, visually dependent problems
+      across 12 task categories and three broad reasoning groups: 2D structured
+      reasoning, 3D scene reasoning, and real-world visual reasoning.
+    </p>
+    <img class="figure" src="assets/project/bench_examples.png" alt="See2ThinkBench examples">
+
+    <h2>Process-level Diagnosis</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Action Relevance</h3>
+        <p>Whether the selected visual operation targets task-relevant evidence.</p>
+      </div>
+      <div class="card">
+        <h3>Render Faithfulness</h3>
+        <p>Whether the renderer faithfully executes the requested visual action.</p>
+      </div>
+      <div class="card">
+        <h3>Feedback Uptake</h3>
+        <p>Whether the model uses the rendered visual state in later reasoning.</p>
+      </div>
+      <div class="card">
+        <h3>WrongRender</h3>
+        <p>Whether corrupted but plausible feedback changes downstream behavior.</p>
+      </div>
+    </div>
+    <img class="figure" src="assets/project/process_table.png" alt="Process-level diagnosis table">
+
+    <h2>Results</h2>
+    <p>
+      See2Think reports final-answer accuracy together with process-level
+      measures. The main paper evaluates GPT-5.5, GPT-o3, Gemini 3.5 Flash, and
+      Qwen3-VL-32B-Instruct across all four inference settings.
+    </p>
+    <img class="figure" src="assets/project/accuracy_table.png" alt="Overall accuracy table">
+
+    <h2>Getting Started</h2>
+    <h3>1. Clone the repository</h3>
+    <pre><code>git clone https://github.com/CSU-JPG/See2Think.git
+cd See2Think</code></pre>
+
+    <h3>2. Install dependencies</h3>
+    <pre><code>python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt</code></pre>
+
+    <h3>3. Configure endpoints</h3>
+    <pre><code>cp config.qwen.example.sh config.sh
+source config.sh</code></pre>
+
+    <h3>4. Run one setting</h3>
+    <pre><code>python -u solve/run_tasks.py \
+  --tasks /path/to/tasks.json \
+  --mode banana \
+  --model gpt-5.5 \
+  --setting vaot_full \
+  --workers 4 \
+  --prompt_dir prompt</code></pre>
+
+    <p class="note">
+      The public code release does not include the paper's full task manifests,
+      benchmark images, generated trajectories, or private API credentials.
+      Use <code>examples/tasks.example.json</code> as the manifest format reference.
+    </p>
+
+    <h2>Citation</h2>
+    <pre><code>@article{yan2026see2think,
+  title   = {See2Think: Do Multimodal Models Really Use Intermediate Visual States?},
+  author  = {Yan, Siyu and Yan, Zhuoran and Xu, Haiying and Zhou, Panhao and Chen, Jingyu and Ji, Chenhao and Cao, Shuo and Zhang, Yongheng and Liu, Haoze and Zhang, Siyu and Gu, Xiwen and Liu, Yihao and Wang, Alex Jinpeng},
+  journal = {arXiv preprint},
+  year    = {2026}
+}</code></pre>
+
+    <div class="footer">
+      See2Think · Central South University · Shanghai AI Laboratory
+    </div>
+  </main>
+</body>
+</html>

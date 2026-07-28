@@ -81,6 +81,8 @@ json/rerun_failed_*/
 !assets/
 !assets/readme/
 !assets/readme/*.png
+!assets/project/
+!assets/project/*.png
 
 # Accidental local scratch directory
 -Force/
