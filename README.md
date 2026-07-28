@@ -107,7 +107,6 @@ WrongRender diagnostics further test behavioral dependence by corrupting task-re
 | `json/` | Lightweight task manifests and benchmark metadata. |
 | `prompt/` | Prompt templates for the four inference settings and rendering/intervention steps. |
 | `docs/` | Reproducibility and repository-release documentation. |
-| `tests/` | Unit tests for maintained utilities. |
 
 Large benchmark images, generated trajectories, rendered images, logs, audit packets, and paper-ready output bundles are intentionally excluded from git.
 

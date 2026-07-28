@@ -15,7 +15,7 @@ These are ignored by `.gitignore`.
 
 ## Should be committed
 
-- Source code in `solve/`, `convert/`, `eval/`, `scripts/`, `viewer/`, and `tests/`.
+- Source code in `solve/`, `convert/`, `eval/`, `scripts/`, and `viewer/`.
 - Prompt templates in `prompt/`.
 - Lightweight task manifests and metadata in `json/`.
 - Reproducibility notes in `docs/`.
@@ -26,14 +26,6 @@ These are ignored by `.gitignore`.
 ```bash
 git status --short --ignored
 python -m compileall solve convert eval scripts -q
-python -m pytest tests -q
-```
-
-If `pytest` is not installed:
-
-```bash
-pip install pytest
-python -m pytest tests -q
 ```
 
 Run a secret scan over files that git would include:
