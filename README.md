@@ -31,7 +31,6 @@
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Paper-arXiv-red" alt="Paper"></a>
   <a href="https://csu-jpg.github.io/See2Think/"><img src="https://img.shields.io/badge/Project-Page-blue" alt="Project Page"></a>
-  <a href="https://github.com/CSU-JPG/See2Think"><img src="https://img.shields.io/badge/Code-GitHub-black" alt="Code"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT"></a>
   <img src="https://img.shields.io/badge/Python-3.9%2B-orange" alt="Python 3.9+">
 </p>
