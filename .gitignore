@@ -53,12 +53,9 @@ tests/
 json/
 scripts/
 llm/
+bin/
 solve/auto_solve_qwen.py
 solve/model_server.py
-bin/run_local_qwen_experiment.sh
-bin/run_online_qwen_experiment.sh
-bin/run_qwen_image.sh
-bin/start_qwen_image_edit.sh
 
 # Generated task queues and retry lists
 json/run_tasks_*/
