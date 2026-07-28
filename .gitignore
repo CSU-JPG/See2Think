@@ -50,6 +50,7 @@ archive/
 tmp_eval_check/
 tmp_qwen3vl_bench/
 tests/
+json/
 
 # Generated task queues and retry lists
 json/run_tasks_*/

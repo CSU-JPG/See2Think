@@ -104,7 +104,7 @@ WrongRender diagnostics further test behavioral dependence by corrupting task-re
 | `eval/` | Answer judging and process-level judging pipeline. |
 | `scripts/` | Experiment launchers, result assembly, paper-table generation, and audit tooling. |
 | `viewer/` | Local trajectory viewer frontend. |
-| `json/` | Lightweight task manifests and benchmark metadata. |
+| `examples/` | Minimal example task manifest format for users who provide their own data. |
 | `prompt/` | Prompt templates for the four inference settings and rendering/intervention steps. |
 | `docs/` | Reproducibility and repository-release documentation. |
 
@@ -165,11 +165,19 @@ export SEE2THINK_LOG_DIR="/path/to/logs"
 
 Run or resume one model/setting worker:
 
-```powershell
-powershell -ExecutionPolicy Bypass -File scripts\run_remaining1200_one.ps1
+```bash
+python -u solve/run_tasks.py \
+  --tasks /path/to/tasks.json \
+  --mode banana \
+  --model gpt-5.5 \
+  --setting vaot_full \
+  --workers 4 \
+  --prompt_dir prompt
 ```
 
-Check experiment progress:
+The task manifest format is illustrated in `examples/tasks.example.json`. Each task row points to a local benchmark data file and a sample index within that file.
+
+Check experiment progress after outputs have been generated:
 
 ```bash
 python scripts/check_experiment_status.py
@@ -219,11 +227,11 @@ The audit UI is designed to judge image quality only. It does not require using 
 
 ## Data and Results
 
-This repository does not include full benchmark image folders or generated model outputs. For reproducibility, release large artifacts separately and keep only lightweight manifests in git.
+This repository does not include the paper's full task manifests, benchmark image folders, or generated model outputs. For reproducibility, release those artifacts separately and point the code to a local manifest with `--tasks`.
 
 Recommended release artifacts:
 
-1. task manifests under `json/`;
+1. task manifests supplied externally via `--tasks`;
 2. benchmark source/version notes;
 3. scripts for rebuilding trajectories and evaluations;
 4. compact CSV/JSON summaries;

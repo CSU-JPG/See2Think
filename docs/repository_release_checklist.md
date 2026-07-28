@@ -17,7 +17,7 @@ These are ignored by `.gitignore`.
 
 - Source code in `solve/`, `convert/`, `eval/`, `scripts/`, and `viewer/`.
 - Prompt templates in `prompt/`.
-- Lightweight task manifests and metadata in `json/`.
+- Minimal manifest examples in `examples/`.
 - Reproducibility notes in `docs/`.
 - `README.md`, `requirements.txt`, and example config files.
 

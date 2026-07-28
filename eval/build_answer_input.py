@@ -68,7 +68,7 @@ def load_data_cache(data_base: Path, data_path: str, cache: dict[str, list[dict[
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build answer-judge input JSONL from final_results manifests")
-    parser.add_argument("--tasks", default="json/tasks_see2thinkbench_1200task_available.json")
+    parser.add_argument("--tasks", required=True, help="Task manifest JSON list.")
     parser.add_argument("--data-base", default=".")
     parser.add_argument("--manifest", required=True)
     parser.add_argument("--output-jsonl", required=True)

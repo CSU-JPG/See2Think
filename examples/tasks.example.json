@@ -1,0 +1,10 @@
+[
+  {
+    "order": 0,
+    "category": "2D",
+    "target_task": "example_task",
+    "source": "example",
+    "path": "annotation/dataset/data/example_task/data.json",
+    "id": 0
+  }
+]

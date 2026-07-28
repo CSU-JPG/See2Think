@@ -17,7 +17,7 @@ cd /storage/v-jinpewang/yansiyu_workspace/See2Think
 source config.sh
 
 python -u eval/process_judge.py \
-  --tasks json/tasks_see2thinkbench_600_no_gpt5_step1.json \
+  --tasks /path/to/tasks.json \
   --results-root newtasks/gpt-5_12task_vaot_full \
   --model gpt-5 \
   --setting vaot_full \
@@ -34,7 +34,7 @@ cd /storage/v-jinpewang/yansiyu_workspace/See2Think
 source config.sh
 
 python -u eval/process_judge.py \
-  --tasks json/tasks_see2thinkbench_600_no_gpt5_step1.json \
+  --tasks /path/to/tasks.json \
   --results-root newtasks/qwen3-vl-8b-thinking_600_vaot_full \
   --model qwen3-vl-8b-thinking \
   --setting vaot_full \

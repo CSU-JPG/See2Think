@@ -120,7 +120,7 @@ def write_jsonl(path: Path, rows: list[dict[str, Any]]) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build answer-judge inputs for masked-action WrongRender audit 120 runs.")
     parser.add_argument("--audit-csv", default="outputs/human_audit/wrong_render_120/wrong_render_audit_120.csv")
-    parser.add_argument("--tasks", default="json/tasks_see2thinkbench_1200task_available.json")
+    parser.add_argument("--tasks", required=True, help="Task manifest JSON list.")
     parser.add_argument("--data-base", default=".")
     parser.add_argument("--newtasks-root", default="newtasks")
     parser.add_argument("--output-dir", default="eval/results/answer_inputs")

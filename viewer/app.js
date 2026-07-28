@@ -1,4 +1,4 @@
-const TASKS_URL = "../json/tasks_see2thinkbench_1200task_available.json";
+const TASKS_URL = "../examples/tasks.example.json";
 const FULL_AUDIT_URL = "../outputs/strong_full_audit/audit_results.jsonl";
 const YZR_CHECK_INDEX_URL = "../yzrcheck/index.csv";
 const YZR_MISSING_INDEX_URL = "../yzrcheck/missing_13_from_2026-07-16T06-49-55-120Z.csv";
