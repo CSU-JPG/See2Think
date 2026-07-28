@@ -224,7 +224,6 @@ python -u eval/process_judge.py \
 | `viewer/` | Local trajectory viewer frontend. |
 | `prompt/` | Prompt templates for the four inference settings and rendering/intervention steps. |
 | `examples/` | Minimal task-manifest examples for public use. |
-| `docs/` | Reproducibility and release notes. |
 
 Large benchmark data, generated trajectories, rendered images, logs, audit packets, and paper output bundles are intentionally excluded from git.
 
