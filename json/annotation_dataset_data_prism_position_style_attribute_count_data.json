@@ -1,0 +1,512 @@
+[
+    {
+        "question": "From the four options provided, choose the most appropriate one to fill in the question mark, so as to present a certain pattern: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0001.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 0
+    },
+    {
+        "question": "Each question consists of two sets of figures and four options. These two sets of figures share some similarities, and also have some differences. Your task is to select the most suitable option from the four choices to replace the question mark. The correct answer should not only show the maximum similarity between the two sets of figures, but also demonstrate the unique features of the second set of figures. A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0008.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 2
+    },
+    {
+        "question": "Divide the six figures below into two categories so that each category has its own common characteristics or patterns. The correct classification option is: A.①③④, ②⑤⑥ B.①③⑤, ②④⑥ C.①②⑥, ③④⑤ D.①④⑥, ②③⑤",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0007.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 3
+    },
+    {
+        "question": "Choose the most suitable one from the four given options to fill in the question mark, so as to present a certain pattern: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0010.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 4
+    },
+    {
+        "question": "The option that best conforms to the given figure pattern is: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0019.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 9
+    },
+    {
+        "question": "The option that best fits the given pattern in the diagram is: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0028.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 19
+    },
+    {
+        "question": "\"From the four given options, select the most appropriate one to fill in the question mark so that a certain pattern is presented: A. B. C. D.\"",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0002.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 21
+    },
+    {
+        "question": "Analyze the pattern of changes in the figures in the following image. The figure in the fifth row after the change should be: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0050.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 26
+    },
+    {
+        "question": "Choose the most appropriate one from the four given options to fill in the question mark, making it follow a certain pattern: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0038.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 30
+    },
+    {
+        "question": "From the given four options, select the most appropriate one to fill in the question mark, so as to present a certain pattern: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0077.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 50
+    },
+    {
+        "question": "Choose one substitute from the four options to replace the question mark, so that the patterns of the two sets of figures exhibit the greatest similarity. The most suitable one is ( ). A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0096.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 59
+    },
+    {
+        "question": "Among the following options, the one that follows the given pattern of graphic changes is: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0100.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 64
+    },
+    {
+        "question": "Choose the most appropriate of the four given options to fill in the question mark, so that a certain pattern is observed: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0128.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 81
+    },
+    {
+        "question": "From the four given options, choose the most appropriate one to fill in the question mark, so as to present a certain pattern: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0111.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 84
+    },
+    {
+        "question": "Among the following options, the one that conforms to the transformation rule of the given figure is: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0170.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 114
+    },
+    {
+        "question": "Please choose the most appropriate option from the four given, to fill in the question mark so as to form a certain regularity. A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0185.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 125
+    },
+    {
+        "question": "Which of the following is not derived from the diagram on the left? A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0187.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 129
+    },
+    {
+        "question": "Among the following options, the one that conforms to the changing pattern of the given figure is . A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0186.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 133
+    },
+    {
+        "question": "Please select the most suitable option to fill in the question mark, so that the variation pattern of the right figure is consistent with that of the left figure. A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0192.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 134
+    },
+    {
+        "question": "From the given four options, choose the most appropriate one to fill in the question mark, so that it presents a certain regularity: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0236.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 165
+    },
+    {
+        "question": "Choose the most appropriate one from the four given options to fill in the question mark, so as to present a certain regularity: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0243.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 167
+    },
+    {
+        "question": "Group the figures according to the following pattern. The correct grouping is: A. Figure 2,3,5; Figure 1,4,6 B. Figure 1,4,5; Figure 2,3,6 C. Figure 1,2,4; Figure 3,5,6 D. Figure 1,2,5; Figure 3,4,6",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0248.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 171
+    },
+    {
+        "question": "From the four options provided, choose the most appropriate one to fill in the question mark, so as to present a certain pattern: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0252.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 177
+    },
+    {
+        "question": "Among the following four options of figures, the one that can be formed by rotating the given figure is: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0270.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 185
+    },
+    {
+        "question": "Divide the following six figures into two categories, each with its own common characteristics or patterns. The correct categorization is: A.①③④, ②⑤⑥ B.①③⑤, ②④⑥ C.①②⑥, ③④⑤ D.①⑤⑥, ②③④",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0281.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 189
+    },
+    {
+        "question": "Please choose the most appropriate option from the four provided, to fill in the question mark, so as to present a certain regularity. A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0290.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 199
+    },
+    {
+        "question": "Choose the most appropriate one from the provided four options, A, B, C, and D, to fill in the blank so that a certain pattern is presented.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0313.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 205
+    },
+    {
+        "question": "Choose the most appropriate one from the four given options to fill in the question mark, so as to present a certain pattern: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0319.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 209
+    },
+    {
+        "question": "Each question consists of a set of figures and four options. Please select the most appropriate option from the four to fill in the blank so that the figures exhibit a certain pattern. A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0337.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 224
+    },
+    {
+        "question": "Choose the most appropriate one from the four options given to fill in the question mark so that a certain pattern is presented: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0335.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 225
+    },
+    {
+        "question": "As shown in the diagram of the right trapezoid, if it rotates 360 degrees around its upper base, the solid figure that can be obtained is (__). A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0347.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 228
+    },
+    {
+        "question": "Choose the most appropriate one from the four given options to fill in the question mark, making it conform to a certain pattern: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0364.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 236
+    },
+    {
+        "question": "Among the following options, the one that conforms to the change pattern of the given figure is: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0355.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 238
+    },
+    {
+        "question": "Organize the following six figures into two categories, so that each category has its own common characteristics or rules. The correct categorization is: A. ①③④, ②⑤⑥ B. ①②⑤, ③④⑥ C. ①⑤⑥, ②③④ D. ①④⑤, ②③⑥",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0359.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 243
+    },
+    {
+        "question": "From the four options provided, choose the most appropriate one to fill in the question mark, so as to present a certain regularity: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0381.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 253
+    },
+    {
+        "question": "The question stem provides a set of five figures showing a certain pattern. Another set of figures is given which contains four figures. Choose the solitary figure from this set to be the sixth figure that maintains the pattern of the preceding five figures. A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0382.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 261
+    },
+    {
+        "question": "Divide the following six figures into two categories, so that each category has its own common characteristics or rules. The correct classification is: A.①②③, ④⑤⑥ B.①②⑤, ③④⑥ C.①③⑤, ②④⑥ D.①⑤⑥, ②③④",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0396.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 273
+    },
+    {
+        "question": "From the four given options, choose the most suitable one to fill in the question mark, such that a certain pattern is demonstrated: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0408.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 274
+    },
+    {
+        "question": "From the four given options, choose the most appropriate one to fill in the blank, so as to present a certain pattern: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0416.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 276
+    },
+    {
+        "question": "Divide the following six figures into two categories so that each category of figures has its own common characteristics or patterns. The correct classification option is: A.①②⑤, ③④⑥ B.①②③, ④⑤⑥ C.①③⑤, ②④⑥ D.①②⑥, ③④⑤",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0393.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 287
+    },
+    {
+        "question": "Divide the following six figures into two categories so that each category of figures has their own common characteristics or rules. The correct classification is: \nA. ①②③, ④⑤⑥ \nB. ①③④, ②⑤⑥ \nC. ①④⑤, ②③⑥ \nD. ①④⑥, ②③⑤",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0424.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 289
+    },
+    {
+        "question": "From the given four options, choose the most appropriate one to fill in the question mark, so that a certain pattern is presented: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0438.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 290
+    },
+    {
+        "question": "From the four given options, choose the most appropriate one to fill in the question mark, so that a certain pattern is presented. A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0444.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 299
+    },
+    {
+        "question": "The question stem presents a set of figures, among which are five images that follow a certain pattern. In another set of figures provided, there are four images. Choose the only one from these that can serve as the sixth figure to maintain the pattern of the first five figures. A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0407.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 302
+    },
+    {
+        "question": "Divide the following six shapes into two categories, so that each category of shapes has its own common characteristics or patterns. The correct option for the categorization is: A. ①④⑥，②③⑤ B. ①②③，④⑤⑥ C. ①③④，②⑤⑥ D. ①③⑤，②④⑥.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0455.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 312
+    },
+    {
+        "question": "Divide the following six figures into two categories, so that each category has its own common characteristics or patterns. The correct classification is: A. ①②③, ④⑤⑥ B. ①③④, ②⑤⑥ C. ①②⑤, ③④⑥ D. ①④⑤, ②③⑥",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0481.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 326
+    },
+    {
+        "question": "Choose the most appropriate one from the four given options to fill the question mark so that it presents a certain pattern: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0477.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 335
+    },
+    {
+        "question": "Choose the most appropriate one from the four given options to fill in the question mark so that a certain pattern is presented: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0496.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 341
+    },
+    {
+        "question": "Among the following options, the one that conforms to the transformation rules of the given figure is: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0519.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 357
+    },
+    {
+        "question": "From the four provided options, select the most suitable one to fill in the question mark, so as to present a certain pattern: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0518.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 358
+    },
+    {
+        "question": "Divide the six figures below into two categories, so that each type of figure has its own common characteristics or rules. The correct classification is: A. ①②③, ④⑤⑥  B. ①③⑤, ②④⑥  C. ①②⑤, ③④⑥  D. ①③⑥, ②④⑤",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0529.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 365
+    },
+    {
+        "question": "Please choose the only one answer from the four given options that shows a certain regularity: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0531.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 366
+    },
+    {
+        "question": "Divide the following six figures into two classes so that each class of figures has its own common characteristics or rules. The correct classification is: A. ①②③, ④⑤⑥ B. ①③⑤, ②④⑥ C. ①②⑥, ③④⑤ D. ①④⑥, ②③⑤.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0536.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 377
+    },
+    {
+        "question": "Choose the most appropriate one from the four given options to fill in the blank, so that a certain pattern is presented: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0539.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 378
+    },
+    {
+        "question": "Choose the most appropriate option from the four provided to fill in the question mark. This should follow a certain pattern. A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0550.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 382
+    },
+    {
+        "question": "This question contains six figures and four options. Please categorize the six figures into two groups, so that each group has their own common rule or feature, and select the correct category from the four options. A. ①③⑤, ②④⑥ B. ①②③, ④⑤⑥ C. ①②⑤, ③④⑥ D. ①②⑥, ③④⑤",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0537.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 385
+    },
+    {
+        "question": "Please choose the only answer from the given four options, A, B, C, D, to maintain a certain pattern.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0569.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 393
+    },
+    {
+        "question": "Which basic shape is the following image generated from: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0572.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 394
+    },
+    {
+        "question": "The following set of graphics is presented below, containing four images. Choose the only one that continues the pattern of the previous five images as the sixth image: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0578.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 396
+    },
+    {
+        "question": "Please choose the only correct answer from the four options provided, so that it presents a certain regularity: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0598.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 416
+    },
+    {
+        "question": "Among the following options, the one that conforms to the change rule of the given figure is: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0636.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 436
+    },
+    {
+        "question": "Please select the most appropriate option to fill in the question mark, so that the pattern of change in the figure on the right is consistent with the figure on the left: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0632.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 446
+    },
+    {
+        "question": "Choose the most appropriate one from the four given options to fill in the question mark, so as to present a certain pattern: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0698.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 488
+    },
+    {
+        "question": "From the given four options, select the most appropriate one to fill in the question mark, so as to present a certain regularity. A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0722.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 509
+    },
+    {
+        "question": "Choose the most appropriate one from the four given options to fill in the question mark, so as to present a certain regularity: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0756.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 533
+    },
+    {
+        "question": "From the four options provided, choose the most appropriate one to fill in the question mark, so that a certain pattern is displayed: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0774.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 544
+    },
+    {
+        "question": "Please select the most appropriate option from the four choices A, B, C, D to fill in the question mark so that the pattern in the figure follows a certain rule.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0802.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 566
+    },
+    {
+        "question": "Choose the most suitable one from the four given options to fill in the blank, ensuring it follows a certain pattern: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0820.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 573
+    },
+    {
+        "question": "The patterns have certain regularities, as well as some differences. You are asked to choose from four options: A. B. C. D., which one you think is most suitable to replace the question mark.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0825.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 580
+    },
+    {
+        "question": "Please choose the most suitable option from the four given to fill in the blank, so as to present a certain regularity: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0813.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 583
+    },
+    {
+        "question": "Choose the most appropriate one from the four given options to fill in the question mark, so that a certain pattern is presented: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0810.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 592
+    },
+    {
+        "question": "The prompt above provides a set of figures, consisting of five images, which demonstrate a certain pattern. Below, another set of figures is presented. From these, select the only one that can serve as the sixth figure, maintaining the pattern of the initial five images. A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0844.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 594
+    },
+    {
+        "question": "Divide the following six figures into two categories, so that each type of figure has its own common characteristics or rules. The correct classification is: A. ①②⑤, ③④⑥ B. ①②⑥, ③④⑤ C. ①④⑤, ②③⑥ D. ①⑤⑥, ②③④",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0834.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 595
+    },
+    {
+        "question": "Among the following options, the one that conforms to the change pattern of the given figure is: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0845.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 598
+    },
+    {
+        "question": "From the four options provided, choose the most suitable one to fill in the question mark so as to present a certain pattern: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0863.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 611
+    },
+    {
+        "question": "According to the changing pattern of the left image, the resultant figure is: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0872.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 617
+    },
+    {
+        "question": "The correct option that conforms to the transformation pattern of the provided figure is: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0880.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 626
+    },
+    {
+        "question": "From the given four options, choose the most appropriate one to fill in the question mark, so that a certain pattern is formed: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0891.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 627
+    },
+    {
+        "question": "Please select the most suitable option to fill in the question mark, so that it conforms to the overall pattern change in the figure: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0876.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 634
+    },
+    {
+        "question": "Divide the following six figures into two categories, so that each category has its own common characteristics or rules. The correct categorization is: A. Figures ①②⑤, Figures ③④⑥ B. Figures ①④⑥, Figures ②③⑤ C. Figures ①③④, Figures ②⑤⑥ D. Figures ①③⑤, Figures ②④⑥",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0896.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 637
+    },
+    {
+        "question": "Among the following options, the one that conforms to the given pattern of change in the figure is . A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0894.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 640
+    },
+    {
+        "question": "Choose the most appropriate option from the four given to fill in the question mark so that a certain regularity is presented: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0910.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 643
+    },
+    {
+        "question": "Divide the six shapes below into two categories, so that each category of shapes has its own common features or rules. The correct categorization is: A. ①②④, ③⑤⑥ B. ①②⑤, ③④⑥ C. ①③④, ②⑤⑥ D. ①③⑥, ②④⑤",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0913.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 657
+    },
+    {
+        "question": "From the four given options, select the most suitable one to fill in the question mark so as to present a certain regularity: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0931.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 658
+    },
+    {
+        "question": "Choose the most appropriate one from the four given options to fill in the question mark, so that it displays a certain regularity: A. B. C. D.",
+        "image_path": "annotation/dataset/data/prism/position_style_attribute_count/images/psac_0961.png",
+        "source_dataset": "annotation/dataset/data/prism/position_style_attribute_count/data.json",
+        "source_index": 681
+    }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "order": 0,
+    "category": "3D",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 0
+  }
+]

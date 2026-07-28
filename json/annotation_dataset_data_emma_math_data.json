@@ -1,0 +1,1970 @@
+[
+    {
+        "question": "How many blocks are missing in this igloo?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_9_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 0
+    },
+    {
+        "question": "Jörg is sorting his socks. Two socks with the same number are one pair.\n<image_1>\nHow many pairs can he find?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_15_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 1
+    },
+    {
+        "question": "What is the length of the room if each rectangular tile on the floor measures 1 meter across its shorter side, and the number of tiles along the length of the room is visible in the image?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_16_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 2
+    },
+    {
+        "question": "What is the total length of Susi's pattern made of ice-lolly sticks, where each stick is 5 cm long and the pattern is constructed as shown in the image?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_14_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 3
+    },
+    {
+        "question": "What is the total length of the path traced by a point on the vertex of an equilateral triangle as it rolls around a unit square and returns to its starting position for the first time?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_31_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 4
+    },
+    {
+        "question": "Given two rectangles forming angles of $40^{\\circ}$ and $30^{\\circ}$ with a straight line, what is the measure of angle $\\alpha$ formed between the extended sides of the rectangles?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_34_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 7
+    },
+    {
+        "question": "Vilma folded a $10 \text{ cm} \times 20 \text{ cm}$ rectangular sheet such that the two shorter sides aligned with a diagonal of the sheet, forming a parallelogram as shown in the image. What is the area of the resulting parallelogram in $\text{cm}^2$?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_36_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 9
+    },
+    {
+        "question": "Maria folds a square piece of paper in such a way that the kangaroos exactly overlap each other. Along how many of the lines shown is this possible?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_46_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 10
+    },
+    {
+        "question": "When the page is folded along the thick line in the image, which letter remains completely uncovered by the grey squares?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_47_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 11
+    },
+    {
+        "question": "What is the ratio of the number of circles to the number of triangles in the image?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_58_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 13
+    },
+    {
+        "question": "Gaspar has these seven different pieces, formed by equal little squares.\n<image_1>\nHe uses all these pieces to assemble rectangles with different perimeters, that is, with different shapes. How many different perimeters can he find?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_67_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 14
+    },
+    {
+        "question": "Luana builds a fence using pieces of wood 2 meters long by half a meter wide, just like this one: <image_1>. The picture beside shows this fence, after it is ready. How long is the fence, in meters?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_68_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 15
+    },
+    {
+        "question": "Amelia built a crown using 10 copies of this piece <image_1>. The parts were joined together so that the sides in contact had the same number, as shown in the picture, where four parts are visible. What is the number that appears in the colored triangle?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_69_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 16
+    },
+    {
+        "question": "If a black disc with two holes is placed on a watch dial and turned, which pair of numbers is visible through the holes simultaneously?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_74_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 17
+    },
+    {
+        "question": "How should Else use the machines R and S, in sequence, to transform a blank square piece of paper into the final picture with a rotated club symbol in the bottom-left corner?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_79_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 19
+    },
+    {
+        "question": "Snail quadruplets have gone hiking on a path paved with identical rectangular tiles. The shape and length of each snail's trip is shown below.\n<image_1>\nHow many decimeters has the snail Tin hiked?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_82_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 21
+    },
+    {
+        "question": "Each of these two pieces of wire is made of 8 segments of length 1. One of the pieces is placed one above the other so that they coincide partially. What is the largest possible length of their common part?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_83_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 22
+    },
+    {
+        "question": "Using the carpenter's machine, what sequence of operations must be applied to transform the square in <image2> into the rectangle in <image1>?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_84_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 23
+    },
+    {
+        "question": "What is the total length of the broken line formed by connecting points A, A1, A2, ..., A12, and B, given that segment AB measures 24 cm and the figure includes several squares intersecting AB?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_85_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 24
+    },
+    {
+        "question": "In the box are seven blocks. It is possible to slide the blocks around so that another block can be added to the box. What is the minimum number of blocks that must be moved?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_87_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 25
+    },
+    {
+        "question": "Which three puzzle pieces fit into the gaps in the incomplete large puzzle to fully complete its shape?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_91_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 27
+    },
+    {
+        "question": "What is the difference in the total perimeter lengths of the two figures on the right, given that both are made from the same 5 pieces, including a rectangle with dimensions 5 cm by 10 cm, and quarter circles with two different radii?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_92_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 28
+    },
+    {
+        "question": "From an old model train set there are only identical pieces of track to use. Matthias puts 8 such pieces in a circle (picture on the left). Martin begins his track with 2 pieces as shown in the picture on the right. He also wants to build a closed track and use the smallest number of pieces possible. How many pieces will his track use?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_94_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 29
+    },
+    {
+        "question": "Clara forms one big triangle made up of identical little triangles. She has already put some triangles together (see diagram). What is the minimum number of little triangles she has to add?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_100_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 31
+    },
+    {
+        "question": "What is the minimum number of grey tiles that need to be swapped with white tiles to make the square floor pattern symmetric from all four viewing directions?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_101_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 32
+    },
+    {
+        "question": "If Peter rearranges all parts of a figure consisting of one square and eight rectangles, each 8 cm wide, to form a single long rectangle, what will be the length of the resulting rectangle?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_103_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 33
+    },
+    {
+        "question": "Given four equally sized squares divided into smaller regions with varying black areas, do any of the squares have a larger total black area than the others?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_102_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 34
+    },
+    {
+        "question": "What is the total duration Elisa the bat spent outside her cave between the times shown on the clocks when she left at night and returned in the morning?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_105_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 35
+    },
+    {
+        "question": "When the 5 pieces <image_1> are fitted together correctly, the result is a rectangle with a calculation written on it. What is the answer to this calculation?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_108_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 36
+    },
+    {
+        "question": "If Vania writes the numbers 1 to 9 in ascending order on a sheet of paper divided into nine equal squares, then folds the sheet horizontally and vertically as shown in the images to place the colored square on top of the layers, which numbers should she write in the positions labeled $a$, $b$, and $c$ on the unfolded sheet?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_107_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 37
+    },
+    {
+        "question": "What is the smallest number of shaded squares that can be added to the diagram to create a design, including the grid, with 4 axes of symmetry?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_110_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 38
+    },
+    {
+        "question": "All vehicles in the garage can only drive forwards or backwards. The black car wants to leave the garage (see diagram). What is the minimum number of grey vehicles that need to move at least a little bit so that this is possible?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_113_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 39
+    },
+    {
+        "question": "How far does the Ferris wheel need to turn for the first white gondola to reach the top of the wheel?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_114_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 40
+    },
+    {
+        "question": "Which shape in the image cannot be divided into exactly two triangles using a single straight line?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_116_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 41
+    },
+    {
+        "question": "Which two jigsaw pieces from the four provided can be combined to form a complete hexagon?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_117_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 42
+    },
+    {
+        "question": "If the current mirrored time displayed on the digital watch is 08:05, what time will appear in the mirror 30 minutes later?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_120_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 44
+    },
+    {
+        "question": "Carl composed the figure shown on the left side of the drawing from the smaller three-square and four-square figures shown on the right side. The smaller figures can be turned around, but not turned over. What is the smallest number of three-square figures needed for that?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_122_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 45
+    },
+    {
+        "question": "Anna has two machines, $R$ and $S$. Machine $R$ rotates a square piece of paper $90^{\text{o}}$ clockwise, and machine $S$ prints a club on the paper. Starting with a blank square paper with a corner marking, what sequence of operations involving $R$ and $S$ creates the final paper shown in the image?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_121_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 46
+    },
+    {
+        "question": "How many lines of symmetry does this figure have?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_128_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 51
+    },
+    {
+        "question": "After rearranging the cards in the first row such that the top letters form 'MISSISSIPPI' and the bottom letters form a sequence corresponding to the remaining letters, what sequence is formed by the bottom row?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_124_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 52
+    },
+    {
+        "question": "The figure on the left consists of two rectangles. Two side lengths are marked: 11 and 13. The figure is cut into three parts along the two lines drawn inside. These can be put together to make the triangle shown on the right. How long is the side marked $\\mathrm{x}$?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_130_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 53
+    },
+    {
+        "question": "One vertex of the triangle on the left is connected to one vertex of the triangle on the right using a straight line so that no connecting line segment dissects either of the two triangles into two parts. In how many ways is this possible?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_131_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 54
+    },
+    {
+        "question": "A string is folded three times in the middle, cut, and results in pieces of lengths $4 \\mathrm{~m}$ and $9 \\mathrm{~m}$. What total length of the original string is impossible to achieve based on this setup?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_132_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 58
+    },
+    {
+        "question": "Given that the black line and the dashed line together form seven equilateral triangles, and the dashed line is $20 \\, \\mathrm{cm}$ long, what is the length of the black line?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_138_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 60
+    },
+    {
+        "question": "Which word in the set maintains a vertical axis of symmetry when its letters are written vertically, similar to the word MAMA?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_139_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 61
+    },
+    {
+        "question": "What are the dimensions of the flag designed by Lisa's aviation club, given that the dove occupies an area of $192 \\mathrm{~cm}^2$ on a $4 \\times 6$ grid and the dimensions are scaled proportionally?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_140_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 62
+    },
+    {
+        "question": "If Zilda folds a square sheet of paper with side length 1 such that two consecutive sides align with the diagonal of the square, forming a quadrilateral as shown, what is the area of the resulting quadrilateral?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_142_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 63
+    },
+    {
+        "question": "The area of the large square is $16 \\mathrm{~cm}^{2}$ and the area of each small square is $1 \\mathrm{~cm}^{2}$. What is the total area of the central flower in $\\mathrm{cm}^{2}$?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_145_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 65
+    },
+    {
+        "question": "Which symbol among the signs of the Zodiac shown in the image has a design that can be divided into two identical halves by a vertical line?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_143_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 66
+    },
+    {
+        "question": "In a square flowerbed with a side length of $12 \\mathrm{~m}$, divided equally into four triangular sections, how much area is occupied by the sections with sunflowers, as shown in the diagram?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_146_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 67
+    },
+    {
+        "question": "When Kristina folds the piece of see-through foil along the dotted line shown in the image, what is the resulting pattern or arrangement of points and lines visible?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_149_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 69
+    },
+    {
+        "question": "When a square with side length 10 rolls without slipping along a line until point P first returns to the line, what is the total length of the path traced by point P?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_153_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 72
+    },
+    {
+        "question": "Which points could serve as the center of rotation, such that the two bold lines on the grid are rotations of each other?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_156_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 74
+    },
+    {
+        "question": "What is the total length of the path traced by the center of a coin with a diameter of 1 cm as it rolls completely around the outside of a regular hexagon with sides 1 cm long?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_154_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 75
+    },
+    {
+        "question": "If a rectangle with dimensions 16 cm by 4 cm is folded along a line MN such that corner C touches corner A, what is the area of the resulting pentagon ABNMD'?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_159_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 76
+    },
+    {
+        "question": "What is the correct order of the lengths of the wire pieces labeled $a$, $b$, and $c$ in the image from longest to shortest?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_161_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 78
+    },
+    {
+        "question": "Which area in the image satisfies the condition of being at least 5 meters away from the hedge and no more than 5 meters away from the old pear tree?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_162_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 79
+    },
+    {
+        "question": "In the three regular hexagons shown, what is the relationship between the areas of the grey shaded regions X, Y, and Z?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_166_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 80
+    },
+    {
+        "question": "When Cosme correctly wears his new shirt, as shown on the left figure, the horizontal stripes form seven closed arches around his body. This morning he buttoned his shirt in the wrong way, as shown on the right. How many open arches were there around Cosme's body this morning?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_168_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 81
+    },
+    {
+        "question": "In a park shaped like an equilateral triangle, a cat can travel from the upper corner to the lower right corner along three paths labeled $P$, $Q$, and $R$. Based on the diagram, how do the lengths of these paths compare?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_170_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 83
+    },
+    {
+        "question": "If a dark disc with two holes is placed on a watch dial as shown, and the disc is rotated such that the number 10 is visible through one hole, which numbers will be visible through the second hole?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_173_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 85
+    },
+    {
+        "question": "If a transparent square sheet with the letter $\textbf{Y}$ drawn on it is rotated $90^{\text{o}}$ clockwise, flipped over its new left edge, and then rotated $180^{\text{o}}$, what does the resulting figure look like?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_175_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 86
+    },
+    {
+        "question": "What is the only number that $x$, the largest square number entered diagonally in the square on the right, cannot be?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_176_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 87
+    },
+    {
+        "question": "If a string is wound over and under $n$ equal circles with a total diameter sum of $d$ cm, what is the total length of the string in cm?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_177_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 88
+    },
+    {
+        "question": "What is the least possible number of small squares that we should shade in the diagram on the right for the whole diagram to have a line of symmetry? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_179_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 89
+    },
+    {
+        "question": "If Marta arranges 16 square tiles, each featuring an arc bisecting the sides it meets and of length p cm, into a 4 × 4 square design, what is the maximum length of a continuous path formed by connecting the arcs?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_180_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 90
+    },
+    {
+        "question": "How many different squares can be drawn in total by joining the dots with line segments in the part of the square lattice as shown on the right? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_181_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 91
+    },
+    {
+        "question": "Given that the top row of letters in the first diagram spells 'MISSISSIPPI' and the bottom row spells 'KILIMANJARO', what sequence of letters could appear on the bottom row of the second diagram if its top row spells 'PSISIMISSPI'?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_178_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 93
+    },
+    {
+        "question": "If the area of the smallest square is $6 \\mathrm{~cm}^{2}$ and each square is formed by joining the midpoints of the sides of the previous larger square, what is the difference in area between the medium square and the large square?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_183_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 94
+    },
+    {
+        "question": "Rachel has several square pieces of paper of area $4 \\mathrm{~cm}^{2}$. She cuts each of them into smaller squares and right-angled triangles in the manner shown in the first diagram. She takes some of the pieces and makes the shape shown in the second diagram.\nWhat is the area in $\\mathrm{cm}^{2}$ of the shape? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_188_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 97
+    },
+    {
+        "question": "What is the difference between the area of the black region and the combined area of the grey regions in the diagram, given the side lengths of the squares are $7 \\mathrm{~cm}$, $5 \\mathrm{~cm}$, and $3 \\mathrm{~cm}$, and the white hexagon has an area of $x \\mathrm{~cm}^{2}$?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_185_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 99
+    },
+    {
+        "question": "What is the total length of a $3 \\mathrm{~cm}$ wide strip that Maria folds into a rectangle of length $27 \\mathrm{~cm}$, with identical grey trapeziums each having a shorter parallel side of $3 \\mathrm{~cm}$?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_190_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 101
+    },
+    {
+        "question": "When folding Aisha's paper strip with cells numbered 1 to 5 to create a layered arrangement, which configuration cannot be achieved based on the relative positions of the numbers shown?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_194_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 103
+    },
+    {
+        "question": "Henna arranges her four ribbons, each of width $10 \\mathrm{~cm}$ and with lengths differing by $25 \\mathrm{~cm}$, into two shapes as shown in the diagram. What is the difference in perimeter between the two shapes?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_199_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 108
+    },
+    {
+        "question": "Using only pieces like the one shown in the diagram, Zara wants to make a complete square without gaps or overlaps.\n<image_1>\nWhat is the smallest number of pieces she can use?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_201_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 109
+    },
+    {
+        "question": "What is the perimeter of the equilateral triangle-shaped hole formed when three congruent isosceles trapeziums, each with longer base length b and shorter base length a, are assembled as shown in the diagram?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_200_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 111
+    },
+    {
+        "question": "What is the largest number of \" $\\mathrm{T}$ \" shaped pieces, as shown, that can be placed on the $4 \\times 5$ grid in the diagram, without any overlap of the pieces? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_204_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 112
+    },
+    {
+        "question": "In the image, three strips labelled 1, 2, and 3 have the same horizontal width $a$ and connect two parallel lines. What can be said about their areas based on their shapes and the distance $b$ between the lines?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_205_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 114
+    },
+    {
+        "question": "Using the six marked points on the squared paper, can all of the following shapes—parallelogram, trapezium, right-angled triangle, and obtuse-angled triangle—be formed by connecting some of the points with straight lines?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_209_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 118
+    },
+    {
+        "question": "What is the total perimeter length of one of the four congruent regions formed by dividing a circle of radius 4 cm with arcs of radius 2 cm?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_210_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 120
+    },
+    {
+        "question": "Which points among $T, U, V, W$ can serve as the center of rotation to map the horizontal line segment $PQ$ to the vertical line segment $RS$ on the grid?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_212_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 121
+    },
+    {
+        "question": "Given that $r$, $s$, and $t$ are the lengths of the paths shown in the image, and each square has a side length of one unit, what is the correct inequality between $r$, $s$, and $t$?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_214_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 122
+    },
+    {
+        "question": "What is the path traced by the midpoint of a wheel as it rolls along the zig-zag curve shown in the image, considering the changes in direction at the peaks and troughs?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_215_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 123
+    },
+    {
+        "question": "Some shapes are drawn on a piece of paper. The teacher folds the left-hand side of the paper over the central bold line. How many of the shapes on the left-hand side will fit exactly on top of a shape on the right-hand side? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_218_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 124
+    },
+    {
+        "question": "A ball is propelled from corner $A$ of a square snooker table of side 2 metres. After bouncing off three cushions as shown, the ball goes into a pocket at $B$. The total distance travelled by the ball is $\\sqrt{k}$ metres. What is the value of $k$ ?\n<image_1>\n(Note that when the ball bounces off a cushion, the angle its path makes with the cushion as it approaches the point of impact is equal to the angle its path makes with the cushion as it moves away from the point of impact as shown in the diagram below.)",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_219_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 125
+    },
+    {
+        "question": "In the array of $13$ squares shown below, $8$ squares are colored red, and the remaining $5$ squares are colored blue. If one of all possible such colorings is chosen at random, the probability that the chosen colored array appears the same when rotated $90^{\\circ}$ around the central square is $\\frac{1}{n}$, where $n$ is a positive integer. Find $n$.\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_221_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 127
+    },
+    {
+        "question": "How many of the twelve pentominoes pictured below have at least one line of symmetry?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_222_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 128
+    },
+    {
+        "question": "What is the total surface area covered by a red stripe with a horizontal width of 3 feet that makes two complete revolutions around a white cylindrical silo with a diameter of 30 feet and a height of 80 feet?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_223_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 130
+    },
+    {
+        "question": "In the figure below, $3$ of the $6$ disks are to be painted blue, $2$ are to be painted red, and $1$ is to be painted green. Two paintings that can be obtained from one another by a rotation or a reflection of the entire figure are considered the same. How many different paintings are possible?\n\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_225_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 131
+    },
+    {
+        "question": "Given the unit square $OABC$ in the $xy$-plane with vertices $O(0,0)$, $A(1,0)$, $B(1,1)$, and $C(0,1)$, and the transformation equations $u = x^2 - y^2$ and $v = 2xy$, what is the resulting shape of its image in the $uv$-plane?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_228_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 135
+    },
+    {
+        "question": "If a square with side length $2$ is dissected into four pieces using midpoints $E$ and $F$ of opposite sides and a perpendicular line $AG$ to $BF$, and these pieces are reassembled into a rectangle, what is the ratio of the rectangle's height $XY$ to its base $YZ$?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_232_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 139
+    },
+    {
+        "question": "The set $ G$ is defined by the points $ (x,y)$ with integer coordinates, $ 3\\le|x|\\le7$, $ 3\\le|y|\\le7$. How many squares of side at least $ 6$ have their four vertices in $ G$?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_235_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 140
+    },
+    {
+        "question": "What angle θ will result in a zigzag path across a 100-meter by 30-meter rectangular field from point A to segment BC, such that the total path length is 120 meters?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_237_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 142
+    },
+    {
+        "question": "After a square piece of paper is folded vertically and then cut along the dashed line to create one large rectangle and two smaller rectangles, what is the ratio of the perimeter of one of the smaller rectangles to the perimeter of the larger rectangle?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_239_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 143
+    },
+    {
+        "question": "Let $PQRS$ be a square piece of paper. $P$ is folded onto $R$ and then $Q$ is folded onto $S$. The area of the resulting figure is 9 square inches. Find the perimeter of square $PQRS$.\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_245_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 148
+    },
+    {
+        "question": "Each half of this figure is composed of 3 red triangles, 5 blue triangles and 8 white triangles. When the upper half is folded down over the centerline, 2 pairs of red triangles coincide, as do 3 pairs of blue triangles. There are 2 red-white pairs. How many white pairs coincide?\n\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_246_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 149
+    },
+    {
+        "question": "If a spinner initially pointing west is rotated clockwise $2 \\frac{1}{4}$ revolutions and then counterclockwise $3 \\frac{3}{4}$ revolutions, in which direction does it point afterward?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_249_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 152
+    },
+    {
+        "question": "If tiles I, II, III, and IV are arranged so that the numbers on adjacent sides of rectangles A, B, C, and D match, which tile must be placed in rectangle C?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_250_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 153
+    },
+    {
+        "question": "What is the total area of the shaded regions forming a pinwheel within the $5\\times 5$ grid, considering the dimensions of the grid cells?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_251_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 154
+    },
+    {
+        "question": "Construct a square on one side of an equilateral triangle. One on non-adjacent side of the square, construct a regular pentagon, as shown. One a non-adjacent side of the pentagon, construct a hexagon. Continue to construct regular polygons in the same way, until you construct an octagon. How many sides does the resulting polygon have?\n\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_253_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 155
+    },
+    {
+        "question": "What is the percentage of the total area that is bolded across the four large congruent squares, considering each square is subdivided into congruent triangles or rectangles?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_254_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 156
+    },
+    {
+        "question": "If a circle with radius 2 is divided into four equal arcs and these arcs are rearranged to form the star-shaped figure shown, what is the ratio of the star's area to the original circle's area?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_255_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 157
+    },
+    {
+        "question": "If point P is the center of a square with 81 uniformly spaced grid points, including edge points, and point Q is randomly chosen from the other 80 points, what is the probability that the line connecting P and Q creates a line of symmetry for the square?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_257_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 159
+    },
+    {
+        "question": "Blahaj has two rays with a common endpoint A0 that form an angle of $1^o$. They construct a sequence of points $A_0$, $. . . $, $A_n$ such that for all $1 \\le i \\le n$, $|A_{i-1}A_i | = 1$, and $|A_iA_0| > |A_{i-1}A_0|$. Find the largest possible value of $n$.\\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_261_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 161
+    },
+    {
+        "question": "What is the maximum number of $T$-shaped polyominos (shown below) that we can put into a $6 \\times 6$ grid without any overlaps. The blocks can be rotated.\\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_262_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 162
+    },
+    {
+        "question": "How many lines pass through exactly two points in the following hexagonal grid?\\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_263_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 163
+    },
+    {
+        "question": "Consider the L-shaped tromino below with 3 attached unit squares. It is cut into exactly two pieces of equal area by a line segment whose endpoints lie on the perimeter of the tromino. What is the longest possible length of the line segment?\\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_265_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 165
+    },
+    {
+        "question": "The grid below contains the $16$ points whose $x$- and $y$-coordinates are in the set $\\{0,1,2,3\\}$: <image_1> A square with all four of its vertices among these $16$ points has area $A$. What is the sum of all possible values of $A$?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_266_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 166
+    },
+    {
+        "question": "How many bricks are missing in the wall?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_267_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 167
+    },
+    {
+        "question": "Seven sticks lay on top of each other. Stick 2 lays right at the bottom. Stick 6 lays right on top. Which stick lays exactly in the middle?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_268_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 168
+    },
+    {
+        "question": "Theodor has built this tower made up of discs. He looks at the tower from above. How many discs does he see?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_271_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 169
+    },
+    {
+        "question": "Ingrid has 4 red, 3 blue, 2 green, and 1 yellow cube. She builds an object where cubes of the same color do not touch each other. Based on the arrangement in the image, what is the color of the cube marked with a question mark?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_269_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 170
+    },
+    {
+        "question": "Maria made a block using white cubes and colored cubes in equal amounts. How many of the white cubes cannot be seen in the picture?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_273_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 171
+    },
+    {
+        "question": "What is the sequence for collecting the square cards from top to bottom based on the overlapping pattern shown?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_272_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 172
+    },
+    {
+        "question": "Six different numbers, chosen from integers 1 to 9 , are written on the faces of a cube, one number per face. The sum of the numbers on each pair of opposite faces is always the same. Which of the following numbers could have been written on the opposite side with the number 8 ?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_275_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 173
+    },
+    {
+        "question": "Hansi sticks 12 cubes together to make this figure. He always puts one drop of glue between two cubes. How many drops of glue does he need?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_277_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 174
+    },
+    {
+        "question": "If Michael wants to punch a hole that passes through all four overlapping pieces of paper, which point should he choose based on their alignment?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_276_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 175
+    },
+    {
+        "question": "If the ellipse with semi-major axis $a$ and semi-minor axis $b$ (where $a > b$) rotates about the $x$-axis and then about the $y$-axis, how do the resulting ellipsoids and their volumes compare?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_283_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 181
+    },
+    {
+        "question": "If the curved surfaces of two identical cylinders are cut open along their vertical dotted lines and combined to form the curved surface of a larger single cylinder, how does the volume of the larger cylinder compare to the volume of one of the original smaller cylinders?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_285_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 183
+    },
+    {
+        "question": "What is the total measure of all interior angles of the closed polygon formed by connecting the midpoints of the edges of the die in the diagram?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_287_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 184
+    },
+    {
+        "question": "If the sum of numbers on opposite faces of a standard die is always 7, and two standard dice are shown with visible faces showing 3, 6, and 2, how many dots are on the non-visible right-hand face marked with '?'?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_288_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 185
+    },
+    {
+        "question": "The diagram shows an object made up of 12 dice glued-together. The object is dipped into some colour so that the entire outside is coloured in this new colour. How many of the small dice will have exactly four faces coloured in?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_291_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 187
+    },
+    {
+        "question": "If two intersecting dice have volumes $V$ and $W$, and $90\\text{ %}$ of $V$ and $85\\text{ %}$ of $W$ do not overlap with the intersection, what is the ratio of $V$ to $W$?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_293_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 189
+    },
+    {
+        "question": "What is the volume of an octahedron inscribed in a cube with side length 1, where the vertices of the octahedron are the midpoints of the cube's faces?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_295_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 190
+    },
+    {
+        "question": "The system shown consists of three pulleys that are connected to each other via two ropes. $P$, the end of one rope, is pulled down by $24 \\mathrm{~cm}$. By how many centimeters does point $Q$ move upwards?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_298_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 192
+    },
+    {
+        "question": "If an ant typically walks $6 \\mathrm{~m}$ in a straight line from point $A$ to point $B$, but now has to climb a straight cylinder of $1 \\mathrm{~m}$ height positioned along the path as shown, what is the total distance the ant must walk?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_299_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 195
+    },
+    {
+        "question": "A string lying on a table is partially covered by three coins, under each of which the string can either cross over itself or not, as illustrated in the images. If the string is equally likely to cross over or not under each coin, what is the probability that the string forms a knot when its ends are pulled?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_301_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 197
+    },
+    {
+        "question": "What is the total distance traveled by an ant moving from the base point A to the top point B of a cylindrical tin, given that the tin has a height of 15 cm, a base circumference of 30 cm, and the ant’s path alternates between vertical and horizontal circular arcs as shown in the diagram?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_305_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 199
+    },
+    {
+        "question": "If a regular tetrahedron with one marked side is rolled from the triangle labeled START within the diagram, moving always to the next adjacent triangle by rolling along an edge, on which triangle does the marked side first land upright?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_307_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 200
+    },
+    {
+        "question": "Two identical cylindrical glasses with base areas of $3 \\pi \\mathrm{cm}^2$ contain the same amount of water. One glass is upright while the other is slanted, and the water levels in both glasses are at the same height as shown in the diagram. What is the volume of water in each glass?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_308_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 202
+    },
+    {
+        "question": "Thomas has made a table out of small cubes. How many small cubes did he use?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_316_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 206
+    },
+    {
+        "question": "The picture shows a Fortress made from cubes. How many cubes were used to make it?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_319_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 208
+    },
+    {
+        "question": "On a tall building there are 4 fire escape ladders, as shown. The heights of 3 ladders are at their tops. What is the height of the shortest ladder?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_331_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 214
+    },
+    {
+        "question": "What is the total length of the red path drawn across the pyramid built from cubes, where each cube has a side length of 10 cm?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_333_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 215
+    },
+    {
+        "question": "The big cube is made up of three different kinds of building blocks (see diagram). How many of the little white cubes are needed for this big cube?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_334_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 216
+    },
+    {
+        "question": "What is the total distance traveled by an ant moving along the shown path from point M to point N on the surface of a cube with 12 cm side length?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_335_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 219
+    },
+    {
+        "question": "Given the two cube nets shown, what letter must replace the question mark in the second net to ensure the arrangement forms a valid cube?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_338_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 221
+    },
+    {
+        "question": "The die is a cube, the faces of which are numbered by $1,2, \\ldots, 6$, the sum of the numbers in any two opposite faces being 7. Using 4 such identical dice, Nick composed a parallelepiped $2 \\times 2 \\times 1$ as shown in the figure, the numbers on any two touching faces of the dice being equal. The numbers on some faces are shown in the figure. Which number is written in the face denoted by the question mark?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_341_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 222
+    },
+    {
+        "question": "Given the dimensions of the original rectangular block and the section cut out as shown in the diagram, what is the percentage decrease in the total surface area of the block after the cut?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_340_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 224
+    },
+    {
+        "question": "Which labeled figures in the image are made using more than one continuous piece of string?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_344_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 225
+    },
+    {
+        "question": "Nina made a wall around a square area, using 36 identical cubes. A section of the wall is shown in the picture. How many cubes will she now need to completely fill the square area.\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_346_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 226
+    },
+    {
+        "question": "Which numbered lines on the paper were cut to create the folded 3D shape shown in the image?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_345_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 227
+    },
+    {
+        "question": "Lisa built a large cube using 8 smaller cubes, each with the same letter on all its faces (A, B, C, or D). Two adjacent cubes always have different letters on their touching faces. Observing the visible faces in the picture, which letter is on the cube face that is hidden and cannot be seen?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_347_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 228
+    },
+    {
+        "question": "Nathalie wanted to build a large cube out of lots of small cubes. How many cubes are missing from the picture on the right that would be needed to build the large cube on the left?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_349_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 229
+    },
+    {
+        "question": "A $1 \\times 1 \\times 1$ cube is cut out of each corner of a $3 \\times 3 \\times 3$ cube. The picture shows the result after the first cube is cut out. How many faces will the final shape have?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_350_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 230
+    },
+    {
+        "question": "Which square(s) can be removed from this paper net of 7 squares to form a connected net of 6 squares that can fold into a cube?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_353_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 232
+    },
+    {
+        "question": "When the net shown is folded into an open box with its opening facing upwards, which side will form the bottom face of the box?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_354_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 233
+    },
+    {
+        "question": "If Maxi builds towers using little $1 \\mathrm{~cm} \\times 1 \\mathrm{~cm} \\times 2 \\mathrm{~cm}$ building blocks and a tower with 28 blocks is constructed in the same pattern as shown, what is the height of this tower?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_359_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 235
+    },
+    {
+        "question": "John made a construction with wooden cubes of the same size, with the three views shown beside, using as many cubes as possible. Ana, John's sister, wants to remove all the cubes she can, without modifying these three views. At most, how many cubes can she remove?\nfront:\n<image_1>\nright side:\nabove:",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_366_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 236
+    },
+    {
+        "question": "A measuring tape is wound around a cylinder. What number should be at the place shown by the question mark?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_368_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 237
+    },
+    {
+        "question": "Marc builds the number 2022 as seen in the picture by glueing together 66 cubes of the same size. Afterwards he paints the entire surface of his work. On how many of the 66 cubes has Marc painted exactly four faces?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_370_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 238
+    },
+    {
+        "question": "A building is made up of cubes of the same size. The three pictures show it from above (von oben), from the front (von vorne) and from the right (von rechts). What is the maximum number of cubes used to make this building?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_372_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 239
+    },
+    {
+        "question": "Nine steps of a staircase arranged in a cylindrical order starting at the bottom and leading all the way to the top can be seen. All steps are equally high. How many steps cannot be seen? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_373_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 240
+    },
+    {
+        "question": "Based on the overlapping patterns and positions of ribbons M, N, P, and Q wrapped around the box, in what sequence were they wrapped?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_374_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 241
+    },
+    {
+        "question": "What is the total surface area of the solid formed by stacking a cube with 1 cm edges on top of a cube with 3 cm edges, considering their overlapping faces?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_379_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 244
+    },
+    {
+        "question": "In the diagram opposite there is an object with 6 triangular faces. On each corner there is a number (two are shown). The sum of the numbers on the corners of each face is the same. What is the sum of all 5 numbers?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_384_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 248
+    },
+    {
+        "question": "When the net of the three-sided prism is folded, which line connects with line UV to form an edge of the prism?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_391_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 253
+    },
+    {
+        "question": "A big cube is made up of 64 small cubes. Exactly one of these cubes is grey (see diagram). Two cubes are neighbours if they share a common face. On day one the grey cube colours all its neighbouring cubes grey. On day two all grey cubes again colour all their neighbouring cubes grey. How many of the 64 little cubes are grey at the end of the second day?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_396_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 256
+    },
+    {
+        "question": "Susi writes a different positive whole number on each of the 14 cubes of the pyramid (see diagram). The sum of the numbers, which she writes on the nine cubes that lie on the bottom, is 50. The number on every remaining cube is equal to the sum of the numbers of the four cubes that are directly underneath. What is the biggest number that can be written on the topmost cube?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_397_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 257
+    },
+    {
+        "question": "Using the given net of a box composed of rectangles, what is the calculated volume of the box based on its dimensions?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_400_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 259
+    },
+    {
+        "question": "Kathi folds a square piece of paper twice and subsequently cuts it along the two lines as shown in the picture. The resulting pieces of paper are then unfolded if possible. How many of the pieces of paper are squares?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_402_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 260
+    },
+    {
+        "question": "Andrew bought 27 little cubes of the same color, each with three adjacent faces painted red and the other three of another color. He wants to use all these little cubes to build a bigger cube. What is the largest number of completely red faces that he can get for this cube?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_403_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 261
+    },
+    {
+        "question": "Cleuza assembled the $2 \\times 2 \\times 2$ block formed by equal balls beside, using one drop of glue at each contact point between two balls, in a total of 12 drops. She then glued a few more spheres until she completed a $4 \\times 3 \\times 2$ block. How many extra drops of glue did she get to use?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_406_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 263
+    },
+    {
+        "question": "Using the cube built by Sonja and knowing that the shortest side of each brick is $4 \\, \\mathrm{cm}$, what are the dimensions of a single brick in $\\, \\mathrm{cm}$?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_408_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 264
+    },
+    {
+        "question": "On an ordinary die the numbers on opposite sides always add up to 7. Four such dice are glued together as shown. All numbers that can still be seen on the outside of the solid are added together. What is the minimum of that total?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_409_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 265
+    },
+    {
+        "question": "Some edges of a cube are coloured in red so that each sides of the cube has at least one red edge. What is the minimum number of red edges that the cube has? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_410_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 266
+    },
+    {
+        "question": "This network of eight equilateral triangles can be folded to form a regular octahedron. To construct a magic octahedron, replace the letters $A, B, C, D$, and $E$ with the numbers 2, 4, 6,7, and 8 (without repetition) so that each sum of the four numbers on the four faces that share a vertex were the same. On your magic octahedron, what does $B+D$ equal?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_413_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 267
+    },
+    {
+        "question": "If tank II, with a base area of $1 \\, \\mathrm{dm}^2$ and height of $7 \\, \\mathrm{cm}$, is placed into tank I, which has a base area of $2 \\, \\mathrm{dm}^2$, height of $10 \\, \\mathrm{cm}$, and water at $5 \\, \\mathrm{cm}$ high, what water level will tank II reach after the water spills into it?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_412_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 268
+    },
+    {
+        "question": "If all outer balls of an 8-pyramid are removed, what type of pyramid is formed by the remaining balls?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_414_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 270
+    },
+    {
+        "question": "There are three great circles on a sphere that intersect each other in a right angle. Starting in point S a little bug moves along the great circles in the direction indicated. At crossings it turns alternately to the right or left. How many quarter circles does it crawl along until it is back in point S?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_417_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 271
+    },
+    {
+        "question": "What is the total visible surface area of an object composed of four equally sized cubes, each with a surface area of $24 \\mathrm{~cm}^{2}$, arranged as shown in the image?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_418_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 272
+    },
+    {
+        "question": "A marble of radius 15 is rolled into a cone-shaped hole. It fits in perfectly. From the side the cone looks like an equilateral triangle. How deep is the hole?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_420_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 274
+    },
+    {
+        "question": "How many different ways are there in the diagram shown, to get from point $A$ to point $B$ if you are only allowed to move in the directions indicated?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_422_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 276
+    },
+    {
+        "question": "Jack wants to secure six tubes, each with a diameter of $2 \\mathrm{~cm}$, using a rubber band. Comparing the arrangements shown in the images, what can be said about the total lengths of the rubber bands required for the two shapes?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_424_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 278
+    },
+    {
+        "question": "What is the total measure of the four marked angles formed by the intersections of edges on the cube in the diagram?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_425_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 279
+    },
+    {
+        "question": "The rings shown are partially interlinked. How long is the longest chain built this way which also contains the thick light ring?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_427_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 280
+    },
+    {
+        "question": "If a creeping plant wraps around a post with a circumference of $15 \\mathrm{~cm}$ for 5 complete twists and reaches a height of $1 \\mathrm{~m}$, what is the total length of the plant along its path?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_426_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 281
+    },
+    {
+        "question": "If the given net is folded into a cube, which face will be directly opposite the face labeled $x$?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_432_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 284
+    },
+    {
+        "question": "If the net of a cube is folded into a cube and then cut along three equal-length dotted lines marked on adjacent faces, what is the shape of the hole formed?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_433_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 285
+    },
+    {
+        "question": "Four identical dice are arranged in a row as shown in the diagram. Although each die does have 1, 2, 3, 4, 5, 6 dots, the sum of the numbers of dots on each pair of opposite faces is not necessarily 7 . What is the total number of dots on the six touching faces of the dice?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_437_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 288
+    },
+    {
+        "question": "If a cube is rolled over a plane such that its bottom face passes sequentially through positions 1, 2, 3, 4, 5, 6, and 7 as shown, which two positions are occupied by the same face of the cube?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_441_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 290
+    },
+    {
+        "question": "Seven standard dice are glued together to make the solid shown. The pairs of faces of the dice that are glued together have the same number of dots on them. How many dots are on the surface of the solid? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_442_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 291
+    },
+    {
+        "question": "Stan had 125 small cubes. He glued some of them together to form a large cube with nine tunnels, each perpendicular to two opposite faces and passing through the cube, as shown in the diagram.\nHow many of the small cubes did he not use? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_446_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 294
+    },
+    {
+        "question": "Cleo builds a pyramid with identical metal spheres. Its square base is a $4 \\times 4$ array of spheres, as shown in the diagram. The upper layers are a $3 \\times 3$ array of spheres, a $2 \\times 2$ array of spheres and a single sphere at the top. At each point of contact between two spheres, a blob of glue is placed. How many blobs of glue will Cleo place?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_450_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 297
+    },
+    {
+        "question": "A builder has two identical bricks. She places them side by side in three different ways, as shown. The surface areas of the three shapes obtained are 72, 96 and 102 .\nWhat is the surface area of the original brick?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_452_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 299
+    },
+    {
+        "question": "If it takes 9 litres of paint to cover the surface of a cube and the shape on the right has the same surface area as the cube, how much paint is needed to cover the shape on the right?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_455_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 302
+    },
+    {
+        "question": "If a regular hexagonal piece of paper is folded so that three marked vertices meet at the center of the hexagon, what is the resulting shape formed by the overlapping area of the folds?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_457_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 303
+    },
+    {
+        "question": "The two diagrams show a side view and a plan view of a tower made with light and dark coloured blocks. In the tower, only dark coloured blocks are placed on top of dark coloured blocks and only light coloured blocks are placed on top of light\n<image_1>\ncoloured blocks. How many blocks in the tower are light coloured?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_459_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 304
+    },
+    {
+        "question": "In the block built by Claudette using eight dice, where each dice has faces labeled with one of $P$, $Q$, $R$, or $S$, and faces of touching dice have different letters, what letter is on the faces of the hidden dice below the dice labeled $R$ and adjacent to dice labeled $P$ and $S$?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_460_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 305
+    },
+    {
+        "question": "The numbers on each pair of opposite faces on a die add up to 7 . A die is rolled without slipping around the circuit shown. At the start the top face is 3 . What number will be displayed on the top face at the end point? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_466_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 309
+    },
+    {
+        "question": "The diagram shows two ordinary dice. What is the total number of spots on all the faces that cannot be seen in the diagram? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_467_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 310
+    },
+    {
+        "question": "A dog is tied to the outside corner of a rectangular house with sides of length 6 m and 4 m using a 10 m rope. Considering the areas traced by different parts of the rope as the dog moves, what is the total length of the curved boundary the dog can trace?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_468_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 312
+    },
+    {
+        "question": "The diagram shows the net of a regular octahedron. In a Magic Octahedron, the four numbers on the faces that meet at a vertex add up to make the same total for every vertex. If the letters $F, G, H, J$ and $K$ are replaced with the numbers $2,4,6,7$, and 8 , in some order, to make a Magic Octahedron, what is the value of $G+J$ ? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_470_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 313
+    },
+    {
+        "question": "An $n$-pyramid is defined to be a stack of $n$ layers of balls, with each layer forming a triangular array. The layers of a 3-pyramid are shown in the diagram.\nAn 8-pyramid is now formed where all the balls on the outside of the 8 -pyramid are black (including the base layer) and the balls on the inside are all white. How many layers are there in the white pyramid?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_471_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 314
+    },
+    {
+        "question": "Three circular hoops are joined together so that they intersect at rightangles as shown. A ladybird lands on an intersection and crawls around the outside of the hoops by repeating this procedure: she travels along a quarter-circle, turns $90^{\\circ}$ to the right, travels along a quarter-circle and turns $90^{\\circ}$ to the left. Proceeding in this way, how many quarter-circles will she travel along before she first returns to her starting point? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_472_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 315
+    },
+    {
+        "question": "Simone has a cube with sides of length $10 \\mathrm{~cm}$, and a pack of identical square stickers. She places one sticker in the centre of each face of the cube, and one across each edge so that the stickers meet at their corners, as shown in the diagram. What is the total area in $\\mathrm{cm}^{2}$ of the stickers used by Simone? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_475_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 317
+    },
+    {
+        "question": "If a rectangular strip of paper is folded in half three times, with each fold parallel to the short edges, and then unfolded to display seven alternating peaks and troughs, which resulting pattern viewed from a long edge would be impossible to create based on the folding process shown in the image?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_474_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 320
+    },
+    {
+        "question": "What is the sum of the four marked angles, given that three are right angles and the fourth is the angle opposite the equilateral triangle formed by the diagonals of a square face of the cube?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_478_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 321
+    },
+    {
+        "question": "In a cube with a side length of 2 units, identical hemispherical holes are carved into each face. The centers of the hemispheres coincide with the centers of the cube's faces, and the holes are sized such that they touch along edges shared by adjacent faces. What is the diameter of each hemisphere?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_480_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 323
+    },
+    {
+        "question": "Identical regular pentagons are arranged in a ring. The partially completed ring is shown in the diagram. Each of the regular pentagons has a perimeter of 65 . The regular polygon formed as the inner boundary of the ring has a perimeter of $P$. What is the value of $P$ ?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_483_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 325
+    },
+    {
+        "question": "Three 12 cm $\\times$ 12 cm squares are each cut into two pieces $A$ and $B$, as shown in the first figure below, by joining the midpoints of two adjacent sides.  These six pieces are then attached to a regular hexagon, as shown in the second figure, so as to fold into a polyhedron.  What is the volume (in $\\text{cm}^3$) of this polyhedron?\n\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_484_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 326
+    },
+    {
+        "question": "In triangle $ABC$, $BC = 23$, $CA = 27$, and $AB = 30$.  Points $V$ and $W$ are on $\\overline{AC}$ with $V$ on $\\overline{AW}$, points $X$ and $Y$ are on $\\overline{BC}$ with $X$ on $\\overline{CY}$, and points $Z$ and $U$ are on $\\overline{AB}$ with $Z$ on $\\overline{BU}$.  In addition, the points are positioned so that $\\overline{UV} \\parallel \\overline{BC}$, $\\overline{WX} \\parallel \\overline{AB}$, and $\\overline{YZ} \\parallel \\overline{CA}$.  Right angle folds are then made along $\\overline{UV}$, $\\overline{WX}$, and $\\overline{YZ}$.  The resulting figure is placed on a level floor to make a table with triangular legs.  Let $h$ be the maximum possible height of a table constructed from triangle $ABC$ whose top is parallel to the floor.  Then $h$ can be written in the form $\\frac{k \\sqrt{m}}{n}$, where $k$ and $n$ are relatively prime positive integers and $m$ is a positive integer that is not divisible by the square of any prime.  Find $k + m + n$.\n\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_485_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 327
+    },
+    {
+        "question": "In the accompanying figure, the outer square has side length 40. A second square S' of side length 15 is constructed inside S with the same center as S and with sides parallel to those of S. From each midpoint of a side of S, segments are drawn to the two closest vertices of S'. The result is a four-pointed starlike figure inscribed in S. The star figure is cut out and then folded to form a pyramid with base S'. Find the volume of this pyramid.\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_487_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 329
+    },
+    {
+        "question": "Rolly secures his dog with an 8-foot rope to a square shed that is either 16 feet per side or 4 feet per side. Comparing the two setups, which arrangement allows the dog to roam over a larger area, and by how many square feet?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_494_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 336
+    },
+    {
+        "question": "In a stack of four cubes with edge lengths $1$, $2$, $3$, and $4$, a diagonal line $overline{XY}$ is drawn from the top corner of the smallest cube to the bottom corner of the largest cube. What is the length of the segment of $overline{XY}$ that lies within the cube with edge length $3$?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_499_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 340
+    },
+    {
+        "question": "In a truncated right circular cone with a sphere inscribed such that the volume of the cone is twice the volume of the sphere, what is the ratio of the radius of the bottom base of the cone to the radius of its top base?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_501_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 342
+    },
+    {
+        "question": "As shown in the figure below a regular dodecahedron (the polyhedron consisting of 12 congruent regular pentagonal faces) floats in space with two horizontal faces. Note that there is a ring of five slanted faces adjacent to the top face, and a ring of five slanted faces adjacent to the bottom face. How many ways are there to move from the top face to the bottom face via a sequence of adjacent faces so that each face is visited at most once and moves are not permitted from the bottom ring to the top ring?\n\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_503_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 343
+    },
+    {
+        "question": "After a unit cube is cut twice into three triangular prisms, two of which are congruent, and then cut again along the dashed lines to create nine pieces as shown in Figures 1 and 2, what is the volume of the piece containing vertex W?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_511_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 352
+    },
+    {
+        "question": "Based on the arrangement of the coins in the image, what is the sequence of coins when listed from the topmost to the bottommost position?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_512_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 353
+    },
+    {
+        "question": "When the paper with six joined squares labeled as shown is folded into a cube, which label appears on the face opposite the one labeled X?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_514_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 354
+    },
+    {
+        "question": "<image_1>\n\nSuppose one of the eight lettered identical squares is included with the four squares in the T-shaped figure outlined.  How many of the resulting figures can be folded into a topless cubical box?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_515_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 355
+    },
+    {
+        "question": "An artist has $14$ cubes, each with an edge of $1$ meter.  She stands them on the ground to form a sculpture as shown.  She then paints the exposed surface of the sculpture.  How many square meters does she paint?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_518_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 358
+    },
+    {
+        "question": "Each corner of a rectangular prism is cut off. Two (of the eight) cuts are shown. How many edges does the new figure have?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_519_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 359
+    },
+    {
+        "question": "In a unit cube with vertices $P_1, P_2, P_3, P_4, P_1', P_2', P_3'$, and $P_4'$, where vertices $P_2, $P_3$, and $P_4$ are adjacent to $P_1$, and $P_i$ and $P_i'$ are opposite for $1 \\leq i \\leq 4$, a regular octahedron is formed with one vertex on each line segment $P_1P_2$, $P_1P_3$, $P_1P_4$, $P_1'P_2'$, $P_1'P_3'$, and $P_1'P_4'$. What is the side length of this regular octahedron?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_513_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 360
+    },
+    {
+        "question": "A plastic snap-together cube has a protruding snap on one side and receptacle holes on the other five sides as shown.  What is the smallest number of these cubes that can be snapped together so that only receptacle holes are showing?\n\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_522_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 362
+    },
+    {
+        "question": "When the six squares labeled R, B, O, Y, G, and W are folded along the hinges to form a cube, which color appears on the face opposite the white face?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_524_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 364
+    },
+    {
+        "question": "What is the volume, in cubic centimeters, of the wedge cut from a cylinder with a diameter of 6 cm, height of 8 cm, and the dashed curve indicating the cut?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_530_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 369
+    },
+    {
+        "question": "Considering the cube with faces painted red (R), white (W), green (G), brown (B), aqua (A), and purple (P), and using the three provided views, which color is on the face directly opposite to the aqua face?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_532_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 370
+    },
+    {
+        "question": "A regular octahedron has eight equilateral triangle faces with four faces meeting at each vertex. Jun will make the regular octahedron shown on the right by folding the piece of paper shown on the left. Which numbered face will end up to the right of $Q$?\n\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_535_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 373
+    },
+    {
+        "question": "Suppose Annie the Ant is walking on a regular icosahedron (as shown). She starts on point $A$ and will randomly create a path to go to point $Z$ which is the point directly opposite to $A$. Every move she makes never moves further from Z, and she has equal probability to go down every valid move. What is the expected number of moves she can make?\\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_538_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 376
+    },
+    {
+        "question": "A solid $5\\times 5\\times 5$ cube is composed of unit cubes. Each face of the large, solid cube is partially painted with gray paint, as shown. <image_1> \t \tWhat fraction of the entire solid cube's unit cubes have no paint on them?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_539_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 377
+    },
+    {
+        "question": "A greeting card is 6 inches wide and 8 inches tall. Point A is 3 inches from the fold, as shown. As the card is opened to an angle of 45 degrees, through how many more inches than point A does point B travel? Express your answer as a common fraction in terms of $\\pi$. <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_540_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 378
+    },
+    {
+        "question": "Five points $A$, $B$, $C$, $D$, and $O$ lie on a flat field.  $A$ is directly north of $O$, $B$ is directly west of $O$, $C$ is directly south of $O$, and $D$ is directly east of $O$. The  distance between $C$ and $D$ is 140 m.  A hot-air balloon is positioned in the air at $H$ directly above $O$. The balloon is held in place by four ropes $HA$, $HB$, $HC$, and $HD$.  Rope $HC$ has length 150 m and rope $HD$ has length 130 m. <image_1>\n\nTo reduce the total length of rope used, rope $HC$ and rope $HD$ are to be replaced by a single rope $HP$ where $P$ is a point on the straight line between $C$ and $D$. (The balloon remains at the same position $H$ above $O$ as described above.)  Determine the greatest length of rope that can be saved.",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_541_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 379
+    },
+    {
+        "question": "Following the path starting at the arrow, in what order will Theresa encounter the triangle, square, and circle shapes?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_543_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 381
+    },
+    {
+        "question": "Starting at point $O$ in the labyrinth, which point can be reached by following the open paths without crossing any walls?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_546_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 383
+    },
+    {
+        "question": "Five sparrows are sitting on a rope (see picture). Some of them are looking to the left, some of them are looking to the right. Every sparrow whistles as many times as the number of sparrows he can see sitting in front of him. For example, the third sparrow whistles exactly twice. How often do all sparrows whistle altogether?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_548_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 384
+    },
+    {
+        "question": "Into how many pieces will the string be cut?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_549_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 385
+    },
+    {
+        "question": "What word does Gerda form by noting the letters visible on her right as she walks from point 1 to point 2 along the marked path?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_547_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 386
+    },
+    {
+        "question": "If the road from Anna's to Mary's house is $16 \\, \\mathrm{km}$, and the road from Mary's to John's house is $20 \\, \\mathrm{km}$, how long is the direct road from Anna's to John's house based on the map layout?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_551_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 387
+    },
+    {
+        "question": "Maia the bee can only walk on colorful houses. How many ways can you color exactly three white houses with the same color so that Maia can walk from $A$ to $B$ ?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_553_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 388
+    },
+    {
+        "question": "Edmund cut a ribbon as shown in the picture. How many pieces of the ribbon did he finish with?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_554_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 389
+    },
+    {
+        "question": "Dino walks from the entrance to the exit. He is only allowed to go through each room once. The rooms have numbers (see diagram). Dino adds up all the numbers of the rooms he walks through.\n<image_1>\nWhat is the biggest result he can get this way?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_557_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 390
+    },
+    {
+        "question": "On a square billiard table with side length 2 meters, a small ball is kicked from point A and follows a path that touches three sides of the table before reaching point B, maintaining equal incident and emergent angles at each bounce. What is the total length of the ball's path from point A to point B?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_558_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 391
+    },
+    {
+        "question": "Based on Jan's roadmap of the village, which resident lives on the street that is not straight?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_559_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 392
+    },
+    {
+        "question": "The diagram shows the floor plan of Renate's house. Renate enters her house from the terrace (Terrasse) and walks through every door of the house exactly once. Which room does she end up in?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_561_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 393
+    },
+    {
+        "question": "Given a $5 \\times 5$ square grid where all fields are initially white, and each move allows flipping the colors of three horizontally or vertically adjacent fields, what is the minimum number of moves required to achieve the chessboard pattern shown in the diagram?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_560_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 394
+    },
+    {
+        "question": "On a rectangular billiard table with dimensions $3 \\, \\mathrm{m}$ by $2 \\, \\mathrm{m}$, where a ball starts at point $M$ located $1.2 \\, \\mathrm{m}$ from vertex $B$ along side $AB$ and is reflected once on each of the other three sides before returning to side $AB$, at what distance from vertex $A$ does the ball hit side $AB$ again?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_562_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 395
+    },
+    {
+        "question": "In the spiral diagram starting with the number 1, what is the directional arrangement of the numbers 625, 626, and 627 as they appear consecutively?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_564_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 397
+    },
+    {
+        "question": "If a kangaroo enters a building and only moves through rooms shaped like triangles, which exit would it use to leave the building?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_565_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 398
+    },
+    {
+        "question": "In each square of the maze there is a piece of cheese. Ronnie the mouse wants to enter and leave the maze as shown in the picture. He doesn't want to visit a square more than once, but would like to eat as much cheese as possible. What is the maximum number of pieces of cheese that he can eat?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_567_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 399
+    },
+    {
+        "question": "Which numbers does Zita encounter in the open sections of the path as she walks from left to right?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_566_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 400
+    },
+    {
+        "question": "A mouse wants to escape a labyrinth. On her way out she is only allowed to go through each opening once at most. How many different ways can the mouse choose to go to get outside?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_570_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 402
+    },
+    {
+        "question": "Starting at point S on the cycle path and following the direction of the arrow, turning right at the first crossing, left at the next, right again, and then left, which crossing is not reached?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_568_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 403
+    },
+    {
+        "question": "Eva starts at the main entrance of Kanga's house in room 1 and must navigate through the rooms, always moving to a room with a higher number until she leaves the house. Which door does Eva exit through?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_571_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 404
+    },
+    {
+        "question": "How many fish will have their heads pointing towards the ring when we straighten the line?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_573_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 405
+    },
+    {
+        "question": "What sequence of moves allows the bee to reach the flower by navigating through the grid, moving step by step to adjacent squares?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_574_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 406
+    },
+    {
+        "question": "If a laser beam enters the grid from the left at the position shown and reflects off each mirrored surface, which letter does it reach after following the complete path of reflection?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_575_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 407
+    },
+    {
+        "question": "Five cars numbered 1 to 5 are driving in a line as shown. If the last car overtakes two cars, followed by the new second-to-last car overtaking two cars, and then the middle car overtakes two cars, what is the final order of the cars?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_576_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 408
+    },
+    {
+        "question": "North of Straße A (street A) there are 7 houses. East of Straße B (street B) there are 8 houses. South of Straße A (street A) there are 5 houses. How many houses are there West of Straße B (street B)?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_579_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 409
+    },
+    {
+        "question": "Based on the diagram showing the movements of cars 1, 2, 3, and 4 over 5 seconds, which cars will collide given their trajectories?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_578_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 411
+    },
+    {
+        "question": "If a robot starts at cell A2 and moves forward in the direction of the arrow, turning right when blocked by a black cell or the table border, and stops when it cannot move forward or turn right, which cell will it stop in?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_581_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 412
+    },
+    {
+        "question": "Betty walked around the park once, starting from the marked point in the direction of the arrow. She took 4 pictures. In which order did she take the pictures?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_583_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 413
+    },
+    {
+        "question": "Nick can turn right but not left on his bicycle. What is the least number of right turns he must make in order to get from $A$ to $B$?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_585_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 415
+    },
+    {
+        "question": "For the game of Chess a new piece, the Kangaroo, has been invented. With each jump the kangaroo jumps either 3 squares vertically and 1 Horizontally, or 3 horizontally and 1 vertically, as pictured. What is the smallest number of jumps the kangaroo must make to move from its current position to position $\\mathrm{A}$ ?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_587_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 417
+    },
+    {
+        "question": "As seen in the diagram, three darts are thrown at nine fixed balloons. If a balloon is hit it will burst and the dart continues in the same direction it had beforehand. How many balloons will not be hit by a dart?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_589_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 419
+    },
+    {
+        "question": "Two little mice, one white and one dark, leave, at the same time, towards the cheese, through different paths, as indicated in the picture, in which the little squares are equal. The two arrive at the same time to the cheese. If the dark mouse runs 4.5 meters per second, how many meters per second does the white mouse run?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_591_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 420
+    },
+    {
+        "question": "In how many places in the picture are two children holding each other with their left hands?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_594_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 421
+    },
+    {
+        "question": "A navigator starting at Cang Island wants to pass through each island exactly once and finish at Uru Island. If he is currently at the black island in the center of the map, which direction should he travel next to complete his route?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_593_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 422
+    },
+    {
+        "question": "In the diagram, which buoys does Eva paddle around in an anti-clockwise direction as she follows the marked path with her boat?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_600_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 423
+    },
+    {
+        "question": "Following the path of the laser beam as it reflects off the two-sided mirrors shown in the image, at which labeled edge does the beam exit the grid?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_601_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 425
+    },
+    {
+        "question": "Given that the smallest square tile in the terrace has a perimeter of $80 \\mathrm{~cm}$, what is the total length of the snake laying along the edges of the tiles shown in the diagram?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_603_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 426
+    },
+    {
+        "question": "If a rabbit, a beaver, and a kangaroo start at the same position labelled 'Start' and hop forward in the same direction, with the rabbit moving 2 positions per jump, the beaver 1 position per jump, and the kangaroo 3 positions per jump, who reaches the position labelled 'Ziel' with the least number of jumps?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_604_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 427
+    },
+    {
+        "question": "Following the rules to traverse the labyrinth from 'Start' to 'Ziel', where Monika must pass through every white circle exactly once and avoid black circles, which direction should she move next upon reaching the circle marked with $x$?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_605_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 428
+    },
+    {
+        "question": "Max and Moritz have drawn a square $5 \\times 5$ and marked the centres of the small squares. Afterwards, they draw obstacles and then find out in how many ways it is possible to go from $A$ to $B$ using the shortest way avoiding the obstacles and going from centre to centre only vertically and horizontally. How many shortest paths are there from $A$ to $B$ under these conditions?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_607_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 429
+    },
+    {
+        "question": "How many pieces of string are there in the picture?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_608_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 430
+    },
+    {
+        "question": "Fridolin the hamster runs through the maze shown on the right. On the path there are 16 pumpkin seeds. He is only allowed to cross each junction once. What is the maximum number of pumpkin seeds that he can collect?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_609_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 431
+    },
+    {
+        "question": "A particle starts at the origin and moves 1 unit along the positive x-axis in the first minute, then alternates between moving 1 unit along the positive x-axis and 1 unit along the positive y-axis in subsequent minutes as shown in the figure. After exactly 2 hours, what will be its position?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_606_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 432
+    },
+    {
+        "question": "What is the maximum distance Anna can walk from point A to point B without using any path twice, given that each path in the park is 100 meters long?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_610_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 433
+    },
+    {
+        "question": "There are 10 kangaroos in a row, as seen in the picture. Two kangaroos, that are standing next to each other and can see each other are allowed to change places by hopping past each other. This is carried out until no more jumps are allowed. How often do two kangaroos swap places?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_612_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 434
+    },
+    {
+        "question": "Which area most accurately represents where Simon the squirrel can move if he stays within 5 meters of his tree trunk but avoids coming closer than 5 meters to the dog kennel?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_611_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 436
+    },
+    {
+        "question": "If a new tree is added to the park so that there is an equal number of trees on both sides of each path, which section should the tree be planted in?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_615_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 438
+    },
+    {
+        "question": "Several mice live in three houses. Last night every mouse left their house and moved directly to one of the other two houses. The diagram shows how many mice were in each house yesterday and today. How many mice used the path that is indicated with an arrow? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_617_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 439
+    },
+    {
+        "question": "Which two bumper cars will collide first if they move along their indicated trajectories for 5 seconds?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_616_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 440
+    },
+    {
+        "question": "If three wooden circles, each with an area of $b$, are arranged in a line as shown in the image, what is the total area enclosed by the shortest thread that can wrap around them completely without moving them?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_618_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 441
+    },
+    {
+        "question": "How many different ways can you follow from point $A$ to point $B$ if you you can go only down, right or down diagonally by the sides of small triangles?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_620_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 442
+    },
+    {
+        "question": "In the diagram one should go from A to B along the arrows. Along the way calculate the sum of the numbers that are stepped on. How many different results can be obtained?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_621_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 443
+    },
+    {
+        "question": "In the diagram shown, you should follow the arrows to get from A to B. How many different ways are there that fulfill this condition?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_623_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 444
+    },
+    {
+        "question": "A bee called Maja wants to hike from honeycomb $X$ to honeycomb $Y$. She can only move from one honeycomb to the neighbouring honeycomb if they share an edge. How many, different ways are there for Maja to go from $X$ to $Y$ if she has to step onto every one of the seven honeycombs exactly once?\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_624_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 445
+    },
+    {
+        "question": "How many different ways are there to read the word BANANA in the following table if we can only cross to a field that shares an edge with the current field and we can use fields several times? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_625_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 446
+    },
+    {
+        "question": "What is the shortest distance from 'Start' to 'Ziel' in the diagram if you are allowed to traverse only along the edges and diagonals of the squares, given that each small square has side lengths of 1?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_622_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 447
+    },
+    {
+        "question": "Max and Moritz have drawn out a $5 \\times 5$ grid on the playground, together with three obstacles. They want to walk from $P$ to $Q$ using the shortest route, avoiding the obstacles and always crossing a common edge to go from the centre of one square to the centre of the next. How many such shortest paths are there from $P$ to $Q$ ? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_627_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 448
+    },
+    {
+        "question": "If the robot in the diagram moves forward as programmed and turns right upon encountering a wall, what will its eventual movement pattern be?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_628_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 450
+    },
+    {
+        "question": "In the $6 \\times 8$ grid shown, 24 cells are not intersected by either diagonal. When the diagonals of a $6 \\times 10$ grid are drawn, how many cells are not intersected by either diagonal? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_631_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 452
+    },
+    {
+        "question": "What is the maximum distance Ann can travel from X to Y in the park without repeating any path, given that each of the nine paths is 100 meters long?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_629_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 454
+    },
+    {
+        "question": "Some mice live in three neighbouring houses. Last night, every mouse left its house and moved to one of the other two houses, always taking the shortest route. The numbers in the diagram show the number of mice per house, yesterday and today. How many mice used the path at the bottom of the diagram? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_634_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 455
+    },
+    {
+        "question": "What is the total length of the route that starts at C, passes through F, G, and H, and returns to C, given that the combined lengths of routes 1 and 2 equal the combined lengths of routes 3 and 4?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_635_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 457
+    },
+    {
+        "question": "What is the total distance Adam Ant walks along the marked path from P to Q, considering the dimensions of the smallest squares and the larger squares visible in the diagram?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_636_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 458
+    },
+    {
+        "question": "Which resident lives on the street that intersects with other streets more than once, considering three streets are straight and one is curved?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_638_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 459
+    },
+    {
+        "question": "How many different paths are there between points $P$ and $Q$, only travelling along the edges in the direction of the arrows shown? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_639_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 460
+    },
+    {
+        "question": "What is the shortest path length from 'Start' to 'Finish' in the grid, if movement is allowed along the edges or diagonals of the squares?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_640_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 461
+    },
+    {
+        "question": "A ladybird aims to travel from hexagon $\\mathrm{X}$ to hexagon $\\mathrm{Y}$, passing through each of the seven unshaded hexagons once and only once. She can move from one hexagon to another only through a common edge. How many different routes could she take? <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_642_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 462
+    },
+    {
+        "question": "In how many different ways can the word BANANA be read from the following table by moving from one cell to another cell with which it shares an edge? Cells may be visited more than once. <image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_643_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 463
+    },
+    {
+        "question": "A beam of light strikes $\\overline{BC}$ at point $C$ with angle of incidence $\\alpha=19.94^\\circ$ and reflects with an equal angle of reflection as shown.  The light beam continues its path, reflecting off line segments $\\overline{AB}$ and $\\overline{BC}$ according to the rule: angle of incidence equals angle of reflection.  Given that $\\beta=\\alpha/10=1.994^\\circ$ and $AB=AC,$ determine the number of times the light beam will bounce off the two line segments.  Include the first reflection at $C$ in your count.\n\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_644_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 464
+    },
+    {
+        "question": "The $8$ eyelets for the lace of a sneaker all lie on a rectangle, four equally spaced on each of the longer sides. The rectangle has a width of $50$ mm and a length of $80$ mm. There is one eyelet at each vertex of the rectangle. The lace itself must pass between the vertex eyelets along a width side of the rectangle and then crisscross between successive eyelets until it reaches the two eyelets at the other width side of the rectrangle as shown. After passing through these final eyelets, each of the ends of the lace must extend at least $200$ mm farther to allow a knot to be tied. Find the minimum length of the lace in millimeters.\n\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_645_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 465
+    },
+    {
+        "question": "A bug travels from $A$ to $B$ along the segments in the hexagonal lattice pictured below. The segments marked with an arrow can be traveled only in the direction of the arrow, and the bug never travels the same segment more than once. How many different paths are there?\n\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_647_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 467
+    },
+    {
+        "question": "An ant starts at the vertex labelled Start in a network of 16 vertices and 24 edges, moving to a neighbouring vertex every minute. After 2019 minutes, which vertex labelled $P$, $Q$, $R$, $S$, or $T$ can the ant be on if it can only end on vertices labelled 1 in the given alternating 0/1 vertex labelling?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_641_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 468
+    },
+    {
+        "question": "A circular disk with a radius of $10$ cm is externally tangent to the circular face of a clock with a radius of $20$ cm at $12$ o'clock. The disk, with an arrow initially pointing upward, rolls clockwise around the clock face without slipping. At which position on the clock face is the disk tangent when the arrow again points upward?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_648_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 469
+    },
+    {
+        "question": "If a particle starts at the origin and follows the given back-and-forth path between the positive x and y axes, moving one unit along an axis per minute, where will it be located after exactly 1989 minutes?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_650_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 471
+    },
+    {
+        "question": "<image_1>\n\nUsing only the paths and the directions shown, how many different routes are there from $ M$ to $ N$?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_652_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 472
+    },
+    {
+        "question": "What is the shortest distance in inches that a bug must crawl along the lateral surface of a frustum-shaped lampshade to reach a glob of honey located at the farthest point on the top edge, given the frustum has a height of $3\\sqrt{3}$ inches, a top diameter of 6 inches, and a bottom diameter of 12 inches?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_651_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 473
+    },
+    {
+        "question": "If Jane walks twice as fast as Hector and they set off from the same point in opposite directions around the perimeter of an 18-block rectangular area, at which corner will they be closest to each other when they meet for the first time?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_653_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 474
+    },
+    {
+        "question": "In the given pattern where the cat moves clockwise through the four squares and the mouse moves counterclockwise through the eight exterior segments of the squares, what will be the positions of both the cat and the mouse after 247 moves?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_654_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 475
+    },
+    {
+        "question": "Which graph represents the ship’s changing distance from Island X as it first travels along a semicircular path from point A to point B and then moves in a straight line from point B to point C?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_655_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 476
+    },
+    {
+        "question": "If Tess runs counterclockwise around a rectangular block starting at corner J, with her distance measured as a straight line from corner J, which graph represents the change in her distance over time?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_656_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 477
+    },
+    {
+        "question": "In the arrangement of letters and numerals below, by how many different paths can one spell AMC8? Beginning at the A in the middle, a path allows only moves from one letter to an adjacent (above, below, left, or right, but not diagonal) letter. One example of such a path is traced in the picture.\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_658_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 478
+    },
+    {
+        "question": "A drunkard is randomly walking through a city when he stumbles upon a $2 \\times 2$ sliding tile puzzle. The puzzle consists of a $2 \\times 2$ grid filled with a blank square, as well as $3$ square tiles, labeled $1$, $2$, and $3$. During each turn you may fill the empty square by sliding one of the adjacent tiles into it. The following image shows the puzzle's correct state, as well as two possible moves you can make. Assuming that the puzzle is initially in an incorrect (but solvable) state, and that the drunkard will make completely random moves to try and solve it, how many moves is he expected to make before he restores the puzzle to its correct state?\\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_662_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 482
+    },
+    {
+        "question": "In chess, a knight can move by jumping to any square whose center is $\\sqrt{5}$ units away from the center of the square that it is currently on. For example, a knight on the square marked by the horse in the diagram below can move to any of the squares marked with an “X” and to no other squares. How many ways can a knight on the square marked by the horse in the diagram move to the square with a circle in exactly four moves?\\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_663_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 483
+    },
+    {
+        "question": "Teddy works at Please Forget Meat, a contemporary vegetarian pizza chain in the city of Gridtown, as a deliveryman. Please Forget Meat (PFM) has two convenient locations, marked with “$X$” and “$Y$ ” on the street map of Gridtown shown below. Teddy, who is currently at $X$, needs to deliver an eggplant pizza to $\\nabla$ en route to $Y$ , where he is urgently needed. There is currently construction taking place at $A$, $B$, and $C$, so those three intersections will be completely impassable. How many ways can Teddy get from $X$ to $Y$ while staying on the roads (Traffic tickets are expensive!), not taking paths that are longer than necessary (Gas is expensive!), and that let him pass through $\\nabla$ (Losing a job is expensive!)?\\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_664_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 484
+    },
+    {
+        "question": "An ant is standing at the bottom left corner of a $3$ by $3$ grid. How many ways can it get to the top right corner if it can only move up, right, and left, and it is not allowed to cross the same edge twice?\\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_665_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 485
+    },
+    {
+        "question": "In the diagram below, how many distinct paths are there from January 1 to December 31, moving from one adjacent dot to the next either to the right, down, or diagonally down to the right?\\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_667_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 487
+    },
+    {
+        "question": "Sam spends his days walking around the following $2\\times 2$ grid of squares. Say that two squares are adjacent if they share a side. He starts at the square labeled $1$ and every second walks to an adjacent square. How many paths can Sam take so that the sum of the numbers on every square he visits in his path is equal to $20$ (not counting the square he started on)?\\n<image_1>",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_668_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 488
+    },
+    {
+        "question": "An aardvark runs along two concentric circular paths with radii 10 meters and 20 meters, starting at point A on the outer circle, completing one full revolution, then entering the inner circle to complete one full revolution, and finally stopping at point K. What is the total distance the aardvark runs in meters?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_657_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 490
+    },
+    {
+        "question": "<image_1>\nFind the missing value.",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_796_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 561
+    },
+    {
+        "question": "<image_1>\nFind the value of the square in the figure.",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_797_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 562
+    },
+    {
+        "question": "<image_1>\nCan you find the missing term?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_799_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 563
+    },
+    {
+        "question": "<image_1>\nHow many Triangles do you see in the picture?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_806_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 565
+    },
+    {
+        "question": "What is the missing number in the triangle where the sum of the three sides equals the circled number?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_810_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 566
+    },
+    {
+        "question": "<image_1>\nCalculate the missing item.",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_812_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 567
+    },
+    {
+        "question": "Which pair of puzzle pieces can be combined to form the larger square shown in the image?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_813_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 568
+    },
+    {
+        "question": "What is the new location of the point (8, -2) after a clockwise rotation of 270° about the origin?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_814_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 570
+    },
+    {
+        "question": "Which shape completes the sequence where each row alternates between circular and angular patterns, and the missing shape aligns with the angular pattern in the last row?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_819_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 574
+    },
+    {
+        "question": "Which matchstick should be repositioned to form a square using the existing arrangement shown in the image?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_821_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 575
+    },
+    {
+        "question": "<image_1>\nWhich number is missing?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_822_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 576
+    },
+    {
+        "question": "<image_1>\nWhich number is missing?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_824_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 577
+    },
+    {
+        "question": "<image_1>\nWhich number comes next?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_825_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 578
+    },
+    {
+        "question": "<image_1>\nWhich is the next number in the series?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_827_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 580
+    },
+    {
+        "question": "Which three letters, when placed in the red-marked positions of the grid, complete a meaningful word using all the given letters in the grid?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_828_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 581
+    },
+    {
+        "question": "Based on the pattern of shapes and their arrangement in the sequence, which hexagon should follow next?",
+        "image_path": "annotation/dataset/data/emma/math/images/Math_878_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/math/data.json",
+        "source_index": 582
+    }
+]

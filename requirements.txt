@@ -1,0 +1,16 @@
+google-genai
+openai
+matplotlib>=3.8,<3.9
+tabulate
+numpy<2.0
+tqdm
+rich
+dashscope
+opencv-python-headless>=4.8.0,<4.10.0
+fastapi
+uvicorn
+pydantic
+python-multipart
+transformers
+accelerate
+pillow>=9.5.10,<10.2.0

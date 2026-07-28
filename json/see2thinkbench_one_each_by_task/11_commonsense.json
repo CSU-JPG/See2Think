@@ -1,0 +1,10 @@
+[
+  {
+    "order": 0,
+    "category": "真实场景",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 0
+  }
+]

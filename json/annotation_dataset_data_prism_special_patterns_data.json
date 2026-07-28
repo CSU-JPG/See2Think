@@ -1,0 +1,116 @@
+[
+    {
+        "question": "Among the four figures below, only one is composed of the four figures above (can only be assembled by moving up, down, left, or right). Please identify it.",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0017.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 6
+    },
+    {
+        "question": "The four figures in the following options that can be pieced together to form the square shown below are:",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0004.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 7
+    },
+    {
+        "question": "Among the four figures below, only one is pieced together from the four figures above (only via up, down, left, or right shifts). Please identify it.",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0027.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 10
+    },
+    {
+        "question": "The most suitable option to fill in the blank in the figure, so that the entire figure presents a consistent pattern is:",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0029.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 17
+    },
+    {
+        "question": "Among the four figures below, only one is composed of the four figures above (can only be assembled by moving them up, down, left, or right). Please find it out.",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0031.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 22
+    },
+    {
+        "question": "Among the four images below, only one is composed of the four images above (can only be rearranged by moving up, down, left, or right). Please identify it.",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0040.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 25
+    },
+    {
+        "question": "Without rotation, the options that can form the given trapezoid are:",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0030.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 27
+    },
+    {
+        "question": "As shown in the picture, four identical isosceles right triangles cannot form the shape (     ).",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0066.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 51
+    },
+    {
+        "question": "Divide the following six figures into two categories, so that each type of figure has its own common characteristics or rules. The correct classification is:",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0081.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 61
+    },
+    {
+        "question": "The option that best fits the given pattern in the figure is (     ).",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0090.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 64
+    },
+    {
+        "question": "The shape that can be assembled from the three figures shown in the picture is (   ).",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0097.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 71
+    },
+    {
+        "question": "Choose the most appropriate one from the four given options to fill in the question mark, so as to present a certain pattern:",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0099.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 74
+    },
+    {
+        "question": "Above are four paper pieces, each piece has one side in black and the other in white. Below, only one item can be assembled from these pieces (which can be moved, rotated, and flipped). Please find it out.",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0072.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 75
+    },
+    {
+        "question": "The figure on the left is composed of the (     ) item(s) from the figure on the right.",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0100.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 77
+    },
+    {
+        "question": "Choose the most appropriate option from the four given to fill in the question mark so that a certain pattern is presented:",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0121.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 91
+    },
+    {
+        "question": "Among the four options in the figures, only one is made up by piecing together the four figures from the question stem (only by moving up, down, left, or right). Please identify it.",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0133.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 99
+    },
+    {
+        "question": "The figure on the left is composed of four parts. Different combinations of these parts can form new figures on a plane. Among the following options, identify the one that is not made up of these four parts.",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0135.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 105
+    },
+    {
+        "question": "Among the four options of shapes provided, only one is made up by assembling the four shapes from the question stem (can only be achieved by moving them up, down, left, or right). Please identify it.",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0141.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 113
+    },
+    {
+        "question": "Among the four shapes on the right, only one is made up by combining the four shapes on the left (only through up, down, left, and right translations). Please identify it.",
+        "image_path": "annotation/dataset/data/prism/special_patterns/images/special_0187.png",
+        "source_dataset": "annotation/dataset/data/prism/special_patterns/data.json",
+        "source_index": 141
+    }
+]

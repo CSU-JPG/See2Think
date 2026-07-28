@@ -1,0 +1,26 @@
+[
+    {
+        "question": "From the four options provided, choose the most appropriate one to fill in the question mark, so as to present a certain pattern:",
+        "image_path": "annotation/dataset/data/prism/shape_reasoning_others/images/shape_0006.png",
+        "source_dataset": "annotation/dataset/data/prism/shape_reasoning_others/data.json",
+        "source_index": 3
+    },
+    {
+        "question": "Please choose the most appropriate option from the four given to fill in the question mark, so as to present a certain regularity.",
+        "image_path": "annotation/dataset/data/prism/shape_reasoning_others/images/shape_0010.png",
+        "source_dataset": "annotation/dataset/data/prism/shape_reasoning_others/data.json",
+        "source_index": 7
+    },
+    {
+        "question": "After a square rotates 360°, the shape that cannot be formed by its rotation trajectory is ( ).",
+        "image_path": "annotation/dataset/data/prism/shape_reasoning_others/images/shape_0011.png",
+        "source_dataset": "annotation/dataset/data/prism/shape_reasoning_others/data.json",
+        "source_index": 18
+    },
+    {
+        "question": "According to the change patterns of (1) and (2), (3) corresponds to Figure ( ).",
+        "image_path": "annotation/dataset/data/prism/shape_reasoning_others/images/shape_0014.png",
+        "source_dataset": "annotation/dataset/data/prism/shape_reasoning_others/data.json",
+        "source_index": 19
+    }
+]

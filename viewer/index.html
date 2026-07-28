@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>See2Think Trajectory Viewer</title>
+    <link rel="stylesheet" href="./styles.css?v=four-way-human-validation" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>See2Think Trajectory Viewer</h1>
+        <p>Inspect prompts, images, intermediate visual actions, generated renders, process judge scores, and answer accuracy.</p>
+      </div>
+      <div class="status" id="loadStatus">Loading data...</div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar">
+        <div class="filters">
+          <label>
+            Search
+            <input id="searchInput" type="search" placeholder="order, source, task, id..." />
+          </label>
+          <label>
+            Task family
+            <select id="familySelect"></select>
+          </label>
+          <label>
+            Answer status
+            <select id="answerSelect">
+              <option value="all">All</option>
+              <option value="any_correct">Any model correct</option>
+              <option value="all_wrong">All models wrong</option>
+              <option value="mixed">Mixed correct/wrong</option>
+            </select>
+          </label>
+          <label>
+            Candidate set
+            <select id="candidateSelect"></select>
+          </label>
+        </div>
+        <div class="listMeta" id="listMeta"></div>
+        <div class="taskList" id="taskList"></div>
+      </aside>
+
+      <section class="content">
+        <section class="taskHeader" id="taskHeader">
+          <div class="empty">Select a task from the left.</div>
+        </section>
+
+        <section class="summaryPanel" id="summaryPanel">
+          <div class="empty">Loading summary...</div>
+        </section>
+
+        <section class="taskBody">
+          <div class="questionPanel">
+            <div class="panelTitle">Prompt And Source</div>
+            <div id="questionText" class="questionText"></div>
+            <div class="sourceGrid" id="sourceGrid"></div>
+          </div>
+          <div class="imagePanel">
+            <div class="panelTitle">Original Image</div>
+            <div id="originalImageWrap" class="originalImageWrap"></div>
+          </div>
+        </section>
+
+        <section class="modelControls">
+          <div class="panelTitle">Settings</div>
+          <div id="settingToggles" class="modelToggles"></div>
+          <div class="panelTitle subTitle">Models</div>
+          <div id="modelToggles" class="modelToggles"></div>
+        </section>
+
+        <section id="modelPanels" class="modelPanels"></section>
+      </section>
+    </main>
+
+    <div class="modal" id="imageModal" hidden>
+      <button id="closeModal" class="modalClose" type="button">Close</button>
+      <img id="modalImage" alt="Expanded render" />
+    </div>
+
+    <script src="./app.js?v=yzrcheck-missing-13"></script>
+  </body>
+</html>

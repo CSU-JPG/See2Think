@@ -1,0 +1,530 @@
+[
+    {
+        "question": "What is the ring type of structure (a) in the given disaccharide, and what type of glycosidic linkage does it have?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_106_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 0
+    },
+    {
+        "question": "Under ambient conditions, how many gaseous products are formed after the complete hydrolysis of XeF6 followed by its slow disproportionation in OH⁻/H2O?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_113_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 2
+    },
+    {
+        "question": "What are the particles X, Y, and Z produced in the artificial disintegration of aluminum-27 when bombarded by alpha particles, as shown in the reactions (i) and (ii)?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_118_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 3
+    },
+    {
+        "question": "Based on the functional groups and their positions in the given compounds I, II, III, and IV, what is the correct order of acidity among them?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_120_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 4
+    },
+    {
+        "question": "Given a cubic close packing (ccp) arrangement of X in the unit cell structure shown, what is the empirical formula of the compound formed by M and X?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_122_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 5
+    },
+    {
+        "question": "How many aldol reactions occur in the transformation of one molecule of CH3CHO and four molecules of HCHO into the final product shown?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_124_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 6
+    },
+    {
+        "question": "Based on the provided graphs of surface tension versus molar concentration, which solution corresponds to CH$_3$OH, KCl, and CH$_3$(CH$_2$)$_{11}$OSO$_3^-$Na$^+$, respectively?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_126_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 7
+    },
+    {
+        "question": "When KI reacts with the compounds P, Q, R, and S in acetone via an S_N2 mechanism, which compound exhibits the fastest reaction rate and what is the decreasing order of the reaction rates for all compounds?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_130_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 8
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_165_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 28
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_200_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 63
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_251_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 114
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_252_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 115
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_274_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 136
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_277_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 139
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_294_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 157
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_297_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 160
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_299_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 163
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_317_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 179
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_343_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 205
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_363_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 226
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_385_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 248
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_416_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 279
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_467_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 330
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_468_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 331
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_478_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 343
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_512_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 375
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_518_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 381
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_540_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 406
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_545_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 407
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_568_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 431
+    },
+    {
+        "question": "<image_1> In the transition-state structure shown in the image, calculate the total number of bonds in the structure, including single, double, and triple bonds but excluding those involving hydrogen.\n\nNote: Disregard arrows. Consider all components present in the transition-state structure shown in the image.",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_572_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 436
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the arrows and considering the chemical bonding and charged atoms?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_617_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 480
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the arrows and considering the molecular connectivity?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_621_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 484
+    },
+    {
+        "question": "What is the SMILES notation for the transition-state structure depicted in the image, excluding any directional arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_640_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 502
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the reaction arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_641_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 503
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding any arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_648_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 511
+    },
+    {
+        "question": "What is the SMILES expression of the transition-state structure depicted in the image, excluding the arrows and considering the placement of charged atoms and functional groups?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_649_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 512
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding any arrows or annotations?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_655_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 519
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the arrows and considering the arrangement of bonds, functional groups, and atoms?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_681_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 545
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the reaction arrows and considering the connectivity of atoms within the molecule?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_685_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 548
+    },
+    {
+        "question": "What is the SMILES expression for the transition-state structure depicted in the image, considering the deprotonation of the hydroxyl group and ignoring reaction arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_692_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 554
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, considering the connectivity of atoms and ignoring the arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_706_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 569
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the reaction arrows and considering the stereochemistry of the double bonds?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_728_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 591
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding any arrows and considering the placement of the hydroxyl group and the positively charged nitrogen?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_733_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 596
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image without considering the arrows, including the bonding arrangement around the silicon atom?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_738_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 600
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, considering the bromine atoms and the positively charged phosphorus group but excluding the arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_744_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 607
+    },
+    {
+        "question": "What is the SMILES expression for the transition-state structure depicted in the image, considering the elements and connectivity shown but ignoring the arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_756_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 619
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the arrows and considering the charged sulfur and phosphorus atoms?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_757_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 620
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure shown in the image, excluding the arrows and considering the bonding and charge distribution in the cyclic phosphate group?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_758_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 621
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the arrows and considering the lead acetate and bicyclic backbone components?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_760_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 623
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, considering the arrangement of atoms, charges, and bonds?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_761_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 624
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, considering only the molecular connectivity and ignoring any arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_762_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 625
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, considering the charge separation and bond changes shown?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_763_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 626
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding directional arrows and considering the functional groups present?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_772_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 635
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, considering only the molecular components and ignoring the reaction arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_780_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 643
+    },
+    {
+        "question": "What is the SMILES expression representing the transition-state structure depicted in the image, considering the arrangement of the amine group and the positively charged oxygen without the arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_790_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 653
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the arrows and considering the connectivity of atoms and functional groups?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_794_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 657
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure shown in the image, considering the positively charged oxygen and ignoring the arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_800_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 663
+    },
+    {
+        "question": "What is the SMILES expression corresponding to the transition-state structure depicted in the image, excluding any arrow annotations?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_803_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 666
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the arrows and considering the stereochemistry and functional groups?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_824_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 687
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the arrows and considering the molecular connectivity?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_848_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 711
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the directional arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_861_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 724
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the arrows and considering the stereochemistry of the molecule?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_867_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 730
+    },
+    {
+        "question": "What is the SMILES expression of the transition-state structure depicted in the image, considering the stereochemistry of the hydroxyl group and the carbonyl group, and ignoring the reaction arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_869_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 732
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, where the chlorine atom is bonded to a tertiary carbon and the structure includes an ester group and a nitrogen atom with a lone pair?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_870_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 733
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the reaction arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_900_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 763
+    },
+    {
+        "question": "What is the SMILES expression for the transition-state structure depicted in the image, excluding any arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_949_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 812
+    },
+    {
+        "question": "What is the SMILES notation for the transition-state structure depicted in the image, which includes a positively charged nitrogen atom bonded to a triple bond and a carbon atom with two methyl groups?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_969_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 832
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the arrows and considering the connectivity of the functional groups and charged species?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_979_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 842
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, considering the connectivity of atoms and ignoring the reaction arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1007_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 870
+    },
+    {
+        "question": "What is the SMILES expression for the transition-state structure depicted in the image, considering the silicon atom bonded to three R groups and an oxygen atom connected to a cyclohexane ring with a positively charged hydroxyl group?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1014_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 877
+    },
+    {
+        "question": "What is the SMILES representation of the transition-state structure depicted in the image, excluding the arrows and considering the stereochemistry?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1022_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 885
+    },
+    {
+        "question": "What is the SMILES expression for the transition-state structure depicted in the image, excluding the arrows and considering the bonding and charge distribution?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1025_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 888
+    },
+    {
+        "question": "What is the SMILES expression representing the transition-state structure depicted in the image, excluding any directional arrows?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1037_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 900
+    },
+    {
+        "question": "What is the SMILES expression for the resulting molecular state after the electron flow depicted in the arrow-pushing diagram has occurred?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1060_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 922
+    },
+    {
+        "question": "What is the SMILES representation of the molecule formed after the electron relocation shown in the arrow-pushing diagram?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1065_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 929
+    },
+    {
+        "question": "What is the SMILES representation of the molecule resulting from the electron relocation shown in the given arrow-pushing diagram?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1088_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 951
+    },
+    {
+        "question": "What is the SMILES representation of the molecule resulting from the electron flow depicted in the provided arrow-pushing diagram?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1096_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 959
+    },
+    {
+        "question": "What is the SMILES representation of the molecule formed after the electron flow depicted in the arrow-pushing diagram?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1111_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 974
+    },
+    {
+        "question": "What is the resulting SMILES expression for the molecule after the electron relocation described in the mechanistic arrow-pushing diagram?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1117_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 980
+    },
+    {
+        "question": "What is the SMILES representation of the molecules resulting from the electron relocation depicted in the provided chemical mechanism diagram?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1120_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 983
+    },
+    {
+        "question": "What is the SMILES representation of the molecule resulting after the electron relocation shown in the arrow-pushing diagram in the image?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1135_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 999
+    },
+    {
+        "question": "What is the resulting SMILES expression for the molecules after the electron relocation shown in the arrow-pushing diagram of the given chemical image?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1137_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 1000
+    },
+    {
+        "question": "After the electron flow illustrated in the arrow-pushing diagram, what is the SMILES representation of the resulting molecule?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1153_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 1017
+    },
+    {
+        "question": "Name the following substances, including the cis- or trans- prefix: <image_1>",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1157_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 1019
+    },
+    {
+        "question": "Considering the number of chiral centers in the given compound and their possible configurations, what is the maximum number of stereoisomers that can exist for this molecule?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1160_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 1022
+    },
+    {
+        "question": "Which points on the graph indicate conditions where the pressure and temperature correspond to the phase transition between solid and liquid states?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1159_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 1023
+    },
+    {
+        "question": "What type of titration involves the addition of a substance that produces a pH curve starting at a low value, with a steep increase around the equivalence point near pH 7, and a final pH above 12?",
+        "image_path": "annotation/dataset/data/emma/chemistry/images/chem_1162_1.jpg",
+        "source_dataset": "annotation/dataset/data/emma/chemistry/data.json",
+        "source_index": 1025
+    }
+]

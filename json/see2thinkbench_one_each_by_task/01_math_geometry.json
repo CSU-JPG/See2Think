@@ -1,0 +1,10 @@
+[
+  {
+    "order": 0,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 0
+  }
+]

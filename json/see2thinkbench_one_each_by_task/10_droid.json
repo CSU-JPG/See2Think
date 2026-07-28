@@ -1,0 +1,10 @@
+[
+  {
+    "order": 0,
+    "category": "真实场景",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 0
+  }
+]

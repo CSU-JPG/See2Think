@@ -1,0 +1,79 @@
+# Python / runtime caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.log
+*.err.log
+*.bak
+*.bak_*
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets and machine-specific config
+config.sh
+config.local.sh
+*.env
+.env
+.env.*
+!.env.example
+
+# Local agent/editor state
+.agents/
+.codex/
+.vscode/
+.idea/
+
+# Large benchmark data, run outputs, and generated artifacts
+annotation/dataset/
+newtasks/
+newtasks_archive/
+newtasks_reused/
+final_results/
+final_results_1200/
+outputs/
+exports/
+deliverables/
+audits/
+yzrcheck/
+logs/
+newlogs/
+neweval/results/
+archive/
+tmp_eval_check/
+tmp_qwen3vl_bench/
+
+# Generated task queues and retry lists
+json/run_tasks_*/
+json/rerun_failed_*/
+
+# Papers and binary outputs
+*.pdf
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+*.mov
+
+# Keep small source assets if explicitly force-added later.
+!assets/katex/**/*.css
+!assets/katex/**/*.js
+
+# Accidental local scratch directory
+-Force/
+
+# Local notes/reference files not intended for the public repository
+参考README.md
+QWEN8B_EXPERIMENT_HANDOFF.md
+QWEN_RUN_README.md

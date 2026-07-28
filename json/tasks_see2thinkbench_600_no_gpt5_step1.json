@@ -1,0 +1,4802 @@
+[
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 0,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 1,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 2,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 3,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 4,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 5,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 6,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 7,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 8,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 9,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 10,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 11,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 12,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 13,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 14,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 15,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 16,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 17,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 18,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 19,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 20,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 21,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 22,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 23,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 24,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 25,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 26,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 27,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 28,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 29,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 30,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 31,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 32,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 33,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 34,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 35,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 37,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 39,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 51,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 52,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 53,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 54,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 55,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 56,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 57,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 58,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 59,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 60,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 61,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 62,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "relative_source_dir": "math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 0,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 1,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 2,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 3,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 4,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 5,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 6,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 7,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 8,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 9,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 10,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 11,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 12,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 13,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 14,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 15,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 16,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 17,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 18,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 19,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 20,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 21,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 22,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 23,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 24,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 25,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 26,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 27,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 28,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 29,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 30,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 31,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 32,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 33,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 34,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 35,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 36,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 37,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 38,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 39,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 40,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 41,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 42,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 43,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 44,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 45,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 46,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 47,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 48,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 49,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "relative_source_dir": "emma/math"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 6,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 12,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 32,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 1,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 4,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 7,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 13,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 14,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 17,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 19,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 21,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 41,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 3,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 9,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 10,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 22,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 24,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 25,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 28,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 30,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 34,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 39,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 40,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 5,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 15,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 20,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 36,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 11,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 23,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 37,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 42,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 51,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 59,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 60,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 61,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 69,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 72,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 44,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 45,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 46,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 47,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 50,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 53,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 66,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 55,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 64,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 65,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 67,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 73,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 57,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "relative_source_dir": "emma/physics"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 0,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 3,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 5,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 6,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 4,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 7,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 8,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 28,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 157,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 205,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 343,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 406,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 2,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 114,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 136,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 139,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 160,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 163,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 179,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 226,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 248,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 279,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 331,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 375,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 407,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 431,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 63,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 115,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 330,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 381,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 502,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 519,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 554,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 596,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 623,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 436,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 480,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 484,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 503,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 511,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 545,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 548,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 569,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 591,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 600,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 607,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 619,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 620,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 621,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 512,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "relative_source_dir": "emma/chemistry"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 29,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 31,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 34,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 37,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 62,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 7,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 26,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 38,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 40,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 42,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 46,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 57,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 104,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 0,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 2,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 4,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 5,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 8,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 10,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 12,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 41,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 44,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 52,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 67,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 69,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 79,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 81,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 83,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 87,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 89,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 97,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 100,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 6,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 14,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 24,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 68,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 73,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 75,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 76,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 77,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 78,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 85,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 90,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 92,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 93,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 95,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 98,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 99,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 102,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 105,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test1"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 5,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 19,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 20,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 22,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 28,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 3,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 4,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 7,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 10,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 12,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 16,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 17,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 21,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 23,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 25,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 29,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 0,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 1,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 2,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 6,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 8,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 9,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 11,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 13,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 14,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 15,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 18,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 26,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 24,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 27,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 32,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 34,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 35,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 38,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 46,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 47,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 30,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 31,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 33,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 36,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 37,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 40,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 41,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 42,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 48,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 49,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 39,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 43,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 44,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 45,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "relative_source_dir": "prism"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 14,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 53,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 328,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 499,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 282,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 478,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 554,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 8,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 25,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 66,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 73,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 87,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 223,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 337,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 362,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 448,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 483,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 510,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 52,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 91,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 100,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 114,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 124,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 140,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 169,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 177,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 212,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 257,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 294,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 330,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 344,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 377,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 378,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 382,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 388,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 501,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 524,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 23,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 29,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 32,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 76,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 97,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 165,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 194,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 232,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 247,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 268,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 302,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 396,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 544,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "relative_source_dir": "clevr_math/val"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 2,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 10,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 18,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 19,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 29,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 1,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 3,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 5,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 9,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 16,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 17,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 20,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 21,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 22,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 24,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 0,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 4,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 6,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 7,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 12,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 13,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 14,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 15,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 23,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 25,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 26,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 27,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 28,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 42,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 8,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 11,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 34,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 36,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 39,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 41,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 32,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 35,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 37,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 46,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 48,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 49,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 30,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 33,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 40,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 43,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 44,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 45,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 31,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 38,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 47,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "relative_source_dir": "super_clevr"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 10,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 3,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 6,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 7,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 12,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 13,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 16,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 21,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 26,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 29,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 0,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 1,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 2,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 4,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 5,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 15,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 17,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 18,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 19,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 22,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 23,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 25,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 27,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 8,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 9,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 11,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 20,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 24,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 14,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 28,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 33,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 39,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 40,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 41,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 42,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 47,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 31,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 34,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 35,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 36,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 37,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 38,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 43,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 49,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 30,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 32,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 44,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 45,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 46,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 48,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "relative_source_dir": "VLABench"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 29,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 0,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 3,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 13,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 14,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 23,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 24,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 27,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 28,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 1,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 2,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 4,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 8,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 10,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 11,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 15,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 16,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 17,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 18,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 20,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 21,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 22,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 25,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 26,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 5,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 6,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 7,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 9,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 12,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 19,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 34,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 33,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 43,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 44,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 45,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 46,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 47,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 30,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 31,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 32,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 36,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 37,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 38,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 41,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 42,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 48,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 49,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 35,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 39,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 40,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "relative_source_dir": "droid"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 25,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 24,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 27,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 41,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 45,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 21,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 28,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 30,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 34,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 35,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 38,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 43,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 47,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 11,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 14,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 15,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 17,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 23,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 29,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 31,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 32,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 37,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 44,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 46,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 49,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 2,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 13,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 18,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 20,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 22,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 26,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 40,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 48,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 0,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 1,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 3,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 4,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 5,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 6,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 7,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 8,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 10,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 12,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 16,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 19,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 33,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 36,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 39,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 42,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 9,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "relative_source_dir": "m3cot/test0"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 2,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 16,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 22,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 24,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 0,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 1,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 3,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 4,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 8,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 10,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 11,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 12,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 17,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 19,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 20,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 21,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 25,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 26,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 27,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 28,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 7,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 9,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 13,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 15,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 18,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 23,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 29,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 5,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 6,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 14,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 31,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 42,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 49,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 32,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 33,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 39,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 40,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 46,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 47,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 30,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 34,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 35,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 37,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 38,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 41,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 43,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 44,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 45,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 48,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  },
+  {
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 36,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "relative_source_dir": "intphy2"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "order": 0,
+    "category": "真实场景",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 0
+  }
+]

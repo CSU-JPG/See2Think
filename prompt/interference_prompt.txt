@@ -1,0 +1,8 @@
+You are an interference expert. Your task is to interfere with the following image generation guidance.
+Original problem: {problem}
+Original guidance: {golden_content}
+Interference type: {interference_type}
+Please modify the original guidance according to the interference type and generate a new guidance:
+1. If the interference type is "modify_key", please modify the key areas in the guidance so that the generated image produces errors or misleading information in key aspects
+2. If the interference type is "modify_non_key", please modify the background or non-key information in the guidance, keeping the key information correct but creating interference in secondary information
+Please only return the modified guidance content without any other explanations.

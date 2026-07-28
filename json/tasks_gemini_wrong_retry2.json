@@ -1,0 +1,18 @@
+[
+  {
+    "order": 153,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 53
+  },
+  {
+    "order": 572,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 72
+  }
+]

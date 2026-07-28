@@ -1,0 +1,10 @@
+[
+  {
+    "order": 0,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 0
+  }
+]

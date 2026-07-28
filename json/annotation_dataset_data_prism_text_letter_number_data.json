@@ -1,0 +1,68 @@
+[
+    {
+        "question": "From the four given options, select the most appropriate one to fill in the question mark, so that it follows a certain pattern:",
+        "image_path": "annotation/dataset/data/prism/text_letter_number/images/textln_0002.png",
+        "source_dataset": "annotation/dataset/data/prism/text_letter_number/data.json",
+        "source_index": 0
+    },
+    {
+        "question": "Choose one substitute for the question mark from the four options to follow a certain regularity, the most suitable one is ( ).",
+        "image_path": "annotation/dataset/data/prism/text_letter_number/images/textln_0003.png",
+        "source_dataset": "annotation/dataset/data/prism/text_letter_number/data.json",
+        "source_index": 5
+    },
+    {
+        "question": "Divide the six shapes below into two categories, so that each category has its own common characteristics or patterns. The correct option for classification is:",
+        "image_path": "annotation/dataset/data/prism/text_letter_number/images/textln_0018.png",
+        "source_dataset": "annotation/dataset/data/prism/text_letter_number/data.json",
+        "source_index": 7
+    },
+    {
+        "question": "From the four given options, choose the most appropriate one to fill in the question mark, so as to present a certain regularity:",
+        "image_path": "annotation/dataset/data/prism/text_letter_number/images/textln_0015.png",
+        "source_dataset": "annotation/dataset/data/prism/text_letter_number/data.json",
+        "source_index": 9
+    },
+    {
+        "question": "Divide the following six figures into two categories so that each category of figures has its own common characteristics or patterns. The most appropriate classification option is ( ). A. ①②③, ④⑤⑥ B. ①②④, ③⑤⑥ C. ①③⑤, ②④⑥ D. ①④⑤, ②③⑥",
+        "image_path": "annotation/dataset/data/prism/text_letter_number/images/textln_0009.png",
+        "source_dataset": "annotation/dataset/data/prism/text_letter_number/data.json",
+        "source_index": 10
+    },
+    {
+        "question": "Divide the following six figures into two categories so that each category has its own common characteristics or patterns. The correct categorization is: \nA. ①④⑥, ②③⑤ \nB. ①③⑤, ②④⑥ \nC. ①②④, ③⑤⑥ \nD. ①②③, ④⑤⑥",
+        "image_path": "annotation/dataset/data/prism/text_letter_number/images/textln_0027.png",
+        "source_dataset": "annotation/dataset/data/prism/text_letter_number/data.json",
+        "source_index": 22
+    },
+    {
+        "question": "Choose the most appropriate choice from the given four options to fit into the question mark so that it presents a certain pattern: A. Shape B.94 C. Field D.XY",
+        "image_path": "annotation/dataset/data/prism/text_letter_number/images/textln_0035.png",
+        "source_dataset": "annotation/dataset/data/prism/text_letter_number/data.json",
+        "source_index": 24
+    },
+    {
+        "question": "From the four given options, choose the most suitable one to fill in the question mark, so that it presents a certain pattern:",
+        "image_path": "annotation/dataset/data/prism/text_letter_number/images/textln_0048.png",
+        "source_dataset": "annotation/dataset/data/prism/text_letter_number/data.json",
+        "source_index": 29
+    },
+    {
+        "question": "Choose the most appropriate one from the four given options to fill in the question mark so that it presents a certain regularity:",
+        "image_path": "annotation/dataset/data/prism/text_letter_number/images/textln_0052.png",
+        "source_dataset": "annotation/dataset/data/prism/text_letter_number/data.json",
+        "source_index": 36
+    },
+    {
+        "question": "Based on the existing pattern in the given figure, choose the most reasonable answer:",
+        "image_path": "annotation/dataset/data/prism/text_letter_number/images/textln_0055.png",
+        "source_dataset": "annotation/dataset/data/prism/text_letter_number/data.json",
+        "source_index": 38
+    },
+    {
+        "question": "Please choose the most appropriate option from the four given to fill in the question marks in the 3rd and 4th lines, in order to present a certain regularity. A. :, Yù B. Èr, Wáng C. 18,279 D. Kāi, \"",
+        "image_path": "annotation/dataset/data/prism/text_letter_number/images/textln_0033.png",
+        "source_dataset": "annotation/dataset/data/prism/text_letter_number/data.json",
+        "source_index": 40
+    }
+]

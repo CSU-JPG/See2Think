@@ -1,0 +1,10 @@
+[
+  {
+    "order": 0,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 0
+  }
+]

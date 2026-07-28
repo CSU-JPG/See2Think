@@ -1,0 +1,10 @@
+[
+  {
+    "order": 0,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 0
+  }
+]

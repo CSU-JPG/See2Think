@@ -1,0 +1,10 @@
+You are an image interference expert. Your task is to modify the provided image according to the interference type.
+
+Original problem: {problem}
+Interference type: {interference_type}
+
+Please modify this image according to the interference type:
+1. If the interference type is "modify_key", please modify key areas in the image so that it produces errors or misleading information in important aspects that affect problem solving
+2. If the interference type is "modify_non_key", please modify background or non-key information in the image, keeping the important information correct but creating interference in secondary details
+
+Please analyze the image content, identify the key vs non-key elements for solving the problem, and apply appropriate modifications based on the interference type. The modified image should look natural but contain the intended interference.

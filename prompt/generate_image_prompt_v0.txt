@@ -1,0 +1,16 @@
+"Generate an image that strictly adheres to the following visual description, which corresponds to the latest step in a step-by-step solution to a math/science/common-sense problem.  
+
+**Original Problem:** 
+{problem} 
+
+**Step-by-Step Visual Descriptions:**  
+{descriptions}
+
+**Instructions:**  
+- Render ONLY the content described in Step {N} (the last step).  
+- All visual elements (text, diagrams, labels, arrows, shapes, numbers, symbols, etc.) must appear exactly as specified in Step N.  
+- Position every element with high spatial accuracy according to the description (e.g., 'a red arrow pointing from the left side of the equation to the right', 'the number “5” centered below the triangle', etc.).  
+- Do not add any extra elements, interpretations, decorations, or assumptions beyond what is explicitly stated in Step N.  
+- Use clear, legible fonts for any text. Maintain a clean, educational illustration style suitable for problem-solving contexts.  
+
+Now generate the image based solely on Step {N}."

@@ -1,0 +1,442 @@
+[
+    {
+        "order": 0,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 0
+    },
+    {
+        "order": 1,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 2
+    },
+    {
+        "order": 2,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 3
+    },
+    {
+        "order": 3,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 4
+    },
+    {
+        "order": 4,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 5
+    },
+    {
+        "order": 5,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 6
+    },
+    {
+        "order": 6,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 7
+    },
+    {
+        "order": 7,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 8
+    },
+    {
+        "order": 8,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 28
+    },
+    {
+        "order": 9,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 63
+    },
+    {
+        "order": 10,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 114
+    },
+    {
+        "order": 11,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 115
+    },
+    {
+        "order": 12,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 136
+    },
+    {
+        "order": 13,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 139
+    },
+    {
+        "order": 14,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 157
+    },
+    {
+        "order": 15,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 160
+    },
+    {
+        "order": 16,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 163
+    },
+    {
+        "order": 17,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 179
+    },
+    {
+        "order": 18,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 205
+    },
+    {
+        "order": 19,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 226
+    },
+    {
+        "order": 20,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 248
+    },
+    {
+        "order": 21,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 279
+    },
+    {
+        "order": 22,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 330
+    },
+    {
+        "order": 23,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 331
+    },
+    {
+        "order": 24,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 343
+    },
+    {
+        "order": 25,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 375
+    },
+    {
+        "order": 26,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 381
+    },
+    {
+        "order": 27,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 406
+    },
+    {
+        "order": 28,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 407
+    },
+    {
+        "order": 29,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 431
+    },
+    {
+        "order": 30,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 436
+    },
+    {
+        "order": 31,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 480
+    },
+    {
+        "order": 32,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 484
+    },
+    {
+        "order": 33,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 502
+    },
+    {
+        "order": 34,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 503
+    },
+    {
+        "order": 35,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 511
+    },
+    {
+        "order": 36,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 512
+    },
+    {
+        "order": 37,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 519
+    },
+    {
+        "order": 38,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 545
+    },
+    {
+        "order": 39,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 548
+    },
+    {
+        "order": 40,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 554
+    },
+    {
+        "order": 41,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 569
+    },
+    {
+        "order": 42,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 591
+    },
+    {
+        "order": 43,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 596
+    },
+    {
+        "order": 44,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 600
+    },
+    {
+        "order": 45,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 607
+    },
+    {
+        "order": 46,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 619
+    },
+    {
+        "order": 47,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 620
+    },
+    {
+        "order": 48,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 621
+    },
+    {
+        "order": 49,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 623
+    },
+    {
+        "order": 50,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 624
+    },
+    {
+        "order": 51,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 625
+    },
+    {
+        "order": 52,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 626
+    },
+    {
+        "order": 53,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 635
+    },
+    {
+        "order": 54,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 643
+    },
+    {
+        "order": 55,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 653
+    },
+    {
+        "order": 56,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 657
+    },
+    {
+        "order": 57,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 663
+    },
+    {
+        "order": 58,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 666
+    },
+    {
+        "order": 59,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 687
+    },
+    {
+        "order": 60,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 711
+    },
+    {
+        "order": 61,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 724
+    },
+    {
+        "order": 62,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 730
+    },
+    {
+        "order": 63,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 732
+    },
+    {
+        "order": 64,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 733
+    },
+    {
+        "order": 65,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 763
+    },
+    {
+        "order": 66,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 812
+    },
+    {
+        "order": 67,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 832
+    },
+    {
+        "order": 68,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 842
+    },
+    {
+        "order": 69,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 870
+    },
+    {
+        "order": 70,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 877
+    },
+    {
+        "order": 71,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 885
+    },
+    {
+        "order": 72,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 888
+    },
+    {
+        "order": 73,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 900
+    },
+    {
+        "order": 74,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 922
+    },
+    {
+        "order": 75,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 929
+    },
+    {
+        "order": 76,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 951
+    },
+    {
+        "order": 77,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 959
+    },
+    {
+        "order": 78,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 974
+    },
+    {
+        "order": 79,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 980
+    },
+    {
+        "order": 80,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 983
+    },
+    {
+        "order": 81,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 999
+    },
+    {
+        "order": 82,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 1000
+    },
+    {
+        "order": 83,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 1017
+    },
+    {
+        "order": 84,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 1019
+    },
+    {
+        "order": 85,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 1022
+    },
+    {
+        "order": 86,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 1023
+    },
+    {
+        "order": 87,
+        "path": "annotation/dataset/data/emma/chemistry/data.json",
+        "id": 1025
+    }
+]

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WrongRender human quality annotation",
+  "type": "object",
+  "required": ["audit_index", "audit_set", "case_id", "annotator_id", "criteria", "needs_review", "timestamp"],
+  "properties": {
+    "audit_index": {"type": "integer", "minimum": 1},
+    "audit_set": {"enum": ["pilot", "formal"]},
+    "case_id": {"type": "string"},
+    "annotator_id": {"type": "string", "pattern": "^[A-Za-z0-9_-]{1,64}$"},
+    "criteria": {
+      "type": "object",
+      "properties": {
+        "corruption_validity": {"$ref": "#/$defs/criterion"},
+        "plausibility": {"$ref": "#/$defs/criterion"},
+        "operation_consistency": {"$ref": "#/$defs/criterion"},
+        "task_relevance": {"$ref": "#/$defs/criterion"},
+        "content_preservation": {"$ref": "#/$defs/criterion"}
+      }
+    },
+    "overall_label": {"enum": ["Pass", "Partial", "Fail", ""]},
+    "strict_pass": {"type": "boolean"},
+    "pass_or_partial": {"type": "boolean"},
+    "needs_review": {"type": "boolean"},
+    "general_note": {"type": "string"},
+    "timestamp": {"type": "string"}
+  },
+  "$defs": {
+    "criterion": {
+      "type": "object",
+      "required": ["label", "note"],
+      "properties": {
+        "label": {"enum": ["Pass", "Partial", "Fail", ""]},
+        "note": {"type": "string"}
+      }
+    }
+  }
+}

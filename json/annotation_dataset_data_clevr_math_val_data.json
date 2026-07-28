@@ -1,0 +1,1076 @@
+[
+    {
+        "question": "What is the thing in front of the small metallic object made of?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000000.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 8
+    },
+    {
+        "question": "Are there more shiny things that are to the left of the yellow rubber thing than small red spheres?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000001.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 14
+    },
+    {
+        "question": "Are there any large matte blocks of the same color as the large metal ball?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000002.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 23
+    },
+    {
+        "question": "Does the large yellow sphere have the same material as the sphere in front of the tiny blue object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000002.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 25
+    },
+    {
+        "question": "There is another thing that is the same material as the gray object; what is its color?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000002.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 29
+    },
+    {
+        "question": "What number of cylinders are gray objects or tiny brown matte objects?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000003.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 32
+    },
+    {
+        "question": "What number of other things are there of the same shape as the tiny matte object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000005.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 52
+    },
+    {
+        "question": "Does the matte object behind the gray metallic ball have the same color as the big rubber sphere?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000005.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 53
+    },
+    {
+        "question": "There is a large block that is behind the block to the left of the big blue thing; what is it made of?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000006.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 66
+    },
+    {
+        "question": "What color is the matte thing in front of the large cube?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000007.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 73
+    },
+    {
+        "question": "What color is the other object that is the same shape as the large brown matte thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000007.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 76
+    },
+    {
+        "question": "What number of other objects are there of the same size as the gray sphere?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000008.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 87
+    },
+    {
+        "question": "What number of objects are gray metallic spheres in front of the tiny blue metallic thing or large blue blocks?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000009.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 91
+    },
+    {
+        "question": "Is there a gray metal object that has the same shape as the brown shiny object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000009.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 97
+    },
+    {
+        "question": "How many other objects are there of the same material as the small cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000010.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 100
+    },
+    {
+        "question": "Is the number of big brown objects behind the tiny red shiny cylinder the same as the number of metallic blocks that are on the right side of the gray ball?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000011.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 114
+    },
+    {
+        "question": "There is a big brown metal cylinder; how many large metallic cylinders are behind it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000012.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 124
+    },
+    {
+        "question": "What number of things are either big green objects or objects that are in front of the green rubber thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000014.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 140
+    },
+    {
+        "question": "Is there a small blue ball made of the same material as the tiny red thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000016.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 165
+    },
+    {
+        "question": "What is the shape of the tiny object that is to the left of the tiny thing that is in front of the tiny cylinder in front of the brown cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000016.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 169
+    },
+    {
+        "question": "How many brown things are big rubber balls or metallic cylinders?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000017.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 177
+    },
+    {
+        "question": "What size is the brown block that is the same material as the large green object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000019.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 194
+    },
+    {
+        "question": "What number of things are brown blocks or green metallic cylinders that are to the right of the tiny cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000021.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 212
+    },
+    {
+        "question": "How many other things are there of the same size as the matte ball?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000022.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 223
+    },
+    {
+        "question": "What is the shape of the big thing that is both right of the yellow shiny cylinder and in front of the big brown cube?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000023.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 232
+    },
+    {
+        "question": "There is a small matte object that is the same shape as the big blue object; what color is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000024.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 247
+    },
+    {
+        "question": "There is a big cyan object that is the same shape as the large gray metallic object; what is it made of?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000025.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 257
+    },
+    {
+        "question": "What is the material of the other red thing that is the same shape as the large rubber thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000026.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 268
+    },
+    {
+        "question": "There is a cube that is to the left of the tiny cylinder and in front of the tiny gray cylinder; what material is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000028.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 282
+    },
+    {
+        "question": "What is the material of the tiny thing that is in front of the big purple matte thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000029.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 294
+    },
+    {
+        "question": "What number of other objects are the same material as the large cyan ball?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000030.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 302
+    },
+    {
+        "question": "What is the big object that is on the right side of the matte cylinder that is in front of the cyan cylinder made of?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000032.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 328
+    },
+    {
+        "question": "Is the number of small cubes that are right of the blue rubber block greater than the number of small balls that are in front of the cyan object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000033.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 330
+    },
+    {
+        "question": "There is a red ball; how many small purple rubber objects are in front of it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000033.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 337
+    },
+    {
+        "question": "What number of green cylinders have the same size as the gray metal cube?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000034.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 344
+    },
+    {
+        "question": "How many other things are there of the same material as the tiny red cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000036.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 362
+    },
+    {
+        "question": "There is a thing that is right of the thing in front of the object that is on the left side of the tiny yellow shiny sphere; how big is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000037.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 377
+    },
+    {
+        "question": "What number of tiny blue objects are in front of the small purple sphere?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000037.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 378
+    },
+    {
+        "question": "What is the shape of the tiny metal object that is on the left side of the big brown metallic cube and on the right side of the red thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000038.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 382
+    },
+    {
+        "question": "What color is the ball that is the same size as the blue metallic cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000038.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 388
+    },
+    {
+        "question": "What number of red things are large rubber objects or cylinders?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000039.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 396
+    },
+    {
+        "question": "Do the big cube and the small green object in front of the small green matte cylinder have the same material?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000044.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 448
+    },
+    {
+        "question": "There is a small rubber cylinder that is on the left side of the block that is on the right side of the cyan thing left of the cyan rubber sphere; what color is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000047.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 478
+    },
+    {
+        "question": "What number of things are objects in front of the blue shiny sphere or green matte objects?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000048.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 483
+    },
+    {
+        "question": "What is the size of the cylinder to the left of the tiny matte object left of the large purple thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000049.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 499
+    },
+    {
+        "question": "There is a small thing that is to the left of the big metallic cylinder and on the right side of the small red matte ball; what color is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000050.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 501
+    },
+    {
+        "question": "Are there any red rubber cylinders?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000051.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 510
+    },
+    {
+        "question": "There is a object right of the rubber sphere; are there any cubes that are behind it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000052.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 524
+    },
+    {
+        "question": "How many cylinders are either big rubber objects or tiny cyan things?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000054.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 544
+    },
+    {
+        "question": "There is a tiny block behind the small shiny object in front of the green thing that is in front of the cyan cylinder; what is it made of?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000055.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 554
+    },
+    {
+        "question": "What is the size of the rubber object that is behind the tiny red rubber ball and on the right side of the tiny brown rubber object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000056.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 561
+    },
+    {
+        "question": "There is a object right of the small thing behind the purple rubber object; what is its material?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000058.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 589
+    },
+    {
+        "question": "What is the green thing made of?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000059.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 594
+    },
+    {
+        "question": "What size is the cyan thing that is the same shape as the big brown matte object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000059.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 596
+    },
+    {
+        "question": "Is the number of big blue shiny things behind the small gray matte object the same as the number of tiny objects in front of the blue metallic ball?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000059.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 597
+    },
+    {
+        "question": "The tiny thing that is on the left side of the large blue object right of the tiny brown shiny thing is made of what material?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000063.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 638
+    },
+    {
+        "question": "There is a object in front of the large cyan rubber thing; what is its material?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000065.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 651
+    },
+    {
+        "question": "What color is the ball in front of the thing right of the purple rubber thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000065.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 657
+    },
+    {
+        "question": "Is there a small object made of the same material as the large blue block?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000066.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 662
+    },
+    {
+        "question": "What material is the small ball that is in front of the big metal cylinder behind the block that is to the left of the small yellow rubber sphere made of?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000066.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 666
+    },
+    {
+        "question": "There is a matte cube that is behind the object that is to the left of the large metallic ball on the left side of the tiny rubber cube; what is its size?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000067.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 675
+    },
+    {
+        "question": "There is a large matte object; does it have the same color as the metal thing left of the tiny red cube?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000068.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 682
+    },
+    {
+        "question": "Are there more rubber blocks on the left side of the yellow metallic object than matte cubes that are right of the large rubber cube?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000069.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 698
+    },
+    {
+        "question": "The tiny object that is in front of the large gray rubber thing and behind the tiny green sphere is what color?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000071.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 711
+    },
+    {
+        "question": "There is a yellow shiny object that is left of the big yellow metal object; what is its size?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000072.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 725
+    },
+    {
+        "question": "What color is the cylinder that is the same material as the large cyan thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000073.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 730
+    },
+    {
+        "question": "What number of cylinders are both right of the blue rubber block and behind the small cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000075.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 753
+    },
+    {
+        "question": "How many other objects are there of the same material as the large blue thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000076.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 761
+    },
+    {
+        "question": "There is a metallic block to the left of the rubber object on the right side of the yellow thing in front of the tiny yellow cube; what is its size?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000076.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 764
+    },
+    {
+        "question": "How many other objects are the same color as the tiny shiny cube?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000076.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 765
+    },
+    {
+        "question": "Is there a tiny metal object on the left side of the blue metal cylinder right of the rubber block that is in front of the big gray matte thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000076.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 768
+    },
+    {
+        "question": "There is a small object that is left of the small green cube and behind the purple thing; what shape is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000077.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 777
+    },
+    {
+        "question": "What shape is the small rubber thing in front of the large rubber object that is to the right of the tiny brown metal object on the left side of the purple object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000077.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 779
+    },
+    {
+        "question": "There is a gray rubber block left of the tiny gray cylinder that is to the left of the matte cylinder in front of the red object; what is its size?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000078.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 782
+    },
+    {
+        "question": "There is a metal sphere that is the same size as the green metal cylinder; what color is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000079.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 790
+    },
+    {
+        "question": "What is the material of the tiny thing in front of the ball that is behind the shiny cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000079.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 791
+    },
+    {
+        "question": "There is a big thing that is on the right side of the big yellow object and in front of the red sphere; what is its color?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000080.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 801
+    },
+    {
+        "question": "Is the material of the small brown thing on the left side of the small gray rubber object the same as the small cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000082.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 826
+    },
+    {
+        "question": "There is a metal sphere that is the same size as the gray metal object; what color is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000083.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 838
+    },
+    {
+        "question": "What number of objects are matte cylinders behind the red cylinder or purple shiny spheres?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000084.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 840
+    },
+    {
+        "question": "There is a shiny cylinder to the right of the yellow metal cylinder; how big is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000084.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 847
+    },
+    {
+        "question": "Are there any tiny balls?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000085.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 852
+    },
+    {
+        "question": "There is a green thing that is the same size as the sphere; what is its material?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000085.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 855
+    },
+    {
+        "question": "What size is the green metal object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000086.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 867
+    },
+    {
+        "question": "The other object that is the same material as the small purple object is what size?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000090.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 901
+    },
+    {
+        "question": "What number of other things are the same shape as the gray object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000090.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 907
+    },
+    {
+        "question": "How many objects are small cyan rubber cylinders or rubber blocks?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000090.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 908
+    },
+    {
+        "question": "There is a tiny rubber object in front of the tiny cylinder that is on the right side of the cyan object; what is its shape?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000090.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 909
+    },
+    {
+        "question": "There is a green metallic thing; is it the same size as the brown thing to the left of the big cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000092.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 923
+    },
+    {
+        "question": "Is there a yellow metallic thing behind the large object that is behind the green metallic object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000093.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 932
+    },
+    {
+        "question": "There is a big matte cylinder behind the tiny block on the left side of the blue sphere; what is its color?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000095.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 951
+    },
+    {
+        "question": "There is a rubber thing that is in front of the big yellow object that is behind the small purple metal cube; what shape is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000095.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 956
+    },
+    {
+        "question": "What number of things are large yellow metallic objects on the right side of the red object or large yellow shiny things behind the small purple metal thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000095.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 958
+    },
+    {
+        "question": "Is the number of red things greater than the number of tiny objects?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000096.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 966
+    },
+    {
+        "question": "Are there more tiny shiny objects that are to the left of the brown metallic object than small brown shiny cylinders?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000097.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 970
+    },
+    {
+        "question": "What material is the gray sphere that is the same size as the brown cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000098.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 986
+    },
+    {
+        "question": "What color is the cube on the right side of the metallic object that is behind the cyan shiny object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000105.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1054
+    },
+    {
+        "question": "There is a ball that is the same size as the yellow rubber object; what is its material?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000105.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1055
+    },
+    {
+        "question": "There is a big yellow shiny thing; is its shape the same as the big blue metallic object behind the green block?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000106.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1066
+    },
+    {
+        "question": "What is the size of the metal thing that is the same shape as the tiny cyan rubber thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000106.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1069
+    },
+    {
+        "question": "Is the number of big spheres that are on the right side of the small purple shiny cylinder the same as the number of big purple metal things?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000110.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1100
+    },
+    {
+        "question": "Are there any small brown matte things behind the small purple cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000110.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1101
+    },
+    {
+        "question": "The metal object that is the same size as the purple cube is what shape?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000110.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1107
+    },
+    {
+        "question": "Is there a tiny brown sphere left of the big rubber object that is left of the tiny purple shiny cylinder in front of the purple shiny block?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000110.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1108
+    },
+    {
+        "question": "There is a metal block that is right of the small gray metallic cylinder that is in front of the purple cylinder; what number of purple matte cylinders are in front of it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000111.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1115
+    },
+    {
+        "question": "There is a metal object in front of the metallic cube that is in front of the big block behind the tiny cube; what is its size?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000112.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1122
+    },
+    {
+        "question": "There is a red cylinder to the right of the small yellow metal thing; is it the same size as the red metal thing that is behind the yellow shiny cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000115.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1150
+    },
+    {
+        "question": "There is a brown object that is the same material as the blue thing; what size is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000118.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1189
+    },
+    {
+        "question": "What is the size of the purple object that is both to the right of the tiny purple ball and in front of the large metallic ball?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000119.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1196
+    },
+    {
+        "question": "What number of cubes are to the right of the big matte object and left of the small gray metallic thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000122.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1226
+    },
+    {
+        "question": "The yellow thing in front of the sphere that is to the left of the tiny yellow metallic object is made of what material?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000122.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1227
+    },
+    {
+        "question": "What number of things are either small rubber objects or small brown shiny things?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000123.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1235
+    },
+    {
+        "question": "What is the size of the shiny cylinder that is behind the green cube that is right of the tiny metallic object that is in front of the small gray rubber thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000126.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1263
+    },
+    {
+        "question": "There is another large thing that is made of the same material as the red object; what is its color?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000127.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1275
+    },
+    {
+        "question": "What material is the brown thing that is the same shape as the tiny gray object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000129.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1297
+    },
+    {
+        "question": "What number of objects are either big purple things or cylinders that are to the right of the big cube?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000130.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1307
+    },
+    {
+        "question": "There is a small object that is the same color as the large shiny thing; what is its shape?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000131.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1319
+    },
+    {
+        "question": "What number of tiny objects are either yellow shiny blocks or metal spheres?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000132.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1326
+    },
+    {
+        "question": "Are there any cyan shiny balls left of the small yellow cube?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000134.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1346
+    },
+    {
+        "question": "What is the material of the cylinder that is behind the tiny object on the left side of the small matte thing on the left side of the tiny blue sphere?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000135.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1354
+    },
+    {
+        "question": "Are the blue object in front of the small blue cube and the sphere made of the same material?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000136.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1361
+    },
+    {
+        "question": "There is a yellow thing to the right of the matte block; is its size the same as the green matte sphere?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000137.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1371
+    },
+    {
+        "question": "The other big object that is the same shape as the brown metallic thing is what color?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000137.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1372
+    },
+    {
+        "question": "How many things are large blue spheres or large things that are to the left of the yellow block?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000138.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1381
+    },
+    {
+        "question": "Are there any other things that have the same size as the brown matte cube?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000138.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1386
+    },
+    {
+        "question": "There is a cylinder that is behind the tiny blue object and on the left side of the purple shiny block; what is its size?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000139.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1390
+    },
+    {
+        "question": "What is the shape of the large purple thing that is made of the same material as the blue object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000139.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1393
+    },
+    {
+        "question": "What size is the thing that is the same color as the block?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000139.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1396
+    },
+    {
+        "question": "What number of other objects are the same size as the purple object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000142.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1424
+    },
+    {
+        "question": "What number of other objects are there of the same size as the yellow object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000143.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1431
+    },
+    {
+        "question": "There is a sphere that is in front of the large brown shiny block; what color is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000144.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1441
+    },
+    {
+        "question": "What is the material of the thing that is behind the thing left of the small metal object in front of the gray thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000145.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1457
+    },
+    {
+        "question": "How many other things are there of the same shape as the small cyan matte thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000146.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1462
+    },
+    {
+        "question": "How big is the thing that is both on the right side of the purple shiny cylinder and left of the tiny red shiny thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000146.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1464
+    },
+    {
+        "question": "What is the color of the big object in front of the large thing that is on the left side of the rubber cylinder that is left of the tiny red metallic sphere?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000147.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1475
+    },
+    {
+        "question": "Is there any other thing that is the same material as the red object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000149.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1495
+    },
+    {
+        "question": "What number of other things are there of the same material as the big ball",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000150.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1508
+    },
+    {
+        "question": "There is a metallic cylinder that is in front of the purple cube; what color is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000155.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1552
+    },
+    {
+        "question": "How many small cylinders are made of the same material as the big blue cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000155.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1557
+    },
+    {
+        "question": "Is there a red cylinder that is on the right side of the tiny gray shiny object right of the tiny metallic sphere?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000156.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1567
+    },
+    {
+        "question": "Are there any other things of the same color as the large matte sphere?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000157.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1577
+    },
+    {
+        "question": "Does the red thing have the same material as the sphere that is left of the large red ball?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000157.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1579
+    },
+    {
+        "question": "There is a small purple object that is the same material as the large gray sphere; what shape is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000158.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1582
+    },
+    {
+        "question": "How many tiny brown shiny blocks are behind the large object in front of the big metallic thing behind the small yellow shiny thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000159.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1592
+    },
+    {
+        "question": "The object that is the same color as the small shiny cylinder is what size?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000160.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1604
+    },
+    {
+        "question": "There is a small thing that is in front of the red cylinder; how many shiny objects are on the right side of it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000162.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1628
+    },
+    {
+        "question": "What is the size of the metallic cylinder that is both to the right of the green rubber object and behind the small red shiny cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000163.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1632
+    },
+    {
+        "question": "There is a small metal cylinder behind the blue matte thing; how many metallic cylinders are in front of it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000163.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1637
+    },
+    {
+        "question": "What size is the rubber thing that is the same shape as the cyan shiny thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000166.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1661
+    },
+    {
+        "question": "There is a red cylinder that is left of the tiny block; what is its size?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000166.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1664
+    },
+    {
+        "question": "What is the small yellow cylinder made of?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000166.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1665
+    },
+    {
+        "question": "What is the material of the tiny object that is the same color as the metallic cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000172.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1724
+    },
+    {
+        "question": "Is the material of the large green sphere the same as the sphere that is in front of the green metallic ball?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000172.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1726
+    },
+    {
+        "question": "What is the material of the gray block that is the same size as the metal cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000172.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1727
+    },
+    {
+        "question": "What number of rubber objects are either tiny blue spheres or small cyan cylinders?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000173.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1731
+    },
+    {
+        "question": "There is a tiny sphere that is on the right side of the big metal object that is behind the small metallic thing; what is it made of?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000173.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1732
+    },
+    {
+        "question": "There is a thing that is the same color as the large metallic cube; what shape is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000173.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1733
+    },
+    {
+        "question": "There is a big matte object that is both to the left of the big gray block and to the right of the big blue metallic cube; what is its shape?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000175.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1759
+    },
+    {
+        "question": "What color is the metallic object that is the same size as the matte cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000176.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1766
+    },
+    {
+        "question": "What number of small blocks are behind the small metal cylinder in front of the cube behind the large cyan cube?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000178.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1780
+    },
+    {
+        "question": "How many small cyan objects are the same shape as the large yellow thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000178.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1788
+    },
+    {
+        "question": "The tiny cylinder on the right side of the small yellow rubber object that is on the right side of the small yellow shiny cylinder is made of what material?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000181.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1810
+    },
+    {
+        "question": "There is a metallic cylinder that is on the left side of the matte cylinder and in front of the small brown rubber ball; what color is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000181.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1819
+    },
+    {
+        "question": "Do the small matte block and the big sphere in front of the small blue block have the same color?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000182.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1821
+    },
+    {
+        "question": "What is the material of the small cube left of the large metal ball behind the yellow metallic ball that is in front of the tiny green thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000183.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1837
+    },
+    {
+        "question": "How many other objects are the same size as the purple rubber object?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000185.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1857
+    },
+    {
+        "question": "Are there an equal number of large cylinders that are on the right side of the brown metallic cube and tiny metal blocks that are behind the brown cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000185.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1859
+    },
+    {
+        "question": "There is a object that is on the right side of the large gray thing; what color is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000186.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1860
+    },
+    {
+        "question": "How big is the purple object behind the green rubber object behind the tiny cylinder right of the large matte ball?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000188.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1886
+    },
+    {
+        "question": "What number of small matte spheres are the same color as the tiny cylinder?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000191.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1913
+    },
+    {
+        "question": "How many matte things have the same size as the gray metallic block?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000193.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1937
+    },
+    {
+        "question": "What number of other objects are the same material as the small thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000194.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1946
+    },
+    {
+        "question": "There is a large yellow object in front of the purple rubber sphere; what shape is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000194.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1947
+    },
+    {
+        "question": "What material is the big thing that is behind the thing that is right of the yellow shiny object made of?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000194.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1948
+    },
+    {
+        "question": "The rubber object that is the same color as the tiny metal ball is what size?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000196.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1960
+    },
+    {
+        "question": "What number of other objects are the same shape as the blue metallic thing?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000196.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1961
+    },
+    {
+        "question": "Are there more tiny yellow spheres than tiny green objects?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000196.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1968
+    },
+    {
+        "question": "What number of things are both behind the red thing and in front of the small shiny sphere?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000196.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1969
+    },
+    {
+        "question": "There is a small matte thing that is in front of the cyan thing and behind the green thing; what color is it?",
+        "image_path": "annotation/dataset/data/clevr_math/val/images/CLEVR_val_000197.png",
+        "source_dataset": "annotation/dataset/data/clevr_math/val/data.json",
+        "source_index": 1979
+    }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "order": 0,
+    "category": "2D",
+    "target_task": "Math-几何",
+    "source": "rbench-v",
+    "path": "annotation/dataset/data/math/data.json",
+    "id": 0
+  },
+  {
+    "order": 1,
+    "category": "2D",
+    "target_task": "Math-智力",
+    "source": "emma",
+    "path": "annotation/dataset/data/emma/math/data.json",
+    "id": 0
+  },
+  {
+    "order": 2,
+    "category": "2D",
+    "target_task": "Physics",
+    "source": "emma",
+    "path": "annotation/dataset/data/emma/physics/data.json",
+    "id": 0
+  },
+  {
+    "order": 3,
+    "category": "2D",
+    "target_task": "Chemistry",
+    "source": "emma",
+    "path": "annotation/dataset/data/emma/chemistry/data.json",
+    "id": 0
+  },
+  {
+    "order": 4,
+    "category": "2D",
+    "target_task": "Science",
+    "source": "m3cot",
+    "path": "annotation/dataset/data/m3cot/test1/data.json",
+    "id": 0
+  },
+  {
+    "order": 5,
+    "category": "2D",
+    "target_task": "Prism",
+    "source": "Prism-bench",
+    "path": "annotation/dataset/data/prism/data.json",
+    "id": 0
+  },
+  {
+    "order": 6,
+    "category": "3D",
+    "target_task": "Clevr",
+    "source": "Clevr",
+    "path": "annotation/dataset/data/clevr_math/val/data.json",
+    "id": 0
+  },
+  {
+    "order": 7,
+    "category": "3D",
+    "target_task": "SuperClevr",
+    "source": "SuperClevr",
+    "path": "annotation/dataset/data/super_clevr/data.json",
+    "id": 0
+  },
+  {
+    "order": 8,
+    "category": "Real",
+    "target_task": "虚拟具身数据",
+    "source": "VLABench",
+    "path": "annotation/dataset/data/VLABench/data.json",
+    "id": 0
+  },
+  {
+    "order": 9,
+    "category": "Real",
+    "target_task": "真实具身数据",
+    "source": "DROID",
+    "path": "annotation/dataset/data/droid/data.json",
+    "id": 0
+  },
+  {
+    "order": 10,
+    "category": "Real",
+    "target_task": "Commonsense",
+    "source": "m3cot",
+    "path": "annotation/dataset/data/m3cot/test0/data.json",
+    "id": 0
+  },
+  {
+    "order": 11,
+    "category": "Real",
+    "target_task": "IntPhys2",
+    "source": "IntPhys2",
+    "path": "annotation/dataset/data/intphy2/data.json",
+    "id": 0
+  }
+]
