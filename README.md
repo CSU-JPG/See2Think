@@ -17,18 +17,6 @@
 </p>
 
 <p align="center">
-  <sup>1</sup>The Hong Kong University of Science and Technology&nbsp;&nbsp;&nbsp;
-  <sup>2</sup>Central South University&nbsp;&nbsp;&nbsp;
-  <sup>3</sup>Shanghai AI Laboratory<br>
-  <sup>4</sup>The Hong Kong University of Science and Technology (Guangzhou)&nbsp;&nbsp;&nbsp;
-  <sup>5</sup>University of Science and Technology of China<br>
-  <sup>6</sup>Fudan University&nbsp;&nbsp;&nbsp;
-  <sup>7</sup>Wuhan University<br>
-  <sup>†</sup>Equal contribution&nbsp;&nbsp;&nbsp;
-  <sup>§</sup>Corresponding author
-</p>
-
-<p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Paper-arXiv-red" alt="Paper"></a>
   <a href="https://csu-jpg.github.io/See2Think/"><img src="https://img.shields.io/badge/Project-Page-blue" alt="Project Page"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT"></a>
