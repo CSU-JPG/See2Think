@@ -501,7 +501,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--mode",
         type=str,
-        choices=["code", "banana", "qwen"],
+        choices=["code", "banana"],
         help="解题模式, code | banana",
         required=True,
     )

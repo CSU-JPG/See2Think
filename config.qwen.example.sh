@@ -17,11 +17,6 @@ export VLLM_API_KEY="EMPTY"
 export GEMINI_API_KEY="PUT_RENDERER_API_KEY_HERE"
 export GEMINI_BASE_URL="PUT_RENDERER_BASE_URL_HERE"
 
-# Optional OpenAI-compatible image edit endpoint if you run with RUN_MODE=qwen.
-export QWEN_IMAGE_EDIT_BASE_URL=""
-export QWEN_IMAGE_EDIT_API_KEY="EMPTY"
-export QWEN_IMAGE_EDIT_MODEL="Qwen-Image-Edit-2509"
-
 # Runtime defaults.
 export SEE2THINK_TASK_TIMEOUT_SECONDS="1200"
 export PYTHONIOENCODING="utf-8"

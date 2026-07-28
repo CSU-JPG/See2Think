@@ -43,7 +43,6 @@ os.environ.pop("ALL_PROXY", None)
 
 openai_client = None
 banana_client = None
-qwen_image_edit_client = None
 
 
 # Environment controls for selecting which LLM endpoint to talk to.
@@ -56,13 +55,6 @@ MAX_COMPLETION_TOKENS_ENV = "SEE2THINK_MAX_COMPLETION_TOKENS"
 EXTRA_BODY_ENV = "SEE2THINK_EXTRA_BODY_JSON"
 REQUEST_TIMEOUT_ENV = "SEE2THINK_OPENAI_TIMEOUT_SECONDS"
 MAX_RETRIES_ENV = "SEE2THINK_OPENAI_MAX_RETRIES"
-
-# Qwen Image Edit service configuration (supports both online and local deployment)
-QWEN_IMAGE_EDIT_BASE_URL_ENV = "QWEN_IMAGE_EDIT_BASE_URL"
-QWEN_IMAGE_EDIT_API_KEY_ENV = "QWEN_IMAGE_EDIT_API_KEY"
-QWEN_IMAGE_EDIT_MODEL_ENV = "QWEN_IMAGE_EDIT_MODEL"
-DEFAULT_QWEN_IMAGE_EDIT_MODEL = "qwen-image-edit-2509"  # For online service
-
 
 SLEEP_TIME = 2  # 每次请求后等待时间，单位秒
 MAX_IMAGE_RETRY = 5  # 生成图片最大重试次数
@@ -160,138 +152,6 @@ def _create_chat_client_from_env():
             },
         )
     raise RuntimeError(f"LLM backend {backend} is not configured correctly")
-
-
-def _create_qwen_image_edit_client_from_env():
-    """
-    Configure the Qwen Image Edit API client (online or local deployment).
-    
-    For online service, set:
-      - QWEN_IMAGE_EDIT_BASE_URL: e.g., https://dashscope.aliyuncs.com/compatible-mode/v1
-      - QWEN_IMAGE_EDIT_API_KEY: Your Alibaba Cloud API key
-      - QWEN_IMAGE_EDIT_MODEL: e.g., qwen-vl-max-latest (optional)
-    
-    For local deployment, set:
-      - QWEN_IMAGE_EDIT_BASE_URL: e.g., http://localhost:8000/v1
-      - QWEN_IMAGE_EDIT_API_KEY: Local API key or "EMPTY"
-      - QWEN_IMAGE_EDIT_MODEL: e.g., Qwen-Image-Edit-2509 (optional)
-    
-    Returns (client, meta_dict) or (None, None) when not configured.
-    """
-    base_url = os.environ.get(QWEN_IMAGE_EDIT_BASE_URL_ENV, "").strip()
-    if not base_url:
-        return None, None
-
-    api_key = os.environ.get(QWEN_IMAGE_EDIT_API_KEY_ENV, "")
-    if not api_key:
-        logging.warning(
-            f"{QWEN_IMAGE_EDIT_API_KEY_ENV} not set, using 'EMPTY' as placeholder"
-        )
-        api_key = "EMPTY"
-    
-    client = OpenAI(base_url=base_url, api_key=api_key)
-    meta = {
-        "base_url": base_url,
-        "api_key_source": QWEN_IMAGE_EDIT_API_KEY_ENV,
-        "api_key_set": bool(os.environ.get(QWEN_IMAGE_EDIT_API_KEY_ENV)),
-    }
-    return client, meta
-
-
-def _request_qwen_image_edit(
-    prompt: str,
-    image_paths: list[str],
-    output_path: str,
-    log_prefix: str = "qwen image edit",
-) -> str | None:
-    """Send a prompt + reference images to the Qwen image edit API (online or local)."""
-    if qwen_image_edit_client is None:
-        logging.warning("%s client not configured, skipping", log_prefix)
-        return None
-
-    contents = [{"type": "text", "text": prompt}]
-    for path in image_paths:
-        try:
-            image_data = encode_file_to_data_uri(path)
-        except Exception as e:
-            logging.warning("%s: failed to encode image '%s' (%s)", log_prefix, path, e)
-            return None
-        contents.append({"type": "image_url", "image_url": {"url": image_data}})
-
-    model_name = os.environ.get(
-        QWEN_IMAGE_EDIT_MODEL_ENV, DEFAULT_QWEN_IMAGE_EDIT_MODEL
-    )
-
-    max_attempts = 5
-    delta = random.uniform(-0.5, 0.5) * SLEEP_TIME
-    delay = SLEEP_TIME + delta
-    time.sleep(delay)
-
-    for attempt in range(1, max_attempts + 1):
-        try:
-            response = qwen_image_edit_client.chat.completions.create(
-                model=model_name,
-                messages=[{"role": "user", "content": contents}],
-            )
-
-            result = response.choices[0].message.content
-            image_b64 = None
-
-            if isinstance(result, str):
-                image_b64 = result.strip()
-            elif isinstance(result, list):
-                for part in result:
-                    if part.get("type") == "text":
-                        logging.info(part.get("text", "").strip())
-                        continue
-                    if part.get("type") != "image_url":
-                        continue
-                    url = part.get("image_url", {}).get("url")
-                    if not url:
-                        continue
-                    if url.startswith("data:"):
-                        _, image_b64 = _parse_data_uri(url)
-                    else:
-                        image_b64 = url
-                    break
-
-            if not image_b64:
-                logging.warning(
-                    "%s attempt %d: response lacked image data, retrying",
-                    log_prefix,
-                    attempt,
-                )
-            else:
-                try:
-                    raw = base64.b64decode(image_b64)
-                except Exception as decode_err:
-                    logging.warning(
-                        "%s attempt %d: failed to decode returned image: %s",
-                        log_prefix,
-                        attempt,
-                        decode_err,
-                    )
-                else:
-                    with open(output_path, "wb") as f:
-                        f.write(raw)
-                    logging.info(f"\n SAVE IMAGE: {output_path} \n")
-                    return output_path
-
-        except Exception as e:
-            logging.warning(
-                "%s attempt %d failed: %s: %s",
-                log_prefix,
-                attempt,
-                type(e).__name__,
-                e,
-            )
-
-        sleep_time = delay * (2 ** (attempt - 1))
-        logging.warning("Retrying %s request in %.1fs ...", log_prefix, sleep_time)
-        time.sleep(sleep_time)
-
-    logging.warning("!!! Max attempts reached for %s, giving up !!!", log_prefix)
-    return None
 
 
 class SafeDict(dict):
@@ -859,7 +719,7 @@ def parse_llm_response(response: str, mode: str) -> str | None:
     """
     if mode == "code":
         return extract_python_code(response)
-    elif mode in ("banana", "qwen"):
+    elif mode == "banana":
         desc_match = re.search(
             r"(?:\*\*)?Step \d+ \(Action Description\):(?:\*\*)?(.*?)(?=(?:\*\*)?Step|\Z)",
             response,
@@ -939,61 +799,6 @@ def generate_image_banana(
                 time.sleep(sleep_time)
 
     return None
-
-
-def generate_image_qwen(
-    description: str, output_path: str, init_image_path: str, images_path: list[str], qwen_image_edit_inference_steps: int = 10
-) -> str | None:
-    logging.info(" START GENERATE IMAGE USING QWEN IMAGE EDIT ")
-    
-    # 检查是否有本地 API 地址 ===
-    # 你可以通过环境变量设置，或者直接在这里写死 "http://localhost:9000/edit"
-    local_api_url = os.environ.get("LOCAL_QWEN_API", "http://localhost:9000/edit")
-    
-    # 简单判断端口是否开放，或者直接默认使用本地服务
-    use_local = True 
-    
-    if use_local:
-        logging.info(f" Calling Local Model Server: {local_api_url}")
-        try:
-            # 1. 读取图片并转 Base64
-            with open(init_image_path, "rb") as f:
-                img_b64 = base64.b64encode(f.read()).decode("utf-8")
-            
-            # 2. 构造请求 Payload
-            payload = {
-                "image_base64": img_b64,
-                "prompt": description,
-                "num_inference_steps": qwen_image_edit_inference_steps,
-            }
-            
-            # 3. 发送 POST 请求
-            response = requests.post(local_api_url, json=payload, timeout=1200) # 图片生成可能较慢，设置长超时
-            response.raise_for_status()
-            
-            # 4. 解析结果
-            res_json = response.json()
-            if "image_base64" in res_json:
-                save_data = base64.b64decode(res_json["image_base64"])
-                with open(output_path, "wb") as f:
-                    f.write(save_data)
-                logging.info(f"\n SAVE IMAGE (LOCAL): {output_path} \n")
-                return output_path
-            else:
-                logging.error(f"Local API did not return image data: {res_json}")
-                return None
-
-        except Exception as e:
-            logging.error(f"Failed to call local Qwen server: {e}")
-            logging.info("Fallback to original remote logic (if configured)...")
-            # 如果本地调用失败，你可以选择在这里 return None 或者让它继续走下面的远程逻辑
-            # return None 
-    
-    # === 下面是原来的逻辑 (保留作为备份) ===
-    image_refs = [str(init_image_path)]
-    return _request_qwen_image_edit(
-        description, image_refs, output_path, log_prefix="qwen image generation"
-    )
 
 
 def extract_content(response):
@@ -1179,7 +984,7 @@ def generate_image_interference(
     output_path: str,
     mode: str = "banana",
 ) -> str | None:
-    """Generate image interference using banana or local qwen image edit."""
+    """Generate image interference using the configured Nano-Banana/Gemini renderer."""
     logging.info(f" START IMAGE INTERFERENCE ({interference_type}) ")
     time.sleep(SLEEP_TIME)
 
@@ -1197,16 +1002,6 @@ def generate_image_interference(
     prompt = IMAGE_INTERFERENCE_PROMPT.format(
         problem=problem, interference_type=type_desc
     )
-
-    if mode == "qwen":
-        logging.info("Using qwen image edit backend for interference")
-        refs = [str(image_path)]
-        qwen_result = _request_qwen_image_edit(
-            prompt, refs, output_path, log_prefix="qwen image interference"
-        )
-        if qwen_result:
-            return qwen_result
-        logging.warning("Qwen interference failed; falling back to nano banana")
 
     contents = [prompt, original_image]
 
@@ -1250,7 +1045,7 @@ def generate_image_interference(
 
 
 def init_llm():
-    global openai_client, banana_client, qwen_image_edit_client
+    global openai_client, banana_client
     try:
         openai_client, backend_meta = _create_chat_client_from_env()
         logging.info(
@@ -1279,26 +1074,6 @@ def init_llm():
         ),
     )
 
-    try:
-        qwen_image_edit_client, qwen_meta = _create_qwen_image_edit_client_from_env()
-        if qwen_image_edit_client:
-            service_type = (
-                "online" if "https" in qwen_meta["base_url"] else "local/custom"
-            )
-            logging.info(
-                "Qwen image edit client configured (%s service, base_url=%s, api_key=%s)",
-                service_type,
-                qwen_meta["base_url"],
-                "configured" if qwen_meta["api_key_set"] else "using placeholder",
-            )
-        else:
-            logging.info(
-                "QWEN_IMAGE_EDIT_BASE_URL not set; qwen image edit generation disabled"
-            )
-    except Exception as e:
-        qwen_image_edit_client = None
-        logging.warning(f"Failed to initialize Qwen image edit client: {e}")
-
 
 def get_current_prompt(
     mode: str,
@@ -1316,7 +1091,7 @@ def get_current_prompt(
             current_prompt = BASE_PROMPT_CODE
         else:
             current_prompt = BASE_PROMPT_OPTIONAL_CODE
-    elif mode in ("banana", "qwen"):
+    elif mode == "banana":
         if not optional:
             current_prompt = BASE_PROMPT_ACTION_JSON
         else:
@@ -1356,7 +1131,6 @@ def main(
     use_edge: bool = False,
     use_depth: bool = False,
     optional: bool = False,
-    qwen_image_edit_inference_steps: int = 10,
     setting: str | None = None,
     prompt_dir: str | None = None,
 ):
@@ -1608,7 +1382,7 @@ def main(
                         code_to_execute = new_code if new_code else code_to_execute
                         logging.info(" corrected code ")
                         logging.info(code_to_execute)
-        elif mode in ("banana", "qwen"):
+        elif mode == "banana":
             description = parse_llm_response(response_text, mode)
             descriptions.append(description)
             if description:
@@ -1622,21 +1396,12 @@ def main(
                     image_prompt = create_message_for_banana(
                         descriptions, problem_statement
                     )
-                    if mode == "banana":
-                        new_image_path = generate_image_banana(
-                            image_prompt,
-                            image_path_full,
-                            init_image_path,
-                            images_path,
-                        )
-                    else:
-                        new_image_path = generate_image_qwen(
-                            image_prompt,
-                            image_path_full,
-                            init_image_path,
-                            images_path,
-                            qwen_image_edit_inference_steps=qwen_image_edit_inference_steps,
-                        )
+                    new_image_path = generate_image_banana(
+                        image_prompt,
+                        image_path_full,
+                        init_image_path,
+                        images_path,
+                    )
             else:
                 logging.info("find no description for image generation, so skip")
         else:
@@ -1737,8 +1502,7 @@ if __name__ == "__main__":
         help=(
             "回答模式："
             "code 表示让模型输出 python 代码，"
-            "banana 表示调用 nano banana (gemini-2.5-flash-image) 绘图，"
-            "qwen 表示调用 qwen-image-edit 服务进行图像编辑"
+            "banana 表示调用 nano banana (gemini-2.5-flash-image) 绘图"
         ),
     )
     parser.add_argument(
@@ -1793,9 +1557,6 @@ if __name__ == "__main__":
         help="使用可选的提示模板（base_prompt_optional_code 或 base_prompt_optional_action_json）",
     )
     parser.add_argument(
-        "--qwen_image_edit_inference_steps", type=int, default=10, help="Qwen图像编辑的推理步数"
-    )
-    parser.add_argument(
         "--setting",
         type=str,
         choices=["text_cot", "vaot_no_render", "vaot_full", "vaot_full_min1_render", "vaot_wrong_render"],
@@ -1825,7 +1586,6 @@ if __name__ == "__main__":
         use_depth=args.use_depth,
         use_edge=args.use_edge,
         optional=args.optional,
-        qwen_image_edit_inference_steps=args.qwen_image_edit_inference_steps,
         setting=args.setting,
         prompt_dir=args.prompt_dir,
     )
