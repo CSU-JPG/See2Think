@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 import argparse
 import csv
 import json
@@ -154,7 +154,7 @@ def write_index_html(path: Path, rows: list[dict[str, Any]]) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Select 180 human-validation cases with corrected task groups.")
-    parser.add_argument("--master-csv", default="neweval/results/transition_common_denominator_600/master_transition_table.csv")
+    parser.add_argument("--master-csv", default="eval/results/transition_common_denominator_600/master_transition_table.csv")
     parser.add_argument("--final-results-root", default="final_results")
     parser.add_argument("--out-dir", default="yzrcheck")
     parser.add_argument("--per-cell", type=int, default=5)

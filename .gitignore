@@ -43,7 +43,9 @@ audits/
 yzrcheck/
 logs/
 newlogs/
-neweval/results/
+eval/results/
+neweval/
+newprompt/
 archive/
 tmp_eval_check/
 tmp_qwen3vl_bench/

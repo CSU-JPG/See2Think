@@ -77,4 +77,4 @@ python -u solve/run_tasks.py `
   --start 0 `
   --end 999999 `
   --setting $Setting `
-  --prompt_dir newprompt
+  --prompt_dir prompt

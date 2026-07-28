@@ -76,7 +76,7 @@ Set-Location '$Root'
 `$env:SEE2THINK_EXTRA_BODY_JSON='$ExtraBodyJson'
 `$env:SEE2THINK_OUTPUT_BASE='$OutputBase'
 `$env:SEE2THINK_LOG_DIR='$LogDir'
-python -u solve/run_tasks.py --tasks '$Tasks' --mode banana --model '$Model' --workers $Workers --start $StartPos --end $EndPos --setting vaot_full --prompt_dir newprompt
+python -u solve/run_tasks.py --tasks '$Tasks' --mode banana --model '$Model' --workers $Workers --start $StartPos --end $EndPos --setting vaot_full --prompt_dir prompt
 "@
 
 $p = Start-Process powershell -WindowStyle Hidden -ArgumentList @(

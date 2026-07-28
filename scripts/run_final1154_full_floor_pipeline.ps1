@@ -1,4 +1,4 @@
-﻿Set-StrictMode -Version Latest
+Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
 $env:PYTHONIOENCODING = "utf-8"
@@ -59,7 +59,7 @@ function Run-Full {
       --end $EndPos `
       --linear `
       --setting vaot_full `
-      --prompt_dir newprompt
+      --prompt_dir prompt
 
     $endedAt = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
     Write-Host "END $Model at $endedAt"

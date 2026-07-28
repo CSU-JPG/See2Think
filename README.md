@@ -101,12 +101,11 @@ WrongRender diagnostics further test behavioral dependence by corrupting task-re
 | --- | --- |
 | `solve/` | Core inference pipeline, model clients, VAoT execution, and renderer integration. |
 | `convert/` | Parsing and evaluation helper code. |
-| `neweval/` | Answer judging and process-level judging pipeline. |
+| `eval/` | Answer judging and process-level judging pipeline. |
 | `scripts/` | Experiment launchers, result assembly, paper-table generation, and audit tooling. |
 | `viewer/` | Local trajectory viewer frontend. |
 | `json/` | Lightweight task manifests and benchmark metadata. |
-| `prompt/`, `newprompt/` | Prompt templates for the four inference settings and rendering/intervention steps. |
-| `analysis/` | Audit criteria and small analysis notes. |
+| `prompt/` | Prompt templates for the four inference settings and rendering/intervention steps. |
 | `docs/` | Reproducibility and repository-release documentation. |
 | `tests/` | Unit tests for maintained utilities. |
 
@@ -246,7 +245,7 @@ deliverables/
 audits/
 logs/
 newlogs/
-neweval/results/
+eval/results/
 ```
 
 ## Citation

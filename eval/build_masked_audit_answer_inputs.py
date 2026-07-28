@@ -123,7 +123,7 @@ def main() -> int:
     parser.add_argument("--tasks", default="json/tasks_see2thinkbench_1200task_available.json")
     parser.add_argument("--data-base", default=".")
     parser.add_argument("--newtasks-root", default="newtasks")
-    parser.add_argument("--output-dir", default="neweval/results/answer_inputs")
+    parser.add_argument("--output-dir", default="eval/results/answer_inputs")
     args = parser.parse_args()
 
     data_base = Path(args.data_base)

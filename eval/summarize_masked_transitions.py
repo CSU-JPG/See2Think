@@ -83,8 +83,8 @@ def write_transition_csv(path: Path, rows: list[dict[str, Any]], before_key: str
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Summarize unmasked->masked answer transition directions.")
-    parser.add_argument("--comparison-csv", default="neweval/results/masked_action_audit120_comparison/comparison_rows.csv")
-    parser.add_argument("--output-dir", default="neweval/results/masked_action_audit120_comparison")
+    parser.add_argument("--comparison-csv", default="eval/results/masked_action_audit120_comparison/comparison_rows.csv")
+    parser.add_argument("--output-dir", default="eval/results/masked_action_audit120_comparison")
     args = parser.parse_args()
 
     rows = read_rows(Path(args.comparison_csv))

@@ -456,7 +456,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--model", required=True, help="Evaluated model directory/name")
     parser.add_argument("--data-base", default=".")
     parser.add_argument("--run-name", required=True)
-    parser.add_argument("--output-root", default="neweval/results")
+    parser.add_argument("--output-root", default="eval/results")
     parser.add_argument(
         "--judge-model",
         default=os.environ.get("SEE2THINK_KEY_STEP_METRIC_MODEL", os.environ.get("SEE2THINK_JUDGE_MODEL", "gpt-5.4")),

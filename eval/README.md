@@ -16,7 +16,7 @@ Each score is already normalized: `0`, `0.5`, or `1`.
 cd /storage/v-jinpewang/yansiyu_workspace/See2Think
 source config.sh
 
-python -u neweval/process_judge.py \
+python -u eval/process_judge.py \
   --tasks json/tasks_see2thinkbench_600_no_gpt5_step1.json \
   --results-root newtasks/gpt-5_12task_vaot_full \
   --model gpt-5 \
@@ -33,7 +33,7 @@ python -u neweval/process_judge.py \
 cd /storage/v-jinpewang/yansiyu_workspace/See2Think
 source config.sh
 
-python -u neweval/process_judge.py \
+python -u eval/process_judge.py \
   --tasks json/tasks_see2thinkbench_600_no_gpt5_step1.json \
   --results-root newtasks/qwen3-vl-8b-thinking_600_vaot_full \
   --model qwen3-vl-8b-thinking \
@@ -46,10 +46,10 @@ python -u neweval/process_judge.py \
 Outputs are written to:
 
 ```text
-neweval/results/<run-name>/process_judge.jsonl
-neweval/results/<run-name>/process_judge.csv
-neweval/results/<run-name>/summary.json
-neweval/results/<run-name>/failures.jsonl
+eval/results/<run-name>/process_judge.jsonl
+eval/results/<run-name>/process_judge.csv
+eval/results/<run-name>/summary.json
+eval/results/<run-name>/failures.jsonl
 ```
 
 Use `--no-images` if you want a text-only judge call. Keeping images enabled is recommended for `render_faithfulness`.

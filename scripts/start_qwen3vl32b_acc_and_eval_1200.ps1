@@ -1,4 +1,4 @@
-﻿Set-StrictMode -Version Latest
+Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
 $env:PYTHONIOENCODING = "utf-8"
@@ -32,7 +32,7 @@ $PythonExe = (Get-Command python -ErrorAction Stop).Source
 $ts = Get-Date -Format "yyyyMMdd_HHmmss"
 
 $RunDir = "$Root\newlogs\qwen3vl32b_acc_eval_1200_$ts"
-$InputDir = "$Root\neweval\results\qwen3vl32b_acc_eval_1200_$ts\inputs"
+$InputDir = "$Root\eval\results\qwen3vl32b_acc_eval_1200_$ts\inputs"
 
 New-Item -ItemType Directory -Force $RunDir, $InputDir | Out-Null
 
@@ -75,7 +75,7 @@ foreach ($item in $settings) {
         throw "Manifest not found: $manifest. Run assemble_all_1200_results.py first."
     }
 
-    & $PythonExe neweval/build_answer_input.py `
+    & $PythonExe eval/build_answer_input.py `
         --tasks $tasks `
         --data-base . `
         --manifest $manifest `
@@ -93,7 +93,7 @@ foreach ($item in $settings) {
 
     $args = @(
         "-u",
-        "neweval/answer_judge.py",
+        "eval/answer_judge.py",
         "--input-jsonl", $input,
         "--run-name", $runName,
         "--judge-model", "gpt-5.4",
@@ -132,7 +132,7 @@ $evalStderr = "$RunDir\$evalRunName.err"
 
 $evalArgs = @(
     "-u",
-    "neweval/key_step_metric_judge.py",
+    "eval/key_step_metric_judge.py",
     "--tasks", $tasks,
     "--results-root", "final_results_1200/full",
     "--model", $modelSafe,

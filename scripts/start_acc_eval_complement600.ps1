@@ -1,4 +1,4 @@
-﻿Set-StrictMode -Version Latest
+Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
 $env:PYTHONIOENCODING = "utf-8"
@@ -24,7 +24,7 @@ Import-ConfigSh "$Root\config.sh"
 $PythonExe = (Get-Command python -ErrorAction Stop).Source
 $ts = Get-Date -Format 'yyyyMMdd_HHmmss'
 $RunDir = "$Root\newlogs\acc_eval_complement600_$ts"
-$ResultDir = "$Root\neweval\results\acc_eval_complement600_$ts"
+$ResultDir = "$Root\eval\results\acc_eval_complement600_$ts"
 $InputDir = "$ResultDir\inputs"
 $Tasks = "$Root\json\tasks_see2thinkbench_complement600.json"
 New-Item -ItemType Directory -Force $RunDir, $InputDir | Out-Null
@@ -32,7 +32,7 @@ New-Item -ItemType Directory -Force $RunDir, $InputDir | Out-Null
 # The historical 600 answer files identify the first half.  The complement is
 # shared by all conditions and is validated by the builder script.
 & $PythonExe scripts/build_complement_600_tasks.py `
-  --evaluated-jsonl neweval/results/answer_gpt55_text_only_600/answer_judge.jsonl `
+  --evaluated-jsonl eval/results/answer_gpt55_text_only_600/answer_judge.jsonl `
   --output $Tasks
 if ($LASTEXITCODE -ne 0) { throw 'Failed to build complementary task list' }
 
@@ -48,11 +48,11 @@ foreach ($model in $models) {
   foreach ($setting in $settings) {
     $input = "$InputDir\$($model.Tag)_$setting.jsonl"
     $manifest = "$Root\final_results_1200\$setting\$($model.Safe)\_manifest.csv"
-    & $PythonExe neweval/build_answer_input.py --tasks $Tasks --data-base . --manifest $manifest --output-jsonl $input --model $model.Name --setting $setting
+    & $PythonExe eval/build_answer_input.py --tasks $Tasks --data-base . --manifest $manifest --output-jsonl $input --model $model.Name --setting $setting
     if ($LASTEXITCODE -ne 0) { throw "Failed to build answer input for $($model.Name)/$setting" }
     $runName = "answer_complement600_$ts`_$($model.Tag)_$setting"
     $stdout = "$RunDir\$runName.out"; $stderr = "$RunDir\$runName.err"
-    $args = @('-u', 'neweval/answer_judge.py', '--input-jsonl', $input, '--run-name', $runName, '--judge-model', 'gpt-5.4', '--workers', '1', '--fast-exact')
+    $args = @('-u', 'eval/answer_judge.py', '--input-jsonl', $input, '--run-name', $runName, '--judge-model', 'gpt-5.4', '--workers', '1', '--fast-exact')
     $p = Start-Process -FilePath $PythonExe -ArgumentList $args -WorkingDirectory $Root -WindowStyle Hidden -RedirectStandardOutput $stdout -RedirectStandardError $stderr -PassThru
     $records += [pscustomobject]@{type='accuracy'; model=$model.Name; setting=$setting; workers=1; pid=$p.Id; run_name=$runName; input=$input; stdout=$stdout; stderr=$stderr}
     Write-Host "STARTED accuracy $($model.Name)/$setting pid=$($p.Id)"
@@ -64,7 +64,7 @@ foreach ($model in $models) {
 foreach ($model in $models) {
   $runName = "key_step_metric_complement600_$ts`_$($model.Tag)_full"
   $stdout = "$RunDir\$runName.out"; $stderr = "$RunDir\$runName.err"
-  $args = @('-u', 'neweval/key_step_metric_judge.py', '--tasks', $Tasks, '--results-root', 'final_results_1200/full', '--model', $model.Safe, '--run-name', $runName, '--judge-model', 'gpt-5.4', '--workers', '1')
+  $args = @('-u', 'eval/key_step_metric_judge.py', '--tasks', $Tasks, '--results-root', 'final_results_1200/full', '--model', $model.Safe, '--run-name', $runName, '--judge-model', 'gpt-5.4', '--workers', '1')
   $p = Start-Process -FilePath $PythonExe -ArgumentList $args -WorkingDirectory $Root -WindowStyle Hidden -RedirectStandardOutput $stdout -RedirectStandardError $stderr -PassThru
   $records += [pscustomobject]@{type='process_eval'; model=$model.Name; setting='full'; workers=1; pid=$p.Id; run_name=$runName; input=$Tasks; stdout=$stdout; stderr=$stderr}
   Write-Host "STARTED process eval $($model.Name)/full pid=$($p.Id)"

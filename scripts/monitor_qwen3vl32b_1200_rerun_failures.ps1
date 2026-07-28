@@ -1,4 +1,4 @@
-﻿param(
+param(
   [string]$Model = "qwen3-vl-32b-thinking",
   [string]$RequestModel = "qwen3-vl-32b-thinking",
   [string]$Tasks = "json/tasks_see2thinkbench_1200task_available.json",
@@ -96,7 +96,7 @@ Set-Location '$Root'
 `$env:SEE2THINK_EXTRA_BODY_JSON=''
 `$env:SEE2THINK_OUTPUT_BASE='$outputBase'
 `$env:SEE2THINK_LOG_DIR='$logDir'
-python -u solve/run_tasks.py --tasks '$TaskFile' --mode banana --model '$Model' --workers $Workers --start 0 --end $n --setting '$Setting' --prompt_dir newprompt
+python -u solve/run_tasks.py --tasks '$TaskFile' --mode banana --model '$Model' --workers $Workers --start 0 --end $n --setting '$Setting' --prompt_dir prompt
 "@
   $p = Start-Process powershell -WindowStyle Hidden -ArgumentList @(
     "-NoProfile", "-ExecutionPolicy", "Bypass", "-Command", $cmd

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 import argparse
 import csv
 import json
@@ -283,8 +283,8 @@ def write_json(path: Path, obj: Any) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Summarize transition shares with common denominators.")
-    parser.add_argument("--results-root", default="neweval/results")
-    parser.add_argument("--out-dir", default="neweval/results/transition_common_denominator_600")
+    parser.add_argument("--results-root", default="eval/results")
+    parser.add_argument("--out-dir", default="eval/results/transition_common_denominator_600")
     args = parser.parse_args()
 
     results_root = Path(args.results_root)

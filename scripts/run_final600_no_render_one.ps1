@@ -59,5 +59,5 @@ python -u solve/run_tasks.py `
   --end $EndPos `
   --linear `
   --setting vaot_no_render `
-  --prompt_dir newprompt
+  --prompt_dir prompt
 

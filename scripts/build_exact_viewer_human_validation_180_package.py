@@ -1,4 +1,4 @@
-﻿"""Build a portable package using the project's original trajectory-viewer UI."""
+"""Build a portable package using the project's original trajectory-viewer UI."""
 
 from __future__ import annotations
 
@@ -142,7 +142,7 @@ def main() -> None:
     (data / "tasks_180.json").write_text(json.dumps(task_rows, ensure_ascii=False, indent=2), encoding="utf-8")
     (data / "empty.jsonl").write_text("", encoding="utf-8")
     (data / "empty.csv").write_text("case_index\n", encoding="utf-8")
-    shutil.copy2(ROOT / "newprompt" / "see2think_vaot_full.txt", data / "see2think_vaot_full.txt")
+    shutil.copy2(ROOT / "prompt" / "see2think_vaot_full.txt", data / "see2think_vaot_full.txt")
 
     for model, tag in MODELS:
         process, key_steps, answers = [], [], []

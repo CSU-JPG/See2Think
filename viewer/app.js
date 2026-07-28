@@ -1,4 +1,4 @@
-﻿const TASKS_URL = "../json/tasks_see2thinkbench_1200task_available.json";
+const TASKS_URL = "../json/tasks_see2thinkbench_1200task_available.json";
 const FULL_AUDIT_URL = "../outputs/strong_full_audit/audit_results.jsonl";
 const YZR_CHECK_INDEX_URL = "../yzrcheck/index.csv";
 const YZR_MISSING_INDEX_URL = "../yzrcheck/missing_13_from_2026-07-16T06-49-55-120Z.csv";
@@ -6,10 +6,10 @@ const YZR_CANDIDATE_MODE = "yzr_180";
 const YZR_MISSING_MODE = "yzr_missing_13";
 
 const SETTINGS = [
-  { id: "full", label: "VAoT-Full", promptUrl: "../newprompt/see2think_vaot_full.txt" },
-  { id: "text_only", label: "Text CoT", promptUrl: "../newprompt/see2think_text_cot.txt" },
-  { id: "no_render", label: "VAoT-NoRender", promptUrl: "../newprompt/see2think_vaot_no_render.txt" },
-  { id: "wrong_render", label: "WrongRender", promptUrl: "../newprompt/see2think_vaot_wrong_render.txt" },
+  { id: "full", label: "VAoT-Full", promptUrl: "../prompt/see2think_vaot_full.txt" },
+  { id: "text_only", label: "Text CoT", promptUrl: "../prompt/see2think_text_cot.txt" },
+  { id: "no_render", label: "VAoT-NoRender", promptUrl: "../prompt/see2think_vaot_no_render.txt" },
+  { id: "wrong_render", label: "WrongRender", promptUrl: "../prompt/see2think_vaot_wrong_render.txt" },
 ];
 
 const MODELS = [
@@ -21,45 +21,45 @@ const MODELS = [
 ];
 
 const PROCESS_JUDGES = {
-  "full::gpt-5.5": "../neweval/results/gpt54_judge_gpt55_final1200_vaot_full/process_judge.jsonl",
-  "full::o3": "../neweval/results/gpt54_judge_o3_final1200_vaot_full/process_judge.jsonl",
-  "full::gemini-3.5-flash": "../neweval/results/gpt54_judge_gemini35flash_final1200_vaot_full/process_judge.jsonl",
+  "full::gpt-5.5": "../eval/results/gpt54_judge_gpt55_final1200_vaot_full/process_judge.jsonl",
+  "full::o3": "../eval/results/gpt54_judge_o3_final1200_vaot_full/process_judge.jsonl",
+  "full::gemini-3.5-flash": "../eval/results/gpt54_judge_gemini35flash_final1200_vaot_full/process_judge.jsonl",
   "wrong_render::gpt-5.5": [
-    "../neweval/results/gpt54_judge_gpt55_12_vaot_wrong_render/process_judge.jsonl",
-    "../neweval/results/gpt54_judge_gpt55_final600_vaot_wrong_render/process_judge.jsonl",
+    "../eval/results/gpt54_judge_gpt55_12_vaot_wrong_render/process_judge.jsonl",
+    "../eval/results/gpt54_judge_gpt55_final600_vaot_wrong_render/process_judge.jsonl",
   ],
   "wrong_render::o3": [
-    "../neweval/results/gpt54_judge_o3_12_vaot_wrong_render/process_judge.jsonl",
-    "../neweval/results/gpt54_judge_o3_final600_vaot_wrong_render/process_judge.jsonl",
+    "../eval/results/gpt54_judge_o3_12_vaot_wrong_render/process_judge.jsonl",
+    "../eval/results/gpt54_judge_o3_final600_vaot_wrong_render/process_judge.jsonl",
   ],
   "wrong_render::gemini-3.5-flash": [
-    "../neweval/results/gpt54_judge_gemini35flash_12_vaot_wrong_render/process_judge.jsonl",
-    "../neweval/results/gpt54_judge_gemini35flash_final600_vaot_wrong_render/process_judge.jsonl",
+    "../eval/results/gpt54_judge_gemini35flash_12_vaot_wrong_render/process_judge.jsonl",
+    "../eval/results/gpt54_judge_gemini35flash_final600_vaot_wrong_render/process_judge.jsonl",
   ],
 };
 
 const KEY_STEP_JUDGES = {
-  "full::gpt-5.5": "../neweval/results/key_step_gpt55_final1200_vaot_full/key_step_judge.jsonl",
-  "full::o3": "../neweval/results/key_step_o3_final1200_vaot_full/key_step_judge.jsonl",
-  "full::gemini-3.5-flash": "../neweval/results/key_step_gemini35flash_final1200_vaot_full/key_step_judge.jsonl",
+  "full::gpt-5.5": "../eval/results/key_step_gpt55_final1200_vaot_full/key_step_judge.jsonl",
+  "full::o3": "../eval/results/key_step_o3_final1200_vaot_full/key_step_judge.jsonl",
+  "full::gemini-3.5-flash": "../eval/results/key_step_gemini35flash_final1200_vaot_full/key_step_judge.jsonl",
 };
 
 const ANSWER_JUDGES = {
-  "full::gpt-5.5": "../neweval/results/answer_gpt55_final1200_vaot_full/answer_judge.jsonl",
-  "full::o3": "../neweval/results/answer_o3_final1200_vaot_full/answer_judge.jsonl",
-  "full::gemini-3.5-flash": "../neweval/results/answer_gemini35flash_final1200_vaot_full/answer_judge.jsonl",
-  "full_600subset::gpt-5.5": "../neweval/results/answer_gpt55_final600subset_vaot_full/answer_judge.jsonl",
-  "full_600subset::o3": "../neweval/results/answer_o3_final600subset_vaot_full/answer_judge.jsonl",
-  "full_600subset::gemini-3.5-flash": "../neweval/results/answer_gemini35flash_final600subset_vaot_full/answer_judge.jsonl",
-  "text_only::gpt-5.5": "../neweval/results/answer_gpt55_text_only_600/answer_judge.jsonl",
-  "text_only::o3": "../neweval/results/answer_o3_text_only_600/answer_judge.jsonl",
-  "text_only::gemini-3.5-flash": "../neweval/results/answer_gemini35flash_text_only_600/answer_judge.jsonl",
-  "no_render::gpt-5.5": "../neweval/results/answer_gpt55_no_render_600/answer_judge.jsonl",
-  "no_render::o3": "../neweval/results/answer_o3_no_render_600/answer_judge.jsonl",
-  "no_render::gemini-3.5-flash": "../neweval/results/answer_gemini35flash_no_render_600/answer_judge.jsonl",
-  "wrong_render::gpt-5.5": "../neweval/results/answer_gpt55_wrong_render_600/answer_judge.jsonl",
-  "wrong_render::o3": "../neweval/results/answer_o3_wrong_render_600/answer_judge.jsonl",
-  "wrong_render::gemini-3.5-flash": "../neweval/results/answer_gemini35flash_wrong_render_600/answer_judge.jsonl",
+  "full::gpt-5.5": "../eval/results/answer_gpt55_final1200_vaot_full/answer_judge.jsonl",
+  "full::o3": "../eval/results/answer_o3_final1200_vaot_full/answer_judge.jsonl",
+  "full::gemini-3.5-flash": "../eval/results/answer_gemini35flash_final1200_vaot_full/answer_judge.jsonl",
+  "full_600subset::gpt-5.5": "../eval/results/answer_gpt55_final600subset_vaot_full/answer_judge.jsonl",
+  "full_600subset::o3": "../eval/results/answer_o3_final600subset_vaot_full/answer_judge.jsonl",
+  "full_600subset::gemini-3.5-flash": "../eval/results/answer_gemini35flash_final600subset_vaot_full/answer_judge.jsonl",
+  "text_only::gpt-5.5": "../eval/results/answer_gpt55_text_only_600/answer_judge.jsonl",
+  "text_only::o3": "../eval/results/answer_o3_text_only_600/answer_judge.jsonl",
+  "text_only::gemini-3.5-flash": "../eval/results/answer_gemini35flash_text_only_600/answer_judge.jsonl",
+  "no_render::gpt-5.5": "../eval/results/answer_gpt55_no_render_600/answer_judge.jsonl",
+  "no_render::o3": "../eval/results/answer_o3_no_render_600/answer_judge.jsonl",
+  "no_render::gemini-3.5-flash": "../eval/results/answer_gemini35flash_no_render_600/answer_judge.jsonl",
+  "wrong_render::gpt-5.5": "../eval/results/answer_gpt55_wrong_render_600/answer_judge.jsonl",
+  "wrong_render::o3": "../eval/results/answer_o3_wrong_render_600/answer_judge.jsonl",
+  "wrong_render::gemini-3.5-flash": "../eval/results/answer_gemini35flash_wrong_render_600/answer_judge.jsonl",
 };
 
 const SUMMARY_ANSWER_COLUMNS = [
@@ -1767,7 +1767,7 @@ function resolveImageUrl(href, baseDir) {
   if (!raw) return "";
   if (/^(?:https?:|data:|blob:)/i.test(raw)) return raw;
   if (raw.startsWith("../") || raw.startsWith("./") || raw.startsWith("/")) return raw;
-  if (raw.startsWith("final_results/") || raw.startsWith("annotation/") || raw.startsWith("newtasks/") || raw.startsWith("neweval/")) {
+  if (raw.startsWith("final_results/") || raw.startsWith("annotation/") || raw.startsWith("newtasks/") || raw.startsWith("eval/")) {
     return `../${raw}`;
   }
   return `${baseDir}/${raw}`;

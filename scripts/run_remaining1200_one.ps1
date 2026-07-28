@@ -90,4 +90,4 @@ python -u solve/run_tasks.py `
   --start $StartPos `
   --end $EndPos `
   --setting $Setting `
-  --prompt_dir newprompt
+  --prompt_dir prompt

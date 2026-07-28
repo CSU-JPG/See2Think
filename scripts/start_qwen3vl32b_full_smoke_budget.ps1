@@ -80,7 +80,7 @@ $p = Start-Process python -WindowStyle Hidden -ArgumentList @(
   "--start", "$StartPos",
   "--end", "$EndPos",
   "--setting", "vaot_full",
-  "--prompt_dir", "newprompt"
+  "--prompt_dir", "prompt"
 ) -RedirectStandardOutput $out -RedirectStandardError $err -PassThru
 
 [pscustomobject]@{

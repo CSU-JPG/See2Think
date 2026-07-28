@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 import csv
 import json
 from pathlib import Path
@@ -8,21 +8,21 @@ from typing import Any
 RUNS = [
     (
         "gpt-5.5",
-        Path("neweval/results/gpt54_judge_gpt55_final1200_vaot_full/process_judge.jsonl"),
-        Path("neweval/results/key_step_gpt55_final1200_vaot_full/key_step_judge.jsonl"),
-        Path("neweval/results/process_eval_with_key_step_gpt55_final1200_vaot_full"),
+        Path("eval/results/gpt54_judge_gpt55_final1200_vaot_full/process_judge.jsonl"),
+        Path("eval/results/key_step_gpt55_final1200_vaot_full/key_step_judge.jsonl"),
+        Path("eval/results/process_eval_with_key_step_gpt55_final1200_vaot_full"),
     ),
     (
         "o3",
-        Path("neweval/results/gpt54_judge_o3_final1200_vaot_full/process_judge.jsonl"),
-        Path("neweval/results/key_step_o3_final1200_vaot_full/key_step_judge.jsonl"),
-        Path("neweval/results/process_eval_with_key_step_o3_final1200_vaot_full"),
+        Path("eval/results/gpt54_judge_o3_final1200_vaot_full/process_judge.jsonl"),
+        Path("eval/results/key_step_o3_final1200_vaot_full/key_step_judge.jsonl"),
+        Path("eval/results/process_eval_with_key_step_o3_final1200_vaot_full"),
     ),
     (
         "gemini-3.5-flash",
-        Path("neweval/results/gpt54_judge_gemini35flash_final1200_vaot_full/process_judge.jsonl"),
-        Path("neweval/results/key_step_gemini35flash_final1200_vaot_full/key_step_judge.jsonl"),
-        Path("neweval/results/process_eval_with_key_step_gemini35flash_final1200_vaot_full"),
+        Path("eval/results/gpt54_judge_gemini35flash_final1200_vaot_full/process_judge.jsonl"),
+        Path("eval/results/key_step_gemini35flash_final1200_vaot_full/key_step_judge.jsonl"),
+        Path("eval/results/process_eval_with_key_step_gemini35flash_final1200_vaot_full"),
     ),
 ]
 

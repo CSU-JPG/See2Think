@@ -1,4 +1,4 @@
-﻿import csv
+import csv
 import json
 from collections import defaultdict
 from pathlib import Path
@@ -6,7 +6,7 @@ from pathlib import Path
 STAMP = "20260725_150902"
 N_EACH_DIRECTION = 12
 
-ROOT = Path("neweval/results")
+ROOT = Path("eval/results")
 
 FULL_PATH = (
     ROOT

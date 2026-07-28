@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Audit VAoT-Full trajectories for strong visual-dependence cases.
 
 This is a reproducible pre-audit tool. It combines answer correctness, process
@@ -27,22 +27,22 @@ DATA_PREFIX = "annotation/dataset/data/"
 
 MODEL_CONFIGS = {
     "gpt-5.5": {
-        "answer": "neweval/results/answer_gpt55_final1200_vaot_full/answer_judge.jsonl",
-        "complete_eval": "neweval/results/complete_eval_gpt55_final1200_vaot_full/complete_process_judge.jsonl",
-        "text_answer": "neweval/results/answer_gpt55_text_only_600/answer_judge.jsonl",
-        "no_render_answer": "neweval/results/answer_gpt55_no_render_600/answer_judge.jsonl",
+        "answer": "eval/results/answer_gpt55_final1200_vaot_full/answer_judge.jsonl",
+        "complete_eval": "eval/results/complete_eval_gpt55_final1200_vaot_full/complete_process_judge.jsonl",
+        "text_answer": "eval/results/answer_gpt55_text_only_600/answer_judge.jsonl",
+        "no_render_answer": "eval/results/answer_gpt55_no_render_600/answer_judge.jsonl",
     },
     "o3": {
-        "answer": "neweval/results/answer_o3_final1200_vaot_full/answer_judge.jsonl",
-        "complete_eval": "neweval/results/complete_eval_o3_final1200_vaot_full/complete_process_judge.jsonl",
-        "text_answer": "neweval/results/answer_o3_text_only_600/answer_judge.jsonl",
-        "no_render_answer": "neweval/results/answer_o3_no_render_600/answer_judge.jsonl",
+        "answer": "eval/results/answer_o3_final1200_vaot_full/answer_judge.jsonl",
+        "complete_eval": "eval/results/complete_eval_o3_final1200_vaot_full/complete_process_judge.jsonl",
+        "text_answer": "eval/results/answer_o3_text_only_600/answer_judge.jsonl",
+        "no_render_answer": "eval/results/answer_o3_no_render_600/answer_judge.jsonl",
     },
     "gemini-3.5-flash": {
-        "answer": "neweval/results/answer_gemini35flash_final1200_vaot_full/answer_judge.jsonl",
-        "complete_eval": "neweval/results/complete_eval_gemini35flash_final1200_vaot_full/complete_process_judge.jsonl",
-        "text_answer": "neweval/results/answer_gemini35flash_text_only_600/answer_judge.jsonl",
-        "no_render_answer": "neweval/results/answer_gemini35flash_no_render_600/answer_judge.jsonl",
+        "answer": "eval/results/answer_gemini35flash_final1200_vaot_full/answer_judge.jsonl",
+        "complete_eval": "eval/results/complete_eval_gemini35flash_final1200_vaot_full/complete_process_judge.jsonl",
+        "text_answer": "eval/results/answer_gemini35flash_text_only_600/answer_judge.jsonl",
+        "no_render_answer": "eval/results/answer_gemini35flash_no_render_600/answer_judge.jsonl",
     },
 }
 

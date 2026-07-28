@@ -516,14 +516,14 @@ if __name__ == "__main__":
         type=str,
         choices=["text_cot", "vaot_no_render", "vaot_full", "vaot_full_min1_render", "vaot_wrong_render"],
         default=None,
-        help="See2Think setting; passed to auto_solve and newprompt",
+        help="See2Think setting; passed to auto_solve and prompt",
         required=False,
     )
     parser.add_argument(
         "--prompt_dir",
         type=str,
         default=None,
-        help="Prompt directory; defaults to SEE2THINK_PROMPT_DIR or newprompt",
+        help="Prompt directory; defaults to SEE2THINK_PROMPT_DIR or prompt",
         required=False,
     )
     parser.add_argument(

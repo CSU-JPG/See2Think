@@ -1,4 +1,4 @@
-﻿Set-StrictMode -Version Latest
+Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
 $env:PYTHONIOENCODING = "utf-8"
@@ -53,7 +53,7 @@ python -u solve/run_tasks.py `
   --end 417 `
   --linear `
   --setting vaot_full `
-  --prompt_dir newprompt
+  --prompt_dir prompt
 
 Write-Host ""
 Write-Host "Check outputs:"

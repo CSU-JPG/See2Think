@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 import argparse
 import csv
 import json
@@ -75,8 +75,8 @@ def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Compare unmasked vs masked-action ACC on the 120 WrongRender audit samples.")
     parser.add_argument("--audit-csv", default="outputs/human_audit/wrong_render_120/wrong_render_audit_120.csv")
-    parser.add_argument("--results-root", default="neweval/results")
-    parser.add_argument("--output-dir", default="neweval/results/masked_action_audit120_comparison")
+    parser.add_argument("--results-root", default="eval/results")
+    parser.add_argument("--output-dir", default="eval/results/masked_action_audit120_comparison")
     args = parser.parse_args()
 
     results_root = Path(args.results_root)

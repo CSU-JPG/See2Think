@@ -1,4 +1,4 @@
-﻿import argparse
+import argparse
 import csv
 import hashlib
 import json
@@ -9,9 +9,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 FULL_SUMMARIES = {
-    "gpt-5.5": ROOT / "neweval/results/answer_gpt55_final1200_vaot_full/answer_summary.json",
-    "o3": ROOT / "neweval/results/answer_o3_final1200_vaot_full/answer_summary.json",
-    "gemini-3.5-flash": ROOT / "neweval/results/answer_gemini35flash_final1200_vaot_full/answer_summary.json",
+    "gpt-5.5": ROOT / "eval/results/answer_gpt55_final1200_vaot_full/answer_summary.json",
+    "o3": ROOT / "eval/results/answer_o3_final1200_vaot_full/answer_summary.json",
+    "gemini-3.5-flash": ROOT / "eval/results/answer_gemini35flash_final1200_vaot_full/answer_summary.json",
 }
 
 

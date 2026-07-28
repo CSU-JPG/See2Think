@@ -1,4 +1,4 @@
-﻿Set-StrictMode -Version Latest
+Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
 $env:PYTHONIOENCODING = "utf-8"
@@ -59,7 +59,7 @@ function Run-FullNew46 {
       --end $EndPos `
       --linear `
       --setting vaot_full `
-      --prompt_dir newprompt
+      --prompt_dir prompt
 
     if ($LASTEXITCODE -ne 0) {
         throw "run_tasks.py failed for $Model with exit code $LASTEXITCODE"

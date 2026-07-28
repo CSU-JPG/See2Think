@@ -69,4 +69,4 @@ python -u solve/run_tasks.py `
   --start $StartPos `
   --end $EndPos `
   --setting vaot_full `
-  --prompt_dir newprompt
+  --prompt_dir prompt

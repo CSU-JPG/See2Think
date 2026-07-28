@@ -1,4 +1,4 @@
-﻿"""Export complete task-level 1,200-row evaluation results into merged_1200."""
+"""Export complete task-level 1,200-row evaluation results into merged_1200."""
 
 import importlib.util
 import json
@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RESULTS = ROOT / "neweval" / "results"
+RESULTS = ROOT / "eval" / "results"
 OUT = ROOT / "outputs" / "analysis_split_and_merged_1200" / "merged_1200" / "complete_evaluations"
 MODELS = (("gpt-5.5", "gpt55"), ("o3", "o3"), ("gemini-3.5-flash", "gemini35flash"))
 SETTINGS = ("text_only", "no_render", "full", "wrong_render")

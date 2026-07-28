@@ -15,17 +15,17 @@ These are ignored by `.gitignore`.
 
 ## Should be committed
 
-- Source code in `solve/`, `convert/`, `neweval/`, `scripts/`, `viewer/`, and `tests/`.
-- Prompt templates in `prompt/` and `newprompt/`.
+- Source code in `solve/`, `convert/`, `eval/`, `scripts/`, `viewer/`, and `tests/`.
+- Prompt templates in `prompt/`.
 - Lightweight task manifests and metadata in `json/`.
-- Reproducibility notes and audit criteria in `analysis/` and `docs/`.
+- Reproducibility notes in `docs/`.
 - `README.md`, `requirements.txt`, and example config files.
 
 ## Pre-push checks
 
 ```bash
 git status --short --ignored
-python -m compileall solve convert neweval scripts -q
+python -m compileall solve convert eval scripts -q
 python -m pytest tests -q
 ```
 

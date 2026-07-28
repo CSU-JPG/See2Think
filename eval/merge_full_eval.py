@@ -94,7 +94,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--process-jsonl", required=True)
     parser.add_argument("--key-step-jsonl", required=True)
     parser.add_argument("--run-name", required=True)
-    parser.add_argument("--output-root", default="neweval/results")
+    parser.add_argument("--output-root", default="eval/results")
     return parser.parse_args()
 
 

@@ -1,8 +1,8 @@
-﻿import json
+import json
 from pathlib import Path
 
 stamp = "20260725_150902"
-root = Path("neweval/results")
+root = Path("eval/results")
 
 settings = [
     "text_cot",

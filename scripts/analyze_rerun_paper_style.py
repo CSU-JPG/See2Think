@@ -1,4 +1,4 @@
-﻿"""Create paper-style outcome and process analyses for the latest rerun.
+"""Create paper-style outcome and process analyses for the latest rerun.
 
 The current rerun supplies answer judgments for CoT, NoRender, and
 WrongRender.  VAoT-Full trajectories were unchanged, so their existing aligned
@@ -18,7 +18,7 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RESULTS = ROOT / "neweval" / "results"
+RESULTS = ROOT / "eval" / "results"
 LOGS = ROOT / "newlogs"
 
 MODELS = (

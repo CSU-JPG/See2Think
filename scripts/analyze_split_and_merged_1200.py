@@ -1,4 +1,4 @@
-﻿"""Paper-style analyses for historical 600, complementary 600, and merged 1200.
+"""Paper-style analyses for historical 600, complementary 600, and merged 1200.
 
 The merge is keyed by ``task_key``.  It therefore preserves exact category
 counts and never treats two separate 600-sample means as an unweighted average.
@@ -16,7 +16,7 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RESULTS = ROOT / "neweval" / "results"
+RESULTS = ROOT / "eval" / "results"
 OUT = ROOT / "outputs" / "analysis_split_and_merged_1200"
 MODELS = (
     ("gpt-5.5", "gpt55"),

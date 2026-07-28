@@ -1,4 +1,4 @@
-﻿import json
+import json
 import shutil
 from collections import defaultdict
 from pathlib import Path
@@ -6,7 +6,7 @@ from pathlib import Path
 STAMP = "20260725_150902"
 N_PER_DIRECTION = 5
 
-ANSWER_ROOT = Path("neweval/results")
+ANSWER_ROOT = Path("eval/results")
 
 FULL_ANSWER_FILE = (
     ANSWER_ROOT

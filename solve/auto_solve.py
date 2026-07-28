@@ -325,7 +325,7 @@ def read_setting_prompt(setting: str | None, prompt_dir: str | None) -> str | No
     prompt_name = PROMPT_FILE_BY_SETTING.get(setting)
     if not prompt_name:
         raise ValueError(f"Unsupported See2Think setting: {setting}")
-    base_dir = Path(prompt_dir or os.environ.get("SEE2THINK_PROMPT_DIR", "newprompt"))
+    base_dir = Path(prompt_dir or os.environ.get("SEE2THINK_PROMPT_DIR", "prompt"))
     prompt_path = base_dir / prompt_name
     if not prompt_path.exists():
         raise FileNotFoundError(f"Prompt for setting {setting} not found: {prompt_path}")
@@ -1800,13 +1800,13 @@ if __name__ == "__main__":
         type=str,
         choices=["text_cot", "vaot_no_render", "vaot_full", "vaot_full_min1_render", "vaot_wrong_render"],
         default=None,
-        help="See2Think experiment setting; loads prompt from newprompt by default",
+        help="See2Think experiment setting; loads prompt from prompt by default",
     )
     parser.add_argument(
         "--prompt_dir",
         type=str,
         default=None,
-        help="Directory containing See2Think prompt files; defaults to SEE2THINK_PROMPT_DIR or newprompt",
+        help="Directory containing See2Think prompt files; defaults to SEE2THINK_PROMPT_DIR or prompt",
     )
     args = parser.parse_args()
     logging.info(json.dumps(vars(args), ensure_ascii=False, indent=2))

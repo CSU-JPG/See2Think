@@ -1,4 +1,4 @@
-﻿"""Create a paper-taxonomy-stratified, human-reviewable WrongRender audit packet."""
+"""Create a paper-taxonomy-stratified, human-reviewable WrongRender audit packet."""
 
 import csv
 import hashlib
@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RESULTS = ROOT / "neweval" / "results"
+RESULTS = ROOT / "eval" / "results"
 FINAL = ROOT / "final_results_1200"
 OUT = ROOT / "outputs" / "human_audit" / "wrong_render_1200"
 MODELS = (("gpt-5.5", "gpt55"), ("o3", "o3"), ("gemini-3.5-flash", "gemini35flash"))

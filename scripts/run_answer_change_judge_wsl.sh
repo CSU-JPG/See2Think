@@ -7,4 +7,4 @@ cd "$ROOT"
 . ./config.sh
 
 PYTHON_EXE="${SEE2THINK_WINDOWS_PYTHON:-E:/pythonuse/python.exe}"
-exec "$PYTHON_EXE" neweval/answer_change_judge.py "$@"
+exec "$PYTHON_EXE" eval/answer_change_judge.py "$@"

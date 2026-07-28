@@ -1,10 +1,10 @@
-﻿import json
+import json
 from collections import Counter, defaultdict
 from pathlib import Path
 
 STAMP = "20260725_150902"
 
-ROOT = Path("neweval/results")
+ROOT = Path("eval/results")
 
 FULL_PATH = (
     ROOT

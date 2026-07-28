@@ -1,4 +1,4 @@
-﻿Set-StrictMode -Version Latest
+Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
 $env:PYTHONIOENCODING = "utf-8"
@@ -24,7 +24,7 @@ Import-ConfigSh "$Root\config.sh"
 $PythonExe = (Get-Command python -ErrorAction Stop).Source
 $ts = Get-Date -Format 'yyyyMMdd_HHmmss'
 $RunDir = "$Root\newlogs\acc_eval_rerun_$ts"
-$InputDir = "$Root\neweval\results\acc_eval_rerun_$ts\inputs"
+$InputDir = "$Root\eval\results\acc_eval_rerun_$ts\inputs"
 New-Item -ItemType Directory -Force $RunDir, $InputDir | Out-Null
 
 $models = @(
@@ -40,7 +40,7 @@ foreach ($model in $models) {
   foreach ($setting in $settings) {
     $input = "$InputDir\$($model.Tag)_$setting.jsonl"
     $manifest = "$Root\final_results\$setting\$($model.Safe)\_manifest.csv"
-    & $PythonExe neweval/build_answer_input.py `
+    & $PythonExe eval/build_answer_input.py `
       --tasks json/tasks_see2thinkbench_600_no_gpt5_step1.json `
       --data-base . `
       --manifest $manifest `
@@ -52,7 +52,7 @@ foreach ($model in $models) {
     $runName = "answer_rerun_$ts`_$($model.Tag)_$setting"
     $stdout = "$RunDir\$runName.out"
     $stderr = "$RunDir\$runName.err"
-    $args = @('-u', 'neweval/answer_judge.py', '--input-jsonl', $input, '--run-name', $runName, '--judge-model', 'gpt-5.4', '--workers', '1', '--fast-exact')
+    $args = @('-u', 'eval/answer_judge.py', '--input-jsonl', $input, '--run-name', $runName, '--judge-model', 'gpt-5.4', '--workers', '1', '--fast-exact')
     $p = Start-Process -FilePath $PythonExe -ArgumentList $args -WorkingDirectory $Root -WindowStyle Hidden -RedirectStandardOutput $stdout -RedirectStandardError $stderr -PassThru
     $records += [pscustomobject]@{type='accuracy'; model=$model.Name; setting=$setting; workers=1; pid=$p.Id; run_name=$runName; input=$input; stdout=$stdout; stderr=$stderr}
     Write-Host "STARTED accuracy $($model.Name)/$setting pid=$($p.Id)"
@@ -64,7 +64,7 @@ foreach ($model in $models) {
   $runName = "key_step_metric_rerun_$ts`_$($model.Tag)_full600"
   $stdout = "$RunDir\$runName.out"
   $stderr = "$RunDir\$runName.err"
-  $args = @('-u', 'neweval/key_step_metric_judge.py', '--tasks', 'json/tasks_see2thinkbench_600_no_gpt5_step1.json', '--results-root', 'final_results/full', '--model', $model.Safe, '--run-name', $runName, '--judge-model', 'gpt-5.4', '--workers', '1')
+  $args = @('-u', 'eval/key_step_metric_judge.py', '--tasks', 'json/tasks_see2thinkbench_600_no_gpt5_step1.json', '--results-root', 'final_results/full', '--model', $model.Safe, '--run-name', $runName, '--judge-model', 'gpt-5.4', '--workers', '1')
   $p = Start-Process -FilePath $PythonExe -ArgumentList $args -WorkingDirectory $Root -WindowStyle Hidden -RedirectStandardOutput $stdout -RedirectStandardError $stderr -PassThru
   $records += [pscustomobject]@{type='process_eval'; model=$model.Name; setting='full'; workers=1; pid=$p.Id; run_name=$runName; input='json/tasks_see2thinkbench_600_no_gpt5_step1.json'; stdout=$stdout; stderr=$stderr}
   Write-Host "STARTED process eval $($model.Name)/full pid=$($p.Id)"

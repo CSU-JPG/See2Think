@@ -1,4 +1,4 @@
-﻿param(
+param(
   [Parameter(Mandatory=$true)][string]$Setting,
   [string]$Model = "qwen3-vl-32b-thinking",
   [string]$RequestModel = "qwen3-vl-32b-thinking",
@@ -123,7 +123,7 @@ Set-Location '$Root'
 `$env:SEE2THINK_EXTRA_BODY_JSON='$ExtraBodyJson'
 `$env:SEE2THINK_OUTPUT_BASE='$OutputBase'
 `$env:SEE2THINK_LOG_DIR='$LogDir'
-& '$PythonExeForCmd' -u solve/run_tasks.py --tasks '$TasksFull' --mode banana --model '$Model' --workers $Workers --start $StartPos --end $EndPos --setting '$Setting' --prompt_dir newprompt
+& '$PythonExeForCmd' -u solve/run_tasks.py --tasks '$TasksFull' --mode banana --model '$Model' --workers $Workers --start $StartPos --end $EndPos --setting '$Setting' --prompt_dir prompt
 "@
 $p = Start-Process -FilePath $PowerShellExe -WindowStyle Hidden -ArgumentList @(
   "-NoProfile", "-ExecutionPolicy", "Bypass", "-Command", $cmd
