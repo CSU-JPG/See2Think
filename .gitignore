@@ -57,6 +57,12 @@ bin/
 viewer/
 solve/auto_solve_qwen.py
 solve/model_server.py
+solve/check_question.py
+solve/create_golden.py
+solve/create_tasks.py
+solve/extract_index.py
+solve/qwen_infer_plus.py
+solve/test_*.py
 
 # Generated task queues and retry lists
 json/run_tasks_*/
