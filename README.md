@@ -1,4 +1,12 @@
-# See2Think: Do Multimodal Models Really Use Intermediate Visual States?
+<p align="center">
+  <img src="assets/readme/see2think-hero.png" width="100%" alt="See2Think — Do Multimodal Models Really Use Intermediate Visual States?">
+</p>
+
+<h1 align="center">See2Think</h1>
+
+<p align="center">
+  <strong>Do Multimodal Models Really Use Intermediate Visual States?</strong>
+</p>
 
 <p align="center">
   Siyu Yan<sup>1,3,†</sup>&nbsp;&nbsp;
@@ -7,7 +15,7 @@
   Panhao Zhou<sup>2</sup>&nbsp;&nbsp;
   Jingyu Chen<sup>2</sup>&nbsp;&nbsp;
   Chenhao Ji<sup>3</sup>&nbsp;&nbsp;
-  Shuo Cao<sup>3,5</sup>&nbsp;&nbsp;
+  Shuo Cao<sup>3,5</sup><br>
   Yongheng Zhang<sup>2</sup>&nbsp;&nbsp;
   Haoze Liu<sup>3</sup>&nbsp;&nbsp;
   Siyu Zhang<sup>3,6</sup>&nbsp;&nbsp;
@@ -17,97 +25,133 @@
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Paper-arXiv-red" alt="Paper"></a>
-  <a href="https://csu-jpg.github.io/See2Think/"><img src="https://img.shields.io/badge/Project-Page-blue" alt="Project Page"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT"></a>
-  <img src="https://img.shields.io/badge/Python-3.9%2B-orange" alt="Python 3.9+">
+  <a href="https://sgysy.github.io/seetothink/"><img src="https://img.shields.io/badge/Project_Page-Visit-1677ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project Page"></a>
+  <a href="https://github.com/CSU-JPG/See2Think"><img src="https://img.shields.io/badge/Code-GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="Code"></a>
+  <img src="https://img.shields.io/badge/Paper-Coming_Soon-f5b942?style=for-the-badge" alt="Paper coming soon">
 </p>
 
 <p align="center">
-  <a href="https://csu-jpg.github.io/See2Think/">Project Page</a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-39b980?style=flat-square" alt="MIT License"></a>
+  <img src="https://img.shields.io/badge/Python-3.9%2B-3776ab?style=flat-square&logo=python&logoColor=white" alt="Python 3.9+">
+  <a href="https://github.com/CSU-JPG/See2Think/stargazers"><img src="https://img.shields.io/github/stars/CSU-JPG/See2Think?style=flat-square&color=f5b942" alt="GitHub stars"></a>
 </p>
 
 <p align="center">
-  <img src="assets/readme/overview.png" width="95%" alt="See2Think overview">
+  <a href="#the-question">The Question</a> ·
+  <a href="#see2thinkbench">Benchmark</a> ·
+  <a href="#visual-action-of-thought">VAoT</a> ·
+  <a href="#results">Results</a> ·
+  <a href="#quick-start">Quick Start</a> ·
+  <a href="#citation">Citation</a>
 </p>
 
 ---
 
-## Overview
+## The Question
 
-**See2Think** is an evaluation framework for testing whether multimodal models genuinely use intermediate visual states during reasoning.
+> A model can produce a useful-looking intermediate image—but does its later reasoning actually depend on that visual state?
 
-Many recent multimodal systems can draw auxiliary lines, crop regions, highlight objects, or request rendered intermediate images. However, final-answer accuracy alone cannot tell whether the model selected a task-relevant visual action, whether the renderer faithfully executed it, or whether the model used the returned visual state in later reasoning.
+Multimodal models can draw auxiliary lines, crop regions, highlight objects, and request rendered intermediate images. Final-answer accuracy alone cannot reveal whether the model chose a relevant visual action, whether the renderer executed it faithfully, or whether the returned visual state affected subsequent reasoning.
 
-See2Think contains two main components:
-
-- **See2ThinkBench:** a 1,200-sample open-ended benchmark across 12 task categories, covering 2D structured reasoning, 3D scene reasoning, and real-world visual reasoning.
-- **Visual Action-of-Thought (VAoT):** an inference protocol that records textual thoughts, visual actions, rendered visual states, subsequent reasoning, and final answers.
-
-## Framework
+**See2Think** turns this hidden process into something measurable.
 
 <p align="center">
-  <img src="assets/readme/vaot_protocol.png" width="90%" alt="Visual Action-of-Thought protocol">
+  <img src="assets/readme/overview.png" width="96%" alt="Figure 1: See2Think overview">
 </p>
 
-See2Think evaluates four matched inference settings:
+<p align="center">
+  <sub><strong>Figure 1.</strong> From final-answer evaluation to controlled diagnosis of visual-state use.</sub>
+</p>
 
-| Setting | Description |
+<table>
+  <tr>
+    <td width="25%"><strong>01 · Benchmark</strong><br><sub>1,200 open-ended, visually dependent problems.</sub></td>
+    <td width="25%"><strong>02 · Three visual worlds</strong><br><sub>2D structures, 3D scenes, and real-world reasoning.</sub></td>
+    <td width="25%"><strong>03 · Process diagnosis</strong><br><sub>Measure action, rendering, and feedback separately.</sub></td>
+    <td width="25%"><strong>04 · Intervention</strong><br><sub>Corrupt feedback to reveal behavioral dependence.</sub></td>
+  </tr>
+</table>
+
+## See2ThinkBench
+
+See2ThinkBench contains **1,200 samples across 12 task categories**. Every problem is open-ended and visually dependent, spanning three complementary reasoning worlds:
+
+- **2D structured reasoning** — diagrams, charts, geometry, and symbolic visual structure.
+- **3D scene reasoning** — spatial relations, embodied scenes, and manipulation.
+- **Real-world visual reasoning** — natural images and grounded multimodal questions.
+
+<p align="center">
+  <img src="assets/project/bench_examples.png" width="96%" alt="Figure 2: See2ThinkBench examples across 12 task categories">
+</p>
+
+<p align="center">
+  <sub><strong>Figure 2.</strong> Representative See2ThinkBench examples across 12 task categories and three visual worlds.</sub>
+</p>
+
+## Visual Action-of-Thought
+
+**Visual Action-of-Thought (VAoT)** records the complete reasoning trajectory: textual thought, visual action, rendered state, follow-up reasoning, and final answer.
+
+<p align="center">
+  <img src="assets/readme/vaot_protocol.png" width="92%" alt="Visual Action-of-Thought protocol">
+</p>
+
+### Four matched inference settings
+
+| Setting | Visual action | Rendered feedback | Diagnostic role |
+| --- | :---: | :---: | --- |
+| **CoT** | — | — | Text-only reasoning baseline |
+| **VAoT-NoRender** | ✓ | — | Is proposing an action alone useful? |
+| **VAoT-Full** | ✓ | ✓ | Does genuine visual feedback help? |
+| **VAoT-WrongRender** | ✓ | Corrupted | Does later reasoning depend on returned visual evidence? |
+
+### Three process-level measurements
+
+| Measurement | Question |
 | --- | --- |
-| `CoT` | Text-only chain-of-thought baseline. |
-| `VAoT-NoRender` | The model proposes visual actions, but no image is rendered back. |
-| `VAoT-Full` | The model receives rendered visual states after visual actions. |
-| `VAoT-WrongRender` | The model receives task-relevant corrupted visual feedback for diagnostic intervention. |
-
-For VAoT-Full trajectories, See2Think separately evaluates:
-
-| Metric | What it measures |
-| --- | --- |
-| Action Relevance | Whether the selected visual operation targets task-relevant evidence. |
-| Render Faithfulness | Whether the renderer faithfully executes the requested visual action. |
-| Feedback Uptake | Whether the model actually uses the rendered visual state in later reasoning. |
-
-WrongRender further tests behavioral dependence by corrupting task-relevant visual feedback while keeping the reasoning model unaware of the corruption.
-
-## Highlights
-
-- **Open-ended benchmark:** 1,200 visually dependent problems across 12 categories.
-- **Controlled setting comparison:** CoT, VAoT-NoRender, VAoT-Full, and VAoT-WrongRender are evaluated on matched samples.
-- **Process-level diagnosis:** action selection, visual rendering, and feedback use are measured separately from answer accuracy.
-- **Corrupted-feedback intervention:** WrongRender probes whether models follow misleading intermediate visual states.
-- **Reusable evaluation code:** public entrypoints run inference and answer/process judging without private experiment launchers.
+| **Action Relevance** | Does the selected visual operation target task-relevant evidence? |
+| **Render Faithfulness** | Does the renderer faithfully execute the requested operation? |
+| **Feedback Uptake** | Does the model actually use the rendered state in later reasoning? |
 
 ## Results
 
-See2Think reports both final-answer accuracy and process-level behavior. The main analysis is organized around:
+See2Think reports final-answer performance and process behavior together. This separates *looking correct* from *using intermediate visual states correctly*.
 
-| Analysis | Output |
-| --- | --- |
-| Overall accuracy | Paper-style tables across models, settings, and task groups. |
-| Process judging | Action Relevance, Render Faithfulness, and Feedback Uptake summaries. |
-| Paired interventions | NoRender → Full render benefit and Full → WrongRender feedback sensitivity. |
-| Human audit | Manual validation of process judges and WrongRender quality. |
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/project/accuracy_table.png" width="100%" alt="Final-answer accuracy results">
+      <br><sub><strong>Final-answer accuracy</strong> across models and settings.</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/project/process_table.png" width="100%" alt="Process-level diagnostic results">
+      <br><sub><strong>Process-level diagnosis</strong> of action relevance, render faithfulness, and feedback uptake.</sub>
+    </td>
+  </tr>
+</table>
 
-Full numerical results and qualitative examples are reported in the paper.
+The main analyses include:
 
-## Getting Started
+- matched comparisons among CoT, NoRender, Full, and WrongRender;
+- paired render-benefit and corrupted-feedback sensitivity;
+- process judging for relevance, faithfulness, and uptake;
+- human audits of process judges and WrongRender quality.
 
-### 1. Clone the repository
+## Quick Start
+
+### 1. Install
 
 ```bash
 git clone https://github.com/CSU-JPG/See2Think.git
 cd See2Think
-```
 
-### 2. Install dependencies
-
-```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-On Windows PowerShell:
+<details>
+<summary><strong>Windows PowerShell</strong></summary>
 
 ```powershell
 python -m venv .venv
@@ -115,18 +159,19 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-### 3. Configure endpoints
+</details>
 
-Copy the example config and fill in your own endpoints:
+### 2. Configure endpoints
 
 ```bash
 cp config.example.sh config.sh
 source config.sh
 ```
 
-`config.sh` is ignored by git and should never contain committed credentials.
+Fill in the model endpoints and local paths in `config.sh`. This file is ignored by git and should never contain committed credentials.
 
-Required variables:
+<details>
+<summary><strong>Configuration variables</strong></summary>
 
 ```bash
 export SEE2THINK_LLM_BACKEND="openai"      # openai | vllm
@@ -141,19 +186,13 @@ export SEE2THINK_OUTPUT_BASE="/path/to/outputs"
 export SEE2THINK_LOG_DIR="/path/to/logs"
 ```
 
-### 4. Prepare a task manifest
+</details>
 
-The public repository does not include the paper's full task manifests, benchmark images, or generated model outputs. Provide your own manifest with `--tasks`.
+### 3. Prepare tasks
 
-See the minimal format example:
+The public repository does not include the paper's full task manifests, benchmark images, or generated model outputs. Provide your own manifest with `--tasks`; see [`examples/tasks.example.json`](examples/tasks.example.json) for the minimal format.
 
-```text
-examples/tasks.example.json
-```
-
-Each row points to a local benchmark `data.json` file and a sample index within that file.
-
-### 5. Run one setting
+### 4. Run an inference setting
 
 ```bash
 python -u solve/run_tasks.py \
@@ -165,16 +204,10 @@ python -u solve/run_tasks.py \
   --prompt_dir prompt
 ```
 
-Supported settings:
+Supported settings: `text_cot`, `vaot_no_render`, `vaot_full`, and `vaot_wrong_render`.
 
-```text
-text_cot
-vaot_no_render
-vaot_full
-vaot_wrong_render
-```
-
-## Evaluation
+<details>
+<summary><strong>Run answer and process evaluation</strong></summary>
 
 Build answer-judge inputs:
 
@@ -201,22 +234,24 @@ python -u eval/process_judge.py \
   --workers 1
 ```
 
-## Repository Layout
+</details>
+
+## Repository Map
 
 | Path | Purpose |
 | --- | --- |
-| `solve/` | Core inference pipeline and VAoT execution. |
-| `convert/` | Parsing and answer-evaluation helper code. |
-| `eval/` | Answer judging and process-level judging pipeline. |
-| `viewer/` | Local trajectory viewer frontend. |
-| `prompt/` | Prompt templates for the four inference settings and rendering/intervention steps. |
-| `examples/` | Minimal task-manifest examples for public use. |
+| [`solve/`](solve/) | Core inference pipeline and VAoT execution |
+| [`convert/`](convert/) | Parsing and answer-evaluation helpers |
+| [`eval/`](eval/) | Answer judging and process-level evaluation |
+| [`viewer/`](viewer/) | Local trajectory viewer |
+| [`prompt/`](prompt/) | Prompts for inference, rendering, and intervention |
+| [`examples/`](examples/) | Minimal public task-manifest examples |
 
 Large benchmark data, generated trajectories, rendered images, logs, audit packets, and paper output bundles are intentionally excluded from git.
 
 ## Citation
 
-If you find See2Think useful, please cite:
+If See2Think helps your research, please cite:
 
 ```bibtex
 @article{yan2026see2think,
@@ -230,3 +265,9 @@ If you find See2Think useful, please cite:
 ## Acknowledgments
 
 See2Think builds on public benchmark resources across diagrammatic reasoning, 3D scene reasoning, embodied manipulation, and real-world visual reasoning. Please also cite the original benchmark sources when using released See2Think task manifests.
+
+---
+
+<p align="center">
+  <strong>See the answer. Inspect the process. Test the dependence.</strong>
+</p>
