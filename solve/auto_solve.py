@@ -159,16 +159,8 @@ class SafeDict(dict):
         return "{" + key + "}"
 
 
-BASE_PROMPT_CODE = read_prompt_template("prompt/base_prompt_code.txt")
-BASE_PROMPT_ACTION_JSON = read_prompt_template("prompt/base_prompt_action_json.txt")
-BASE_PROMPT_OPTIONAL_CODE = read_prompt_template("prompt/base_prompt_optional_code.txt")
-BASE_PROMPT_OPTIONAL_ACTION_JSON = read_prompt_template(
-    "prompt/base_prompt_optional_action_json.txt"
-)
-GENERATE_IMAGE_PROMPT = read_prompt_template("prompt/generate_image_prompt.txt")
-INTERFERENCE_PROMPT = read_prompt_template("prompt/interference_prompt.txt")
 IMAGE_INTERFERENCE_PROMPT = read_prompt_template("prompt/image_interference_prompt.txt")
-BASE_PROMPT_TEXT_ONLY = read_prompt_template("prompt/base_prompt_text_only.txt")
+GENERATE_IMAGE_PROMPT = read_prompt_template("prompt/generate_image_prompt.txt")
 
 PROMPT_FILE_BY_SETTING = {
     "text_cot": "see2think_text_cot.txt",
@@ -457,8 +449,9 @@ def solve_text_only(
     """
     logging.info("Starting text-only solving")
 
-    # Use the text-only prompt template
-    current_prompt = BASE_PROMPT_TEXT_ONLY
+    # Use the See2Think text-only prompt template. This keeps the legacy
+    # --text_only flag aligned with the public text_cot setting.
+    current_prompt = read_setting_prompt("text_cot", None)
     current_prompt = current_prompt.replace("{problem_statement}", problem_statement)
 
     # Build message content for the LLM
@@ -927,54 +920,18 @@ def send_chat_with_retries(
     raise RuntimeError(last_exc)
 
 
-def create_message_for_banana(descriptions: list[str], question: str):
-    formatted_descs = []
-    if descriptions:
-        for i, desc in enumerate(descriptions):
-            formatted_descs.append(f"{i + 1}. {desc}")
-    # prompt = GENERATE_IMAGE_PROMPT.format(
-    #     problem=question,
-    #     descriptions="\n".join(formatted_descs),
-    #     N=len(formatted_descs),
-    # )
-    prompt = GENERATE_IMAGE_PROMPT.replace("{json_instructions}", descriptions[-1] if descriptions else "")
-    logging.info(f"Prompt for generate image: {prompt}")
-    return prompt
-
-
 def read_golden_file(golden_path: str) -> str:
     """Read golden file content"""
     with open(golden_path, "r", encoding="utf-8") as f:
         return f.read()
 
 
-def generate_interference_with_gpt(
-    golden_content: str, problem: str, interference_type: str, model: str = "gpt-4o"
-) -> str:
-    """Generate interference using GPT-4o based on golden content"""
-
-    if interference_type == "modify_key":
-        type_desc = "modify key areas in the image"
-    elif interference_type == "modify_non_key":
-        type_desc = "modify background or non-key information"
-    else:
-        raise ValueError(f"Unknown interference type: {interference_type}")
-
-    prompt = INTERFERENCE_PROMPT.format(
-        problem=problem, golden_content=golden_content, interference_type=type_desc
+def create_message_for_banana(descriptions: list[str], question: str):
+    prompt = GENERATE_IMAGE_PROMPT.replace(
+        "{json_instructions}", descriptions[-1] if descriptions else ""
     )
-
-    message_content = [{"type": "text", "text": prompt}]
-
-    response = send_chat_with_retries(
-        message_content,
-        model=model,
-        max_retries=5,
-        initial_delay=1.0,
-        backoff_factor=2.0,
-    )
-
-    return extract_content(response)
+    logging.info(f"Prompt for generate image: {prompt}")
+    return prompt
 
 
 def generate_image_interference(
@@ -1084,20 +1041,12 @@ def get_current_prompt(
     prompt_dir: str | None = None,
 ) -> str:
     setting_prompt = read_setting_prompt(setting, prompt_dir)
-    if setting_prompt is not None:
-        current_prompt = setting_prompt
-    elif mode == "code":
-        if not optional:
-            current_prompt = BASE_PROMPT_CODE
-        else:
-            current_prompt = BASE_PROMPT_OPTIONAL_CODE
-    elif mode == "banana":
-        if not optional:
-            current_prompt = BASE_PROMPT_ACTION_JSON
-        else:
-            current_prompt = BASE_PROMPT_OPTIONAL_ACTION_JSON
-    else:
-        raise ValueError(f"Unsupported mode: {mode}")
+    if setting_prompt is None:
+        raise ValueError(
+            "A See2Think --setting is required in the public runner. "
+            "Use one of: text_cot, vaot_no_render, vaot_full, vaot_wrong_render."
+        )
+    current_prompt = setting_prompt
 
     current_prompt = current_prompt.replace("{problem_statement}", problem_statement)
     current_prompt = current_prompt.replace("{previous_steps}", previous_steps_str)
@@ -1554,7 +1503,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--optional",
         action="store_true",
-        help="使用可选的提示模板（base_prompt_optional_code 或 base_prompt_optional_action_json）",
+        help="Legacy flag kept for CLI compatibility; public runs should use --setting.",
     )
     parser.add_argument(
         "--setting",

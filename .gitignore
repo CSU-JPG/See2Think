@@ -97,11 +97,15 @@ assets/katex/
 
 # Legacy prompt drafts and empty placeholders.
 prompt/*.bak
+prompt/base_prompt_*.txt
 prompt/base_prompt_action_json.v*.txt
 prompt/base_prompt_desc.txt
 prompt/base_prompt_optional_action_json.before_*.txt
 prompt/base_prompt_optional_action_json.v*.txt
 prompt/generate_image_prompt.v*.txt
 prompt/generate_image_prompt_v*.txt
+prompt/interference_prompt.txt
+prompt/llm_judge_prompt.txt
 prompt/see2think_judge_prompt.txt
 prompt/see2think_render_prompt.txt
+solve/analyse_response.py
