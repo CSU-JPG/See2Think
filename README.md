@@ -243,7 +243,6 @@ python -u eval/process_judge.py \
 | [`solve/`](solve/) | Core inference pipeline and VAoT execution |
 | [`convert/`](convert/) | Parsing and answer-evaluation helpers |
 | [`eval/`](eval/) | Answer judging and process-level evaluation |
-| [`viewer/`](viewer/) | Local trajectory viewer |
 | [`prompt/`](prompt/) | Prompts for inference, rendering, and intervention |
 | [`examples/`](examples/) | Minimal public task-manifest examples |
 

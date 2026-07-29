@@ -54,6 +54,7 @@ json/
 scripts/
 llm/
 bin/
+viewer/
 solve/auto_solve_qwen.py
 solve/model_server.py
 
