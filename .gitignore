@@ -44,6 +44,11 @@ yzrcheck/
 logs/
 newlogs/
 eval/results/
+eval/README.md
+eval/build_masked_audit_answer_inputs.py
+eval/summarize_masked_audit_comparison.py
+eval/summarize_masked_transitions.py
+eval/select_human_validation_180.py
 neweval/
 newprompt/
 archive/
